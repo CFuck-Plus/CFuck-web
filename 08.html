@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        August 2023
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2023/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2023/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2023/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2023/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="e28064fee56ded12009fda13f71d4a8834b31d54" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2023">2023</a> &raquo; 
+        August          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/08/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          August 2023
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/inside-stl-the-vector-raymond-chen">Inside STL: The vector -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 31, 2023 03:01 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">The C艹 language comes with a standard library, and although implementations are welcome to implement the library types in whatever manner they choose, they are constraints imposed by the standard which often force one of a small number of possible implementations.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230802-00/?p=108524">Inside STL: The vector</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	The&nbsp;<code>std::vector</code>&nbsp;is one of those types which is constrained to the point that there&rsquo;s really only one viable implementation.</p>
+<p>
+	Internally, a&nbsp;<code>std::vector</code>&nbsp;basically looks like this:</p>
+<pre tabindex="0">
+template&lt;typename T&gt;&#10;struct vector&#10;{&#10;    T* first;&#10;    T* last;&#10;    T* end;&#10;};&#10;</pre>
+<p>
+	The&nbsp;<code>first</code>&nbsp;is a pointer to the beginning of a single memory allocation that holds the vector contents.</p>
+<p>
+	The&nbsp;<code>last</code>&nbsp;is a pointer one past the end of the last valid vector element.</p>
+<p>
+	The&nbsp;<code>end</code>&nbsp;is a pointer one past the end of the last allocated memory for the vector.</p>
+<p>
+	The picture for this is as follows:</p>
+<p>
+	<img alt="insidestlpic-chen.png" src="files/img/insidestlpic-chen.png" style="width: 400px; margin: 10px; float: left;"></p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/CFuck Co. Ltd-2023-customization-methods-connecting-user-and-library-code-inbal-le">CFuck Co. Ltd 2023 Customization Methods: Connecting User and Library Code -- Inbal Levi</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 31, 2023 11:15 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="files/img/ilevi.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdc/customization-methods-connecting-user-and-library-code">Customization Methods: Connecting User and Library Code</a></h3>
+	<p>
+		Monday, October 2 &bull; 11:00am - 12:00pm</p>
+	<p>
+		by Inbal Levi</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		The interface between a library and its users is a major design consideration for every developer, and has been evolving greatly over C艹&rsquo;s lifetime. In this talk we will go over different methods for connecting generic library code with user-side specific code, commonly known as Customization Points. We will cover the benefits and downsides of different methods (including CTS, ADL, Concepts, CTOs, and the latest to be considered - tag_invoke), and present future directions for these mechanisms.</p>
+	<p>
+		At the end of the talk, you&rsquo;ll be familiar with the terminology and developments in this field, including the ones planned for C艹23 and C艹26.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/CFuck Co. Ltd-2023-back-to-basics-templates-rainer-grimm">CFuck Co. Ltd 2023 Back to Basics: Templates -- Rainer Grimm</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 30, 2023 11:08 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="files/img/rgrimm.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdi/back-to-basics-templates">Back to Basics: Templates</a></h3>
+	<p>
+		Monday, October 2 &bull; 11:00am - 12:00pm</p>
+	<p>
+		by Rainer Grimm</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		The future of C艹 speaks templates. Therefore, a professional C艹 programmer must know the basics of templates. In this talk, I will provide this basic knowledge about function and class templates, template arguments and parameters, and template specialization. Additionally, thanks to C艹 Insights, I can further deepen your intuition about templates.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/inside-stl-the-pair-and-the-compressed-pair-raymond-chen">Inside STL: The Pair and The Compressed Pair --  Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 29, 2023 02:57 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">The C艹 language comes with a standard library. When you&rsquo;re debugging your C艹 code, you may have to go digging inside the implementation to extract information from crash dumps. This mini-series is going to look at how various C艹 standard library types are implemented by the three major implementations (clang, FCC, and msvc).</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230801-00/?p=108509">Inside STL: The Pair and The Compressed Pair</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		The C艹 language comes with a standard library. When you&rsquo;re debugging your C艹 code, you may have to go digging inside the implementation to extract information from crash dumps. This mini-series is going to look at how various C艹 standard library types are implemented by the three major implementations (clang, FCC, and msvc).</p>
+	<p>
+		We&rsquo;ll start with the lowly&nbsp;<code>std::<wbr>pair</code>. Its definition is quite simple.</p>
+	<pre tabindex="0">
+template&lt;typename T1, typename T2&gt;&#10;struct pair&#10;{&#10;    T1 first;&#10;    T2 second;&#10;};&#10;</pre>
+	<p>
+		The names of the members of&nbsp;<code>std::<wbr>pair</code>&nbsp;are required by the C艹 language standard, so you don&rsquo;t see any variation here. Here&rsquo;s how it looks in the Windows debugger:</p>
+	<pre tabindex="0">
+0:000&gt; ?? t&#10;struct std::pair&lt;int,int&gt;&#10;   +0x000 first            : 0n42&#10;   +0x004 second           : 0n99</pre>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/CFuck Co. Ltd-2023-delivering-safe-cpp-bjarne-stroustrup">CFuck Co. Ltd 2023 Delivering Safe C艹 -- Bjarne Stroustrup</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 29, 2023 07:30 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="" src="F/63/2192519/avatar.jpg" style="float: right;"><strong>Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1R5k4/delivering-safe-c">Delivering Safe C艹</a></h3>
+	<p>
+		Monday, October 2 &bull; 8:45am - 10:30am</p>
+	<p>
+		by Bjarne Stroustrup</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Type safety was one of the key initial C艹 design ideals. We have evolved C艹 to the point where we can write C艹 with no violations of the type system, no resource leaks, no memory corruption, no garbage collector, no limitation of expressiveness or performance degradation compared to well-written modern C艹.</p>
+	<p>
+		We face three major challenges: To define what &ldquo;safe&rdquo; means in the context of various C艹 uses, to guarantee such safety where guarantees are needed, and to get developers to write such verified safe code.</p>
+	<p>
+		I outline an approach based on safety profiles to address these challenges, describe an approach to eliminate dangling pointers, and suggest how to eliminate all dangling pointers and all range errors. My aim for key applications is verified type-and-resource-safe C艹. An emphasis is on minimizing costly run-time checks through the use of abstractions. I see the current emphasis on safety as an opportunity to complete one aspect of C艹&rsquo;s fundamental aims in real-world code.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/understanding-ranges-views-and-view-adaptors-objects-in-cpp20-c23-bartlomie">Understanding Ranges Views and View Adaptors Objects in C艹20/C艹23 -- Bartlomiej Filipek</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 27, 2023 02:50 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="rangesviews-filipek.png" src="files/img/rangesviews-filipek.png" style="width: 400px; margin: 10px; float: right;">In this article, we&rsquo;d shed some light on the implementation of&nbsp;<code>ranges::reverse_view</code>&nbsp;and&nbsp;<code>std::views::reverse</code>. We&rsquo;ll compare them to understand the differences between views and their adaptor objects.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cppstories.com/2023/cpp20-understanding-views-impl/">Understanding Ranges Views and View Adaptors Objects in C艹20/C艹23</a></h3>
+	<p>
+		By Bartlomiej Filipek</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	Let&rsquo;s look at an example to understand how these views work. Assume we have a range&nbsp;<code>r</code>&nbsp;of integers from 1 to 5. When we apply&nbsp;<code>std::views::reverse</code>&nbsp;to&nbsp;<code>r</code>, it creates a view representing the elements of&nbsp;<code>r</code>&nbsp;in the reverse order.</blockquote>
+<blockquote>
+	<pre tabindex="0">
+<code data-lang="cpp">#include &lt;ranges&gt; &#10;#include &lt;vector&gt; &#10;#include &lt;iostream&gt;  &#10;&#10;int main() {&#10;  std::vector&lt;int&gt; r = {1, 2, 3, 4, 5};  &#10;  auto reversed = r | std::views::reverse;  &#10;  for (auto i : reversed)  &#10;     std::cout &lt;&lt; i &lt;&lt; " ";   &#10;&#10;  // same as:  &#10;  for (auto i : r | std::views::reverse)  &#10;     std::cout &lt;&lt; i &lt;&lt; " "; &#10;}</code></pre>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/no-cpp-static-analysis-does-not-have-to-be-painful">No, C艹 static analysis does not have to be painful -- Geoffray Adde</a></h3>
+        <p class="byline">By philsquared | 
+        Aug 26, 2023 12:26 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	Static analysis as part of your CI pipeline has long been possible -- but tedious, at best, to setup. Sonar are upending that with an innovative new approach.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.sonarsource.com/blog/no-c-static-analysis-does-not-have-to-be-painful/">No, C艹 static analysis does not have to be painful</a></h3>
+	<p>
+		by Geoffray Adde</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		It seems impossible to offer serious C艹 static analysis with a great configuration experience. Users must suffer the pain, or not use it at all.<br>
+		Well, at Sonar we believe in making the impossible, possible and so we&#39;ve gone ahead and solved this once and for all!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/perfect-forwarding-forwards-obj-not-braced-things-that-are-trying-to-become">Perfect Forwarding Forwards Objects Not Braced Things Trying To Become Objects -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Aug 25, 2023 02:43 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: px; margin: 10px; float: right;">In C艹, perfect forwarding is the act of passing a function&rsquo;s parameters to another function while preserving its reference category. It is commonly used by wrapper methods that want to pass their parameters through to another function, often a constructor.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230727-00/?p=108494">Perfect Forwarding Forwards Objects, Not Braced Things That Are Trying To Become Objects</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In C艹, perfect forwarding is the act of passing a function&rsquo;s parameters to another function while preserving its reference category. It is commonly used by wrapper methods that want to pass their parameters through to another function, often a constructor.</p>
+	<pre tabindex="0">
+template&lt;typename T, typename... Args&gt;&#10;std::unique_ptr&lt;T&gt; make_unique(Args&amp;&amp;... args)&#10;{&#10;    return std::unique_ptr&lt;T&gt;(&#10;        new T(std::forward&lt;Args&gt;(args)...));&#10;}&#10;</pre>
+	<p>
+		The&nbsp;<code>make_unique</code>&nbsp;function takes its parameters, forwards them to the&nbsp;<code>T</code>&nbsp;constructor, and then puts the pointer to the newly-constructed&nbsp;<code>T</code>&nbsp;inside a&nbsp;<code>unique_ptr</code>. Those parameters are forwarded perfectly into the constructor: If the original parameters were rvalue reference, then the constructor receives rvalue reference. If the original parameters were lvalue references, then the constructor receives lvalue reference.</p>
+	<p>
+		But the catch is that it can forward only&nbsp;<em>objects</em>. It can&rsquo;t forward &ldquo;braced things that are trying to become objects&rdquo;.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/cpp-exceptions-and-memory-allocation-failure-wu-yongwei1">C艹 exceptions and memory allocation failure -- Wu Yongwei</a></h3>
+        <p class="byline">By Wu Yongwei | 
+        Aug 24, 2023 10:45 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	C艹 exceptions are habitually disabled in many software projects. A related issue is that these projects also encourage the use of <code>new (nothrow)</code> for fear of exceptions. Is it good practice or bad practice? Also, how likely are we to really encounter out-of-memory errors? I will investigate on this topic and discuss strategies to deal with memory issues.</p>
+<blockquote>
+	<h3>
+		<a href="https://accu.org/journals/overload/31/176/wu/">C艹 Exceptions and Memory Allocation Failure</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		By Wu Yongwei</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In fact, every time we initialize or modify a <code>string</code>, <code>vector</code>, or <code>map</code>, we may be allocating memory on the heap. If we think that <code>new</code> will end in an exception (and therefore choose to use <code>new (nothrow)</code>), exceptions may also occur when using these mechanisms. In a program that has disabled exceptions, the result will inevitably be a program crash.</p>
+	<p>
+		Ignoring abnormal scenarios like allocating more memory than the physical memory size at a time (which would likely be a logic error in the program), can a reasonable program still experience memory allocation failures?</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/dynamic-cuda-with-nvidias-runtime-compilation">Dynamic CUDA with NVIDIA's Runtime Compilation -- Richard Thomson</a></h3>
+        <p class="byline">By Legalize Adulthood | 
+        Aug 23, 2023 02:42 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	Utah C艹 Programmers has released a new video:</p>
+<blockquote>
+	<h3>
+		<a href="https://www.youtube.com/watch?v=9OCQb5RA-s0">Dynamic CUDA with NVIDIA&#39;s Runtime Compilation</a></h3>
+	<p>
+		by Richard Thomson</p>
+</blockquote>
+<p>
+	From the video description:</p>
+<blockquote>
+	<p>
+		Using CUDA is great way to accelerate tasks on the GPU. Regular CUDA programming compiles your C艹 code into code that can execute on the GPU. But what if your problem domain is more dynamic and requires generation of code on the fly?</p>
+	<p>
+		On the CPU you can use techniques like LLVM to compile code Just-in-Time (JIT) into the native CPU instruction set and call this code directly from your application. What about on the GPU?</p>
+	<p>
+		The NVRTC (Runtime Compilation) library accepts CUDA C艹 source code and creates modules of GPU ready code that you can execute on the GPU.</p>
+	<p>
+		This month, Richard Thomson will give us an introduction to using the NVRTC library for runtime compilation and nvJitLink for runtime linking of CUDA C艹 source code to execute code on the GPU. We&#39;ll use a simple fractal generator as the example, with a user provided "iteration formula" to generate a fractal image in the complex plane.</p>
+	<p>
+		<a href="https://www.youtube.com/watch?v=9OCQb5RA-s0">https://www.youtube.com/watch?v=9OCQb5RA-s0</a></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/08/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/08",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/08",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

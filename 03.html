@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        March 2024
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2024/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2024/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2024/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2024/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="701173de6d575d345fe0de643bab4cf778b741ed" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2024">2024</a> &raquo; 
+        March          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2024/03/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          March 2024
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/sobjectizer-tales-25.-runtime-telemetry">SObjectizer Tales – 25. Runtime telemetry--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Mar 28, 2024 02:23 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2024/03/sobjectizer-tales_25.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2024/03/28/sobjectizer-tales-25/">SObjectizer Tales &ndash; 25. Runtime telemetry</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we learn how to get insights into application performance using SObjectizer&#39;s monitoring system.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/cpp-and-the-next-30-years-david-sankel">C艹 and The Next 30 Years -- David Sankel</a></h3>
+        <p class="byline">By Blog Staff | 
+        Mar 26, 2024 10:47 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="sankel-next30years.png" src="files/img/sankel-next30years.png" style="width: 400px; margin: 10px; float: right;">I delivered a keynote, <em>C艹 and the Next 30 Years</em>, at the 2024 CPP-Summit conference in Beijing, China. Experiencing the culture, the people, and the landscape was tremendous. In this post I&rsquo;ll cover some of the points in my future-looking C艹 talk and share my experience giving a talk for the first time in China.</p>
+<blockquote>
+	<h3>
+		<a href="https://blog.developer.adobe.com/c-and-the-next-30-years-47c3b3b8fe98">C艹 and The Next 30 Years</a></h3>
+	<p>
+		by David Sankel</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<strong>My talk: C艹 and the Next 30 Years</strong><br>
+		<br>
+		The title of my keynote was C艹 and the Next 30 Years which covered C艹&rsquo;s evolution, the changing landscape of programming languages, and the influence of AI. Here I break down some of my talk&rsquo;s key points.</p>
+	<p>
+		<strong>The next 10 years</strong><br>
+		<br>
+		In the next 10 years I expect C艹 modules to become more accessible. Most C艹 vendors have at least some support and CMake recently announced its feature set. However, transitioning existing code bases and, in many instances, bespoke build systems will be a great obstacle.</p>
+	<p>
+		Package manager usage is on the rise, but the growth curve is slow. I don&rsquo;t expect any tool to capture more than 40% market share by the decade&rsquo;s end.</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/is-shadowing-a-member-variable-from-a-base-class-a-bad-thing-maybe-but-mayb">Is shadowing a member variable from a base class a bad thing? Maybe, but maybe not. -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Mar 21, 2024 10:42 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">In C艹, shadowing occurs when a name in one scope hides an identical name in another scope, sparking debate over its merit. This article explores scenarios where shadowing can either protect code integrity or hinder its evolution, highlighting its dual nature and impact on code maintenance. Join Raymond as he unravels the complexities of shadowing in C艹, revealing its intricate balance between benefit and drawback.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20240304-00/?p=109472">Is shadowing a member variable from a base class a bad thing? Maybe, but maybe not.</a></h3>
+	<p>
+		by Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		What is shadowing? In C艹,&nbsp;<em>shadowing</em>&nbsp;is the name given to the phenomenon when a name in one scope hides an identical name in another scope.</p>
+	<p>
+		Is shadowing bad? That&rsquo;s a harder question.</p>
+	<p>
+		Whether shadowing is good or bad depends on the order in which the conflicting names were introduced.</p>
+	<p>
+		Suppose you have a class library, and one of the classes is this:</p>
+	<pre tabindex="0">
+struct Tool {&#10;    int a;&#10;};&#10;</pre>
+	<p>
+		And suppose some customer uses your class like this:</p>
+	<pre tabindex="0">
+class Wrench : public Tool {&#10;private:&#10;    int a;&#10;};&#10;</pre>
+	<p>
+		In this case, shadowing is probably unintended. The customer has accidentally shadowed&nbsp;<code>Tool::a</code>, and any references to&nbsp;<code>a</code>&nbsp;in the&nbsp;<code>Wrench</code>&nbsp;class will refer to&nbsp;<code>Wrench::a</code>, even if the author meant to access&nbsp;<code>Tool::a</code>.</p>
+	<p>
+		Meanwhile, you have another customer who writes this...</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/sobjectizer-tales-24.-delivering-messages-at-shutdown">SObjectizer Tales – 24. Delivering messages at shutdown--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Mar 21, 2024 01:00 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2024/02/sobjectizer-tales_24.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2024/03/21/sobjectizer-tales-24/">SObjectizer Tales &ndash; 24. Delivering messages at shutdown</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we learn a feature of SObjectizer to perform arbitrary actions just before shutdown, including message delivery.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/providing-a-stable-memory-address-to-an-external-api">Providing a stable memory address to an external API</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Mar 20, 2024 02:07 AM 
+         | 
+        Tags: 
+                    <a href="performance.html" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="experimental.html" class="tag">experimental</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="advanced.html" class="tag">advanced</a></p>
+        <p>
+	A post on how to provide a pointer to a Qt Model/View or other APIs storing pointers to their data without using shared_ptr or unique_ptr for the actual object.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/Providing-a-stable-memory-address.html">Providing a stable memory address</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Some APIs allow you to store a pointer to your data element. This is used to access additional information from your types to display them in Model/View Architecture.</p>
+	<p>
+		A while ago I showed how you can implement a tree with shared_ptr and enable_shared_from_this and then display this in QTreeView. And when working on my current project I knew this problem would come around again. Maybe not for a tree and a tree view, but I&#39;ll clearly need to have some way to have ui panels display and edit my data classes and store a stable memory adress as a pointer in Qt models. Back in 2015 the Qt5 example still used a pointer allocated with raw new for this, in Qt6 the example uses unique_ptr. Using shared_ptr for this back in 2015 was a good decision, and the code works very well. For the moment I don&#39;t see that my current project would need to make use of enable_shared_from_this, so using unique_ptr would be a good option...</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/cpp23-more-small-changes-sandor-dargo">C艹23: More Small Changes -- Sandor Dargo</a></h3>
+        <p class="byline">By Blog Staff | 
+        Mar 18, 2024 01:54 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="SANDOR_DARGO_ROUND.JPG" src="files/img/SANDOR_DARGO_ROUND.JPG" style="width: 200px; margin: 10px; float: right; height: 204px;">In this post, we continue discovering the changes introduced by C艹23. We are going to look into three (and a half) small changes, each affecting constructors of some standard library types. We&rsquo;re going to see how new constructors for container types, a new range constructor for&nbsp;<code>string_view</code>&nbsp;and some default template arguments for&nbsp;<code>pair</code>.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.sandordargo.com/blog/2024/02/07/cpp23-small-changes-2">C艹23: More Small Changes</a></h3>
+	<p>
+		by Sandor Dargo</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	As of C艹20, almost all container-like objects (containers and container-adaptors) can be initialized with a pair of iterators.</blockquote>
+<blockquote>
+	<pre>
+std::vector&lt;int&gt; v{42, 51, 66};&#10;std::list&lt;int&gt; l(v.begin(), v.end());</pre>
+	All of them, except for&nbsp;<code>std::stack</code>&nbsp;and&nbsp;<code>std::queue</code>. They don&rsquo;t provide such overloads. If you want to initialize them with a pair of iterators, you need an intermediary&nbsp;<code>std::initiailizer_list</code>.</blockquote>
+<blockquote>
+	<pre>
+std::vector&lt;int&gt; v{42, 51, 66};&#10;// std::queue&lt;int&gt; q1(v.begin(), v.end()); // DOESN&#39;T COMPILE!&#10;std::queue&lt;int&gt; q2({v.begin(), v.end()});</pre>
+	<p>
+		This inconsistency, at first, looks like a small inconvenience. But its effects are much deeper. While using the&nbsp;<code>stack</code>&nbsp;or&nbsp;<code>queue</code>&nbsp;on its own is not a big burden, if you want to offer functionality that works with all container-like objects, you have a higher price to pay.</p>
+	<p>
+		Due to the lack of an iterator-pair-based constructor, you either have to&nbsp;...</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/safety-revisited-lucian-radu-teodorescu">Safety, Revisited -- Lucian Radu Teodorescu</a></h3>
+        <p class="byline">By Blog Staff | 
+        Mar 15, 2024 01:51 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="logo.png" src="files/img/logo.png" style="width: 225px; margin: 10px; float: right;">Last year saw a proliferation of talks and articles about safety in C艹. Lucian Radu Teodorescu gives an overview of these and presents a unified perspective on safety.</p>
+<blockquote>
+	<h3>
+		<a href="https://accu.org/journals/overload/32/179/teodorescu/">Safety, Revisited</a></h3>
+	<p>
+		by Lucian Radu Teodorescu</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In his presentation at&nbsp;<em>C艹 now</em>&nbsp;[<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor031">Parent23a</a>], Sean Parent presents the reasons why it&rsquo;s important to discuss safety in the C艹 world, tries to define safety, argues that the C艹 model needs to improve to achieve safety, and looks at a possible future of software development. This same talk was later delivered as a keynote at&nbsp;<em>C艹 on Sea</em>&nbsp;[<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor032">Parent23b</a>].</p>
+	<p>
+		Sean argues the importance of safety by surveying a few recent US and EU reports which have begun to recognise safety as a major concern [<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor023">NSA22</a>,&nbsp;<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor010">CR23</a>,&nbsp;<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor041">WH23a</a>,&nbsp;<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor014">EC22</a>]. There are a few takeaways from these reports. Firstly, they identify memory safety as a paramount issue. The NSA report [<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor023">NSA22</a>], for instance, cites a Microsoft study noting that &ldquo;<em>70 percent of their vulnerabilities were due to memory safety issues</em>&rdquo;. Secondly, they highlight the inherent safety risks in C and C艹 languages, advocating for the adoption of memory-safe languages. Lastly, these documents suggest a paradigm shift in liability towards software vendors. Under this framework, vendors may face accountability for damages resulting from safety lapses in their software.</p>
+	<p>
+		Building on the reports that underscore the significance of safety, Sean delves into deciphering the meaning of &lsquo;safety&rsquo; in the context of software development. After evaluating several inadequate definitions, he adopts a framework conceptualised by Leslie Lamport [<a href="https://accu.org/journals/overload/32/179/teodorescu/#_idTextAnchor019">Lamport77</a>]. The idea is to express ...</p>
+</blockquote>
+<blockquote>
+	<p>
+		&nbsp;</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="starting-a-cpp-project-with-cmake-in-2024.html">Starting a C艹 project with CMake in 2024</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Mar 15, 2024 11:22 AM 
+         | 
+        Tags: 
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="cmake.html" class="tag">cmake</a>
+                    <a href="basics.html" class="tag">basics</a></p>
+        <p>
+	A post on how I&#39;ve recently started a new C艹 project.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/Starting-a-Cpp-project-with-CMake-in-2024.html">Starting a C艹 project with CMake in 2024</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Last year I&#39;ve written last year about my plans to return to C艹, taking on some project ideas with C艹20 and CMake.</p>
+	<p>
+		The first project is now in its beginning, so I thought to share the steps so far. Some of this blog post is covered by my recent talk Starting a modern C艹 project with CMake in 2024. In this post I&#39;m going stay within the parts of the build tooling, following up with the code in other posts.</p>
+	After working through the official CMake tutorial...
+	<p>
+		&nbsp;</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/sobjectizer-tales-23.-mutable-messages">SObjectizer Tales – 23. Mutable messages--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Mar 14, 2024 12:41 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2024/02/sobjectizer-tales_23.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2024/03/14/sobjectizer-tales-23/">SObjectizer Tales &ndash; 23. Mutable messages</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we explore mutable messages, a feature enabling us to exchange messages that can be modified by the receiver.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/cpp23-allocator-related-changes-sandor-dargo">C艹23: Allocator Related Changes -- Sandor Dargo</a></h3>
+        <p class="byline">By Blog Staff | 
+        Mar 13, 2024 01:48 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="SANDOR_DARGO_ROUND.JPG" src="files/img/SANDOR_DARGO_ROUND.JPG" style="width: 200px; margin: 10px; float: right; height: 204px;">In this post, we are going to review two changes related to allocators in C艹. One is about providing size information about the allocated memory and the other is about how CTAD should happen for containers with non-default allocators.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.sandordargo.com/blog/2024/01/10/cpp23-and-allocators">C艹23: Allocator Related Changes</a></h3>
+	<p>
+		by Sandor Dargo</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<a href="https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0401r6.html">P0401R6</a>&nbsp;gives a new way to allocate memory on the heap to limit spurious reallocations.</p>
+	<p>
+		The new interface of&nbsp;<code>std::allocator</code>&nbsp;looks like this, but there is also a free function version of it.</p>
+	<pre>
+template&lt;class Pointer&gt;&#10;  struct allocation_result {&#10;    Pointer ptr;&#10;    size_t count;&#10;  };&#10;&#10;// this class already exist:&#10;namespace std {&#10;  template&lt;class T&gt; class allocator {&#10;   public:&#10;   // lots of existing things&#10;   // ...&#10;   // this is the old way to allocate &#10;   [[nodiscard]] constexpr T* allocate(size_t n);&#10;&#10;   // and this is the new way&#10;   [[nodiscard]] constexpr allocation_result&lt;T*&gt; allocate_at_least(size_t n);&#10;&#10;   // the interface for deallocation does not change&#10;   constexpr void deallocate(T* p, size_t n);&#10;  };&#10;}</pre>
+	As you can see,&nbsp;<code>allocate_at_least</code>&nbsp;takes a number and it should allocate enough memory for at least that many instances of&nbsp;<code>T</code>&nbsp;on the heap. While&nbsp;<code>allocate</code>&nbsp;returns a single pointer to the beginning of the allocated memory,&nbsp;<code>allocate_at_least</code>&nbsp;returns a new&nbsp;<code>struct</code>&nbsp;called&nbsp;<code>allocation_result</code>&nbsp;which has two members, the &ldquo;usual&rdquo; pointer to the beginning of the allocated memory (<code>ptr</code>) and the number of&nbsp;<code>T</code>s memory got allocated for (<code>count</code>).&nbsp;<code>count</code>&nbsp;must be at least as large as the input parameter&nbsp;<code>n</code>, but it can also be more.</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2024/03/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2024/03",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2024/03",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

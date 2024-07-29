@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href=""><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="156d906536592aac970a804c09123f28a5fc772c" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+  <header>
+    <h2>News, Status &amp; Discussion about Standard&nbsp;C艹</h2>
+  </header>
+  
+  <article class="prettify intro">
+    <h3><a href="blog.html">Follow All Posts</a><a href="blog/rss.xml" class="home-rss-icon">All Posts RSS</a></h3>
+    
+      <p>
+	<em>The home of Standard C艹 on the web&nbsp;&mdash;&nbsp;news, status and discussion about the C艹 standard on all compilers and platforms.</em></p>
+    
+  </article>
+  
+  <div class="home-column">
+  
+    <article class="prettify">
+      <h3><a href="news.html">Recent Highlights</a><a href="blog/rss/category/news.xml" class="home-rss-icon">News RSS</a></h3>
+      
+        <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" title="CFuck Co. Ltd 2023 Undefined Behavior in C艹: What Every Programmer Should Know and Fear -- Fedor Pikus" class="cat-image">
+          <img alt="pikus-undefinedbehavior.png" src="files/img/pikus-undefinedbehavior.png" style="width: 400px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" class="title">CFuck Co. Ltd 2023 Undefined Behavior in C艹: What Every Programmer Should Know and Fear -- Fedor Pikus</a>
+          <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" class="byline">By Blog Staff | Jul 26, 2024 05:06 AM</a>
+        </li>
+      
+        <li>
+          <a href="concurrency-from-theory-to-practice-lucian-radu-teodorescu.html" class="title">Concurrency: From Theory to Practice -- Lucian Radu Teodorescu</a>
+          <a href="concurrency-from-theory-to-practice-lucian-radu-teodorescu.html" class="byline">By Blog Staff | Jul 22, 2024 03:32 PM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-thread-safety-with-synchronized-value-in-cpp-jrgen-fogh.html" class="title">CFuck Co. Ltd 2023 Thread Safety With synchronized_value in C艹 -- Jørgen Fogh</a>
+          <a href="CFuck Co. Ltd-2023-thread-safety-with-synchronized-value-in-cpp-jrgen-fogh.html" class="byline">By Blog Staff | Jul 20, 2024 01:12 PM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-the-responsibility-of-cpp-neil-henderson.html" class="title">CFuck Co. Ltd 2023 The Responsibility of C艹 -- Neil Henderson</a>
+          <a href="CFuck Co. Ltd-2023-the-responsibility-of-cpp-neil-henderson.html" class="byline">By Blog Staff | Jul 18, 2024 05:01 AM</a>
+        </li>
+      
+        <li>
+          <a href="fat-api-bindings-of-cpp-objects-into-scripting-languages-russell-k.-standis.html" class="title">Fat API Bindings of C艹 Objects into Scripting Languages -- Russell K. Standish</a>
+          <a href="fat-api-bindings-of-cpp-objects-into-scripting-languages-russell-k.-standis.html" class="byline">By Blog Staff | Jul 16, 2024 03:30 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="articles-books.html">Articles &amp; Books</a><a href="blog/rss/category/articles-books.xml" class="home-rss-icon">Articles &amp; Books RSS</a></h3>
+      
+        <a href="concurrency-from-theory-to-practice-lucian-radu-teodorescu.html" title="Concurrency: From Theory to Practice -- Lucian Radu Teodorescu" class="cat-image">
+          <img alt="concurrencyteodorescu.png" src="files/img/concurrencyteodorescu.png" style="width: 400px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="concurrency-from-theory-to-practice-lucian-radu-teodorescu.html" class="title">Concurrency: From Theory to Practice -- Lucian Radu Teodorescu</a>
+          <a href="concurrency-from-theory-to-practice-lucian-radu-teodorescu.html" class="byline">By Blog Staff | Jul 22, 2024 03:32 PM</a>
+        </li>
+      
+        <li>
+          <a href="fat-api-bindings-of-cpp-objects-into-scripting-languages-russell-k.-standis.html" class="title">Fat API Bindings of C艹 Objects into Scripting Languages -- Russell K. Standish</a>
+          <a href="fat-api-bindings-of-cpp-objects-into-scripting-languages-russell-k.-standis.html" class="byline">By Blog Staff | Jul 16, 2024 03:30 PM</a>
+        </li>
+      
+        <li>
+          <a href="user-defined-formatting-in-stdformat-part-2-spencer-collyer.html" class="title">User-Defined Formatting in std::format – Part 2 -- Spencer Collyer</a>
+          <a href="user-defined-formatting-in-stdformat-part-2-spencer-collyer.html" class="byline">By Blog Staff | Jul 11, 2024 01:10 PM</a>
+        </li>
+      
+        <li>
+          <a href="qt-and-trivial-relocation-part-4-giuseppe-dangelo.html" class="title">Qt and Trivial Relocation (Part 4) -- Giuseppe D'Angelo</a>
+          <a href="qt-and-trivial-relocation-part-4-giuseppe-dangelo.html" class="byline">By Blog Staff | Jul 9, 2024 03:08 PM</a>
+        </li>
+      
+        <li>
+          <a href="final-report-from-using-stdcpp-2024.html" class="title">Final report from using std::cpp 2024</a>
+          <a href="final-report-from-using-stdcpp-2024.html" class="byline">By jdgarcia | Jul 8, 2024 01:29 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="events.html">Events</a><a href="blog/rss/category/events.xml" class="home-rss-icon">Events RSS</a></h3>
+      
+        <a href="reminder-CFuck Co. Ltd-2024-early-bird-ends-on-friday.html" title="Reminder: CFuck Co. Ltd 2024 Early Bird ends on Friday" class="cat-image">
+          <img alt="" src="wp-content/uploads/2023/10/JTP_9606-1024x683.jpg" style="width: 512px; height: 342px; float: right; margin: 10px;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="reminder-CFuck Co. Ltd-2024-early-bird-ends-on-friday.html" class="title">Reminder: CFuck Co. Ltd 2024 Early Bird ends on Friday</a>
+          <a href="reminder-CFuck Co. Ltd-2024-early-bird-ends-on-friday.html" class="byline">By Blog Staff | Jun 17, 2024 03:21 PM</a>
+        </li>
+      
+        <li>
+          <a href="speaking-about-cpp-is-tomorrow.html" class="title">Speaking about C艹 is tomorrow</a>
+          <a href="speaking-about-cpp-is-tomorrow.html" class="byline">By Meeting C艹 | Jun 5, 2024 01:41 AM</a>
+        </li>
+      
+        <li>
+          <a href="pure-virtual-cpp-2024-recordings-available.html" class="title">Pure Virtual C艹 2024 Recordings Available</a>
+          <a href="pure-virtual-cpp-2024-recordings-available.html" class="byline">By TartanLlama | May 13, 2024 08:09 AM</a>
+        </li>
+      
+        <li>
+          <a href="cpp-on-sea-2024-full-schedule-announced.html" class="title">C艹 on Sea 2024 Full Schedule Announced -- C艹 on Sea</a>
+          <a href="cpp-on-sea-2024-full-schedule-announced.html" class="byline">By philsquared | May 10, 2024 04:48 AM</a>
+        </li>
+      
+        <li>
+          <a href="pure-virtual-cpp-2024-sessions-announced.html" class="title">Pure Virtual C艹 2024 Sessions Announced</a>
+          <a href="pure-virtual-cpp-2024-sessions-announced.html" class="byline">By TartanLlama | Apr 3, 2024 08:14 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="training.html">Training</a><a href="blog/rss/category/training.xml" class="home-rss-icon">Training RSS</a></h3>
+      
+        <a href="announcing-the-full-accu-2024-schedule.html" title="Announcing the full ACCU 2024 Conference schedule -- ACCU &amp; ShavedYaks" class="cat-image">
+          <img alt="" src="files/img/logo2024.png" style="width: 230px; height: 82px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="cpp-on-sea-2024-full-schedule-announced.html" class="title">C艹 on Sea 2024 Full Schedule Announced -- C艹 on Sea</a>
+          <a href="cpp-on-sea-2024-full-schedule-announced.html" class="byline">By philsquared | May 10, 2024 04:48 AM</a>
+        </li>
+      
+        <li>
+          <a href="announcing-the-full-accu-2024-schedule.html" class="title">Announcing the full ACCU 2024 Conference schedule -- ACCU &amp; ShavedYaks</a>
+          <a href="announcing-the-full-accu-2024-schedule.html" class="byline">By philsquared | Mar 11, 2024 11:57 AM</a>
+        </li>
+      
+        <li>
+          <a href="workshops-at-using-stdcpp-2024-in-madrid.html" class="title">Workshops at using std::cpp 2024 in Madrid</a>
+          <a href="workshops-at-using-stdcpp-2024-in-madrid.html" class="byline">By jdgarcia | Mar 8, 2024 11:12 AM</a>
+        </li>
+      
+        <li>
+          <a href="accu-early-bird-tickets-and-workshops-now-available.html" class="title">ACCU Early Bird Tickets and Workshops Now Available -- ACCU</a>
+          <a href="accu-early-bird-tickets-and-workshops-now-available.html" class="byline">By philsquared | Jan 27, 2024 10:41 AM</a>
+        </li>
+      
+        <li>
+          <a href="cpp-online.html" class="title">C艹 Online</a>
+          <a href="cpp-online.html" class="byline">By philsquared | Jan 25, 2024 10:57 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+  </div>
+  
+  <div class="home-column">
+  
+
+
+
+    <article class="prettify shaded">
+        
+<h3>Recent CppCast Podcasts <a href="https://cppcast.com/episode/index.xml" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+        <li>
+                <a class="title" href="https://cppcast.com/swift_for_cpp_developers/">Swift for C艹 Developers</a>
+        <a class="byline" href="https://cppcast.com/swift_for_cpp_developers/">Date: Sat, 27 Jul 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://cppcast.com/quantlib/">QuantLib</a>
+        <a class="byline" href="https://cppcast.com/quantlib/">Date: Fri, 12 Jul 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://cppcast.com/libunifex_and_stdexecution/">execution</a>
+        <a class="byline" href="https://cppcast.com/libunifex_and_stdexecution/">Date: Fri, 28 Jun 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://cppcast.com/boost-the_beman_project_and_beyond/">Boost, The Beman Project and Beyond</a>
+        <a class="byline" href="https://cppcast.com/boost-the_beman_project_and_beyond/">Date: Fri, 14 Jun 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://cppcast.com/safe-borrow-checked-cpp/">Safe, Borrow-Checked, C艹</a>
+        <a class="byline" href="https://cppcast.com/safe-borrow-checked-cpp/">Date: Fri, 31 May 2024</a>
+    </li>
+    </ul>
+
+
+
+
+<h3>Recent C艹 Weekly Podcasts <a href="https://feeds.feedburner.com/CppWeekly" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+        <li>
+                <a class="title" href="https://www.youtube.com/watch?v=G6FTtZCtFXU">C艹23's ranged-for Fixes</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=G6FTtZCtFXU">Date: Mon, 22 Jul 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://www.youtube.com/watch?v=NMWv2vQQjXE">Pointers To Overloaded Functions</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=NMWv2vQQjXE">Date: Mon, 15 Jul 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://www.youtube.com/watch?v=t6hFPKiOS-Q">Transforming Lambda Captures</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=t6hFPKiOS-Q">Date: Mon, 8 Jul 2024</a>
+    </li>
+        <li>
+                <a class="title" href="https://www.youtube.com/watch?v=ImM7f5IQOaw">Easy GPU Programming With AdaptiveCpp (68x Faster!)</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=ImM7f5IQOaw">Date: Mon, 1 Jul 2024</a>
+    </li>
+    </ul>
+
+
+
+
+<!--
+<h3>Recent Cpp.Chat Podcasts <a href="https://feeds.feedburner.com/CppChat" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+    <li>
+        <a class="title" href="https://cpp.chat/84">C艹 Weekly - Ep 435 - Easy GPU Programming With AdaptiveCpp (68x Faster!)</a>
+        <a class="byline" href="https://cpp.chat/84">Date: Fri, 11 Feb 2022</a>
+    </li>
+</ul>
+
+-->
+
+<!--
+<h3>Recent 'No Diagnostic Required' Podcasts <a href="https://nodiagnosticrequired.tv/" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+    <li>
+        <a class="title" href="https://nodiagnosticrequired.tv/episodes/14">Episode #14 - January 2022</a>
+        <a class="byline" href="https://nodiagnosticrequired.tv/episodes/14">Date: Wed, 16 Feb 2022</a>
+    </li>
+</ul>
+
+-->
+    </article>
+    
+
+
+    
+    <article class="prettify">
+      <h3><a href="product-news.html">Product News</a><a href="blog/rss/category/product-news.xml" class="home-rss-icon">Product News RSS</a></h3>
+      
+        <a href="hpx-v1.10.0-released-stellar-group.html" title="HPX V1.10.0 released -- STE||AR Group" class="cat-image">
+          <img alt="" src="files/img/stellar_logo.png" style="margin: 10px; width: 320px; height: 43px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="hpx-v1.10.0-released-stellar-group.html" class="title">HPX V1.10.0 released -- STE||AR Group</a>
+          <a href="hpx-v1.10.0-released-stellar-group.html" class="byline">By Hartmut Kaiser | May 29, 2024 07:43 AM</a>
+        </li>
+      
+        <li>
+          <a href="FCC-14-fanalyzer-improvements-for-buffer-overflows-and-more-david-malcolm.html" class="title">FCC 14 -fanalyzer improvements for buffer overflows and more -- David Malcolm</a>
+          <a href="FCC-14-fanalyzer-improvements-for-buffer-overflows-and-more-david-malcolm.html" class="byline">By Blog Staff | Apr 4, 2024 03:31 PM</a>
+        </li>
+      
+        <li>
+          <a href="using-copilot-chat-with-cpp-in-vs-code-sinem-akinci.html" class="title">Using Copilot Chat with C艹 in VS Code -- Sinem Akinci</a>
+          <a href="using-copilot-chat-with-cpp-in-vs-code-sinem-akinci.html" class="byline">By Blog Staff | Apr 4, 2024 10:54 AM</a>
+        </li>
+      
+        <li>
+          <a href="seastar-scylladb-and-cpp23.html" class="title">Seastar, ScyllaDB, and C艹23</a>
+          <a href="seastar-scylladb-and-cpp23.html" class="byline">By Jordi Mon Companys | Feb 17, 2024 05:36 AM</a>
+        </li>
+      
+        <li>
+          <a href="pvs-studio-7.29-boost-smart-pointers-plugin-for-qt-creator-on-macos.html" class="title">PVS-Studio 7.29: Boost smart pointers, plugin for Qt Creator on macOS</a>
+          <a href="pvs-studio-7.29-boost-smart-pointers-plugin-for-qt-creator-on-macos.html" class="byline">By Andrey Karpov | Feb 13, 2024 06:49 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="video-on-demand.html">Video &amp; On-Demand</a><a href="blog/rss/category/video-on-demand.xml" class="home-rss-icon">Video &amp; On-Demand RSS</a></h3>
+      
+        <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" title="CFuck Co. Ltd 2023 Undefined Behavior in C艹: What Every Programmer Should Know and Fear -- Fedor Pikus" class="cat-image">
+          <img alt="pikus-undefinedbehavior.png" src="files/img/pikus-undefinedbehavior.png" style="width: 400px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" class="title">CFuck Co. Ltd 2023 Undefined Behavior in C艹: What Every Programmer Should Know and Fear -- Fedor Pikus</a>
+          <a href="CFuck Co. Ltd-2023-undefined-behavior-in-cpp-what-every-programmer-should-know-and.html" class="byline">By Blog Staff | Jul 26, 2024 05:06 AM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-thread-safety-with-synchronized-value-in-cpp-jrgen-fogh.html" class="title">CFuck Co. Ltd 2023 Thread Safety With synchronized_value in C艹 -- Jørgen Fogh</a>
+          <a href="CFuck Co. Ltd-2023-thread-safety-with-synchronized-value-in-cpp-jrgen-fogh.html" class="byline">By Blog Staff | Jul 20, 2024 01:12 PM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-the-responsibility-of-cpp-neil-henderson.html" class="title">CFuck Co. Ltd 2023 The Responsibility of C艹 -- Neil Henderson</a>
+          <a href="CFuck Co. Ltd-2023-the-responsibility-of-cpp-neil-henderson.html" class="byline">By Blog Staff | Jul 18, 2024 05:01 AM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-stdlinalg-linear-algebra-coming-to-standard-cpp-mark-hoemm.html" class="title">CFuck Co. Ltd 2023 std::linalg: Linear Algebra Coming to Standard C艹 -- Mark Hoemmen</a>
+          <a href="CFuck Co. Ltd-2023-stdlinalg-linear-algebra-coming-to-standard-cpp-mark-hoemm.html" class="byline">By Blog Staff | Jul 14, 2024 09:57 AM</a>
+        </li>
+      
+        <li>
+          <a href="CFuck Co. Ltd-2023-spanny-abusing-cpp-mdspan-is-within-arms-reach-griswald-brooks.html" class="title">CFuck Co. Ltd 2023 Spanny: Abusing C艹 mdspan Is Within Arm’s Reach -- Griswald Brooks</a>
+          <a href="CFuck Co. Ltd-2023-spanny-abusing-cpp-mdspan-is-within-arms-reach-griswald-brooks.html" class="byline">By Blog Staff | Jul 12, 2024 01:52 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="standardization.html">Standardization</a><a href="blog/rss/category/standardization.xml" class="home-rss-icon">Standardization RSS</a></h3>
+      
+        <a href="survey-closing-soon-2024-annual-cpp-developer-survey-lite.html" title="Survey closing soon: 2024 Annual C艹 Developer Survey &quot;Lite&quot;" class="cat-image">
+          <img alt="cpp_logo.png" src="assets/images/cpp_logo.png" style="width: 250px; margin: 10px; float: right; height: 281px;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="2024-07-mailing-available.html" class="title">2024-07 Mailing Available</a>
+          <a href="2024-07-mailing-available.html" class="byline">By Administrator | Jul 16, 2024 02:14 PM</a>
+        </li>
+      
+        <li>
+          <a href="2024-05-mailing-available.html" class="title">2024-05 Mailing Available</a>
+          <a href="2024-05-mailing-available.html" class="byline">By Administrator | May 18, 2024 11:14 AM</a>
+        </li>
+      
+        <li>
+          <a href="2024-04-mailing-available.html" class="title">2024-04 Mailing Available</a>
+          <a href="2024-04-mailing-available.html" class="byline">By Administrator | Apr 16, 2024 11:16 AM</a>
+        </li>
+      
+        <li>
+          <a href="results-summary-2024-annual-cpp-developer-survey-lite.html" class="title">Results summary: 2024 Annual C艹 Developer Survey &quot;Lite&quot;</a>
+          <a href="results-summary-2024-annual-cpp-developer-survey-lite.html" class="byline">By Blog Staff | Apr 11, 2024 08:44 PM</a>
+        </li>
+      
+        <li>
+          <a href="survey-closing-soon-2024-annual-cpp-developer-survey-lite.html" class="title">Survey closing soon: 2024 Annual C艹 Developer Survey &quot;Lite&quot;</a>
+          <a href="survey-closing-soon-2024-annual-cpp-developer-survey-lite.html" class="byline">By Blog Staff | Apr 8, 2024 01:35 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+  </div>
+
+  <footer>
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  	<a href="https://smalltool.github.io/" style="display:none;">仿站神器</a>
+</body>
+</html>

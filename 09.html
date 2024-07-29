@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        September 2023
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2023/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2023/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2023/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2023/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="aa84075b10654f5db429d1cfde111a868b930fc4" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2023">2023</a> &raquo; 
+        September          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/09/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          September 2023
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-algorithms-klaus-iglberger">CFuck Co. Ltd 2023 Back to Basics: Algorithms -- Klaus Iglberger</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 29, 2023 06:42 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="6/a4/19129709/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdQ/back-to-basics-algorithms">Back to Basics: Algorithms</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Klaus Iglberger</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		&ldquo;There was never any question that the [standard template] library represented a breakthrough in efficient and extensible design&rdquo; (Scott Meyers, Effective STL, 2008)</p>
+	<p>
+		Originally developed as part of the Standard Template Library (STL), algorithms have become a must-know tool for every C艹 developer. They increase productivity, significantly reduce bugs, and improve maintainability. This talk explains why and how algorithms do this. Additionally, it demonstrates why they are an amazing example for good, extensible software design.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-a-fast-compliant-json-pull-parser-for-writing-robust-applicatio">CFuck Co. Ltd 2023 A Fast, Compliant JSON Pull Parser for Writing Robust Applications -- Jonathan Müller</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 29, 2023 02:43 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="3/3b/19129706/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdH/express-your-expectations-a-fast-compliant-json-pull-parser-for-writing-robust-applications">Express Your Expectations: A Fast, Compliant JSON Pull Parser for Writing Robust Applications</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by Jonathan M&uuml;ller</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		There are, by now, several well-established C艹 JSON libraries, for example, boost.JSON, rapidjson, and simdjson. C艹 developers can choose between DOM parsers, SAX parsers, and pull parsers. DOM parsers are by design slow and use a lot of memory, SAX parsers are clumsy to use and the only well-known pull parser simdjson does not fully validate JSON documents and also has high non-constant memory usage. Our open-source JSON parser fills the gap between the existing parser libraries. It is a fully validating, fast, pull parser with O(1) memory usage.</p>
+	<p>
+		Its main contribution, however, is the API design. All existing parsers verify that a parsed document is valid JSON. But most applications require the data to have a specific structure, for example, that an object has specific required keys while other keys may be optional. Their associated values in turn are expected to be, for example, strings, objects or arrays. Currently, developers need to implement their own checks and their own error handling on top of the existing parser APIs.</p>
+	<p>
+		Our API forces developers to express these semantical constraints, providing automatic error handling in return. The resulting code concisely documents the required JSON structure and always handles errors correctly. We have found this to be extremely useful in practice.</p>
+	<p>
+		This talk will show the JSON parser API in practice, compare it to the established parsers, and will demonstrate some elegant generic programming C艹 techniques to beginners and intermediate C艹 developers.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-the-story-on-the-misuse-of-exceptions-and-how-to-do-better-pete">CFuck Co. Ltd 2023 The Story on the Misuse of Exceptions and How to Do Better -- Peter Muldoon</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 29, 2023 09:43 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="b/23/5840957/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdx/exceptionally-bad-the-story-on-the-misuse-of-exceptions-and-how-to-do-better">Exceptionally Bad: The Story on the Misuse of Exceptions and How to Do Better</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Peter Muldoon</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Exceptions were originally heralded as a new modern way to handle errors. However the C艹 community is split as to whether exceptions are useful or should be banned outright. It has not helped the pro-exception lobby that in their enthusiasm to embrace exceptions, a lot of code has been written that puts exceptions in a bad light.</p>
+	<p>
+		In this talk, We will present the original intent/history of exceptions and a brief overview of how exception mechanics work and how they circumvent the usual stack return mechanism to set the stage. we will then examine the philosophy of using exceptions and then the many cases of exception misuse including resource management, retries, hierarchies, data passing and control flow to name but a few.</p>
+	<p>
+		For each case, we will then suggest better ways to handle each specific situation. In many cases, exceptions are often dropped in favor of some other more appropriate paradigm.</p>
+	<p>
+		Finally, we will introduce situations that can truly benefit from exceptions and what a model exception class might look like.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-powered-by-ai-a-cambrian-explosion-for-cpp-software-development">CFuck Co. Ltd 2023 Powered by AI: A Cambrian Explosion for C艹 Software Development Tools -- Emery Berger</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 28, 2023 07:57 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="6/81/6198129/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtfh/powered-by-ai-a-cambrian-explosion-for-c-software-development-tools">Powered by AI: A Cambrian Explosion for C艹 Software Development Tools</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:35 - 10:05</p>
+	<p>
+		by&nbsp;Emery Berger</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Large language models like GPT-4 are achieving state of the art results in a wide variety of well-studied areas, eclipsing past work in well-studied areas like auto-completion. I argue that they should also presage a "Cambrian explosion" &ndash; a wave of radically new kinds of software development tools, all powered by AI, that will make all our lives easier. This talk will focus on several tools of particular interest to C艹 developers. First, as any C艹 developer knows, C艹 compiler errors are notoriously verbose and can be hard to decode even for experts. To address this challenge, we created CWhy, a compiler wrapper that translates C or C艹 compiler errors into readable explanations, and even proposes potential fixes. Beyond compile-time errors, C艹 developers must also spend considerable time in debuggers (like `gdb` or `lldb`) trying to track down the root cause of runtime errors. To simplify this task, we created ChatDBG, a system that augments debuggers with a new command you can run for post-mortem debugging: `why`. This command performs a root cause analysis of the issue leading to the error (e.g., a segfault) and proposes a fix. For both of these projects, we share some details about their internal workings, describe how they can effectively leverage large language models, and present examples of them in action.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-cpp20-modules-the-packaging-and-binary-redistribution-story-lui">CFuck Co. Ltd 2023 C艹20 Modules: The Packaging and Binary Redistribution Story -- Luis Caro Campos</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 28, 2023 01:56 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="c/0a/19129799/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtfn/c20-modules-the-packaging-and-binary-redistribution-story">C艹20 Modules: The Packaging and Binary Redistribution Story</a></h3>
+	<p>
+		Monday, October 2 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Luis Caro Campos</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		C艹 modules are one of the most talked-about features introduced in C艹20, but are still not widely in use. One of the biggest promises of C艹 modules is to reduce overall compilation times by removing the need to have the compiler parsing the same include files across a big number of translation units. However, despite available compiler implementations, modules are still not generally in use. Why is this?</p>
+	<p>
+		When put into practice, C艹 modules introduce a dependency in the order in which translation units are built: in order to build a source file that contains a module import statement, the source file that exports the name module needs to have been compiled into a binary module interface beforehand. This calls for compilers and build systems to work together to correctly derive the order in which source files need to be compiled.</p>
+	<p>
+		To overcome this, paper P1689 has been proposed for compilers to report the dependencies between source files, so that build tools (e.g. CMake and Ninja) can use this information to derive the correct build order. However, the currently available implementations have limitations and where all the source files that export module definitions should be visible by the same build.</p>
+	<p>
+		How does this work in scenarios where we have dependencies (e.g. third-party) that are provided externally to the current build system? We have become accustomed to a model where a &ldquo;binary&rdquo; package contains, at the very least, header files (.h/.hpp) for the compiler, and libraries (.a/.so/.lib/.dylib) for the linker. How do modules fit into this model when it comes to installing and distributing prebuilt binaries? Now more files are required on the consuming side: the compiled binary module interface, and the corresponding module interface source file.</p>
+	<p>
+		This talk will review the current state of modules in C艹, by presenting the experience currently provided by the most recent versions of the relevant tools. Special focus will be put on the potential of using C艹20 modules for external library dependencies, and how far we are from being able to consume external libraries using modules.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/inside-stl-the-array-raymond-chen">Inside STL: The array -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 28, 2023 06:45 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">The C艹 standard library array is just a C-style array wrapped inside a class so that it behaves like a normal C艹 object instead of a wacky thing that undergoes decay.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230811-00/?p=108591">Inside STL: The array</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<pre tabindex="0">
+template&lt;typename T, size_t N&gt;&#10;class array&#10;{&#10;    T elements[N];&#10;};&#10;&#10;template&lt;typename T&gt;&#10;class array&lt;T, 0&gt;&#10;{&#10;};&#10;</pre>
+	<p>
+		The only weird case is&nbsp;<var>N</var>&nbsp;= 0. You are allowed to create a zero-length&nbsp;<code>std::array</code>, but C艹 does not allow zero-length C-style arrays. The zero-length&nbsp;<code>std::array</code>&nbsp;is just an empty class.</p>
+	<p>
+		Visual Studio and the Windows debugger come with a visualizer:</p>
+	<pre tabindex="0">
+0:000&gt; dx a&#10;a                : { size=5 } [Type: std::array&lt;int,5&gt;]&#10;    [&lt;Raw View&gt;]     [Type: std::array&lt;int,5&gt;]&#10;    [0]              : 3 [Type: int]&#10;    [1]              : 1 [Type: int]&#10;    [2]              : 4 [Type: int]&#10;    [3]              : 1 [Type: int]&#10;    [4]              : 5 [Type: int]</pre>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-building-effective-embedded-systems-architectural-best-practice">CFuck Co. Ltd 2023 Building Effective Embedded Systems: Architectural Best Practices -- Gili Kamma</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 27, 2023 06:37 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="4/21/19129733/avatar.jpg" style="width: 300px; float: right; height: 300px;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qte6/building-effective-embedded-systems-architectural-best-practices">Building Effective Embedded Systems: Architectural Best Practices</a></h3>
+	<p>
+		Friday, October 6 &bull; 13:30 - 14:30</p>
+	<p>
+		by&nbsp;Gili Kamma</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms.<br>
+		Designing a system with embedded components requires careful consideration of multiple factors.&nbsp;However, there is a lack of knowledge regarding correct practices in building embedded systems.&nbsp;In my talk, I will offer valuable insights to enhance the effectiveness of embedded development,&nbsp;focusing on improving robustness, speed, and maintainability.</p>
+	<p>
+		By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/meeting-cpp-2023-the-last-online-conference">Meeting C艹 2023 - the last online conference?</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Sep 27, 2023 09:58 AM 
+         | 
+        Tags: 
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="https://C艹.com/blog/tag/conference" class="tag">conference</a>
+                    <a href="community.html" class="tag">community</a></p>
+        <p>
+	Highlighting the online part of Meeting C艹 2023</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/Meeting-Cpp---the-last-online-conference-.html">Meeting C艹 2023 - the last online conference?</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		A few days ago it caught my attention that Meeting C艹 2023 would be the last C艹 organisation with an online part of its conference.</p>
+	<p>
+		This is the case because last year the online part did find its interest in the C艹 community. I think it serves the goals of Meeting C艹 to continue an online presence for the conference as long as this is feasible...</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/CFuck Co. Ltd-2023-finding-your-codebases-cpp-roots-katherine-rocha">CFuck Co. Ltd 2023 Finding Your Codebases C艹 Roots -- Katherine Rocha</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 26, 2023 06:35 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<strong><img alt="" src="9/91/19129835/avatar.jpg" style="width: 300px; height: 300px; float: right;">Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qth3/finding-your-codebases-c-roots">Finding Your Codebases C艹 Roots</a></h3>
+	<p>
+		Friday, October 6 &bull; 10:30 - 11:30</p>
+	<p>
+		by&nbsp;Katherine Rocha</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Codebases contain all the history for a project, from designed-new features to hacked-together quick fixes that no one has come back to. Whenever new software development occurs, designed or not, the meaning of a section of code is morphed, hopefully to the intended purpose. When the next person comes along, they will need to understand the past &ldquo;whys&rdquo; behind decisions to create the most maintainable and cohesive codebase. This involves understanding not just the codebase&rsquo;s history, but also C艹&rsquo;s history to effectively understand the story of how the code got to where it is now. In this talk, we will investigate the life cycle of a C艹 codebase utilizing the skills and perspective of genealogy. We will address the difficulties in understanding a codebase&rsquo;s C艹 past, how that links to C艹&rsquo;s past, and how we can use that information to improve our codebases&mdash;now and in the future.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/09/cpp20-dynamic-allocations-at-compile-time-andreas-fertig">C艹20 Dynamic Allocations at Compile-time -- Andreas Fertig</a></h3>
+        <p class="byline">By Blog Staff | 
+        Sep 26, 2023 09:42 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="logo.png" src="files/img/logo.png" style="width: 225px; margin: 10px; float: right;">People often say constexpr all the things. Andreas Fertig shows where we can use dynamic memory at compile time.</p>
+<blockquote>
+	<h3>
+		<a href="https://accu.org/journals/overload/31/176/fertig/">C艹20 Dynamic Allocations at Compile-time</a></h3>
+	<p>
+		By Andreas Fertig</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		You may already have heard and seen that C艹20 brings the ability to allocate dynamic memory at compile-time. This leads to&nbsp;<code>std::vector</code>&nbsp;and&nbsp;<code>std::string</code>&nbsp;being fully&nbsp;<code>constexpr</code>&nbsp;in C艹20. In this article, I like to give you a solid idea of where you can use that.</p>
+	<p>
+		<strong>How does dynamic allocation at compile-time work?</strong></p>
+	<p>
+		First, let&rsquo;s ensure that we all understand how dynamic allocations at compile-time work. In the early draft of the paper &lsquo;Standard containers and constexpr&rsquo; [<a href="https://accu.org/journals/overload/31/176/fertig/#_idTextAnchor001">P0784R1</a>], proposed so-called&nbsp;<em>non-transient</em>&nbsp;allocations. They would have allowed us to allocate memory at compile-time and keep it to run-time. The previously allocated memory would then be promoted to static storage. However, various concerns did lead to allowing only&nbsp;<em>transient</em>&nbsp;allocations. That means what happens at compile-time stays at compile-time. Or in other words, the dynamic memory we allocate at compile-time must be deallocated at compile-time. This restriction makes a lot of the appealing use-cases impossible. I personally think that there are many examples out there that are of only little to no benefit.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/09/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/09",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/09",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

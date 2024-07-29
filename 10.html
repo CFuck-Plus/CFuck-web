@@ -1,0 +1,2084 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        October 2023
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2023/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2023/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2023/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2023/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="acab0310410b64c5396eca6cc03ca6cd2194e6a1" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2023">2023</a> &raquo; 
+        October          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/10/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          October 2023
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/on-writing-loops-in-ppl-and-continuation-passing-style-part-3-raymond-chen">On Writing Loops in PPL and Continuation-passing Style, Part 3 -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Oct 31, 2023 02:49 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">In our previous discussion, we optimized a task-based while loop by eliminating nested shared pointers, instead requiring all the state to reside inside a caller-provided <code>shared_ptr</code>, making the callable stateless. This approach simplifies the code and reduces redundancy in managing state.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230824-00/?p=108647">On Writing Loops in PPL and Continuation-passing Style, Part 3</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Last time,&nbsp;<a href="https://devblogs.microsoft.com/oldnewthing/20230823-00/?p=108640" title="On writing loops in PPL and continuation-passing style, part 2">we wrote a task-based&nbsp;<code>while</code>&nbsp;loop using recursion</a>, using a&nbsp;<code>shared_ptr</code>&nbsp;to pass state, and we noted a redundancy in that we created a&nbsp;<code>shared_ptr</code>&nbsp;to a lambda that in turn held a&nbsp;<code>shared_ptr</code>.</p>
+	<p>
+		We can eliminate the nested shared pointers by requiring that all the state live inside a caller-provided&nbsp;<code>shared_ptr</code>, levaing the callable stateless.</p>
+	<pre tabindex="0">
+template&lt;typename State&gt;&#10;task&lt;void&gt; do_while_task(&#10;    std::shared_ptr&lt;State&gt; const&amp; state,&#10;    bool (*f)(std::shared_ptr&lt;State&gt; const&amp;)&#10;{&#10;    return f(state).then([state, f](bool loop) {&#10;        return loop ? do_while_task(state, f) :&#10;                      task_from_result();&#10;    });&#10;}&#10;&#10;struct lambda_state&#10;{&#10;    lambda_state(Widgets* w) : widgets(w) {}&#10;    Widgets* widgets;&#10;    int i = 0;&#10;};&#10;&#10;auto state = std::make_shared&lt;lambda_state&gt;(widgets);&#10;&#10;do_while_task(state, [](auto&amp;&amp; state)&#10;{&#10;    if (state-&gt;i &gt;= 3) return task_from_result(false);&#10;    return create_widget().then([state](auto widget)&#10;    {&#10;        state-&gt;widgets[state-&gt;i] = widget;&#10;        state-&gt;i++;&#10;        return true;&#10;    }&#10;}).then([] {&#10;    printf("Done!\n");&#10;});&#10;</pre>
+	<p>
+		We can get rid of all the&nbsp;<code>state-&gt;</code>&nbsp;prefixes by making the state be invocable.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/copperspice-time-to-sort-out-stdchrono">CopperSpice: Time to Sort Out std::chrono</a></h3>
+        <p class="byline">By Ansel Sermersheim | 
+        Oct 28, 2023 11:30 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	New video on the CopperSpice YouTube Channel:</p>
+<blockquote>
+	<h3>
+		<a href="https://www.youtube.com/watch?v=63GKRVb8xXA">Time to Sort Out std::chrono</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Barbara Geller and Ansel Sermersheim</p>
+</blockquote>
+<p>
+	About the video:</p>
+<blockquote>
+	<p>
+		We just posted a new video about std::chrono. It provides an overview of the functionality which was added in C艹11, C艹17, and C艹20. Please watch to find out how much of std::chrono your compiler actually supports. We were pretty surprised at what we discovered.</p>
+	<p>
+		Please take a look and remember to subscribe.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/accu-2024-call-for-speakers-accu">ACCU 2024 Call for Speakers -- ACCU</a></h3>
+        <p class="byline">By Felix Petriconi | 
+        Oct 28, 2023 11:29 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	The ACCU is now putting together its program, and they want you to speak on C艹. The ACCU conference has strong C艹 tracks, though it is not a C艹-only conference. If you have something to share, check out their</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/callforspeakers/">Call for Speakers</a></h3>
+	<p>
+		by ACCU&nbsp;</p>
+</blockquote>
+<p>
+	About the conference:</p>
+<blockquote>
+	<p>
+		The ACCU Conference is the annual conference of the ACCU membership, but is open to any and all who wish to attend. The tagline for the ACCU is "Professionalism in Programming", which captures the whole spectrum of programming languages, tools, techniques and processes involved in advancing our craft. While there remains a core of C and C艹 - with many members participating in respective ISO standards bodies - the conference, like the organisation, embraces other language ecosystems and you should expect to see sessions on C#, D, F#, Go, Javascript, Haskell, Java, Kotlin, Lisp, Python, Ruby, Rust, Swift and more. There are always sessions on TDD, BDD, and how to do programming right.</p>
+	<p>
+		The ACCU Conference is a conference by programmers for programmers about programming.</p>
+	<p>
+		The Call For Speakers will remain open until midnight (GMT) on 17th November 2023.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/wg21-varna-trip-report-david-sankel">WG21 Varna Trip Report -- David Sankel</a></h3>
+        <p class="byline">By david.sankel | 
+        Oct 28, 2023 11:19 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	David Sankel discusses about the developments at the June 2023 ISO C艹 standardization meeting in Varna.</p>
+<blockquote>
+	<p>
+		<a href="http://blog.developer.adobe.com/trip-report-summer-iso-c-standards-meeting-ed141f80b664">WG21 Varna Trip Report</a></p>
+	<p>
+		by David Sankel</p>
+</blockquote>
+<p>
+	About the report:</p>
+<blockquote>
+	<p>
+		In detail he speakes about std::simd, std::inplace_vector, and other developments.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/beautiful-cpp-30-core-guidelines...-book-review-bartlomiej-filipek">Beautiful C艹: 30 Core Guidelines... Book Review -- Bartlomiej Filipek</a></h3>
+        <p class="byline">By Blog Staff | 
+        Oct 27, 2023 02:45 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="beautiful_cpp.jpg" src="files/img/beautiful_cpp.jpg" style="width: 250px; margin: 10px; float: right;">This is a book review of &ldquo;Beautiful C艹,&rdquo; written by two well-known C艹 experts and educators: Kate Gregory and Guy Davidson. The book&rsquo;s unique style gives us a valuable perspective on effective and safe C艹 code.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cppstories.com/2023/beautiful-cpp-book-review/">Beautiful C艹: 30 Core Guidelines... Book Review</a></h3>
+	<p>
+		By Bartlomiej Filipek</p>
+</blockquote>
+<p>
+	From the review:</p>
+<blockquote>
+	<p>
+		The book is split into five parts, and each part has six guidelines to help us understand the material more easily.</p>
+	<ul>
+		<li>
+			Part one: Bikeshedding is bad - how to reduce the number of lines of your code and simplify it. For example, by using use in-class member initializers or avoiding getters and setters.</li>
+		<li>
+			Part two: Don&rsquo;t hurt yourself - how to avoid messy code and minimize complexity. For example, by limiting explicit sharing of variables, proper use of ABI and more.</li>
+		<li>
+			Part three: Stop using that - some important bugs and bad C艹 code style: singletons, casting away const or unsafe managing the ownership of resources.</li>
+		<li>
+			Part four: Use this new thing properly - efficient use of modern C艹 style: enum classes, constexpr, templates.</li>
+		<li>
+			Part five: Write code well by default - good patterns for your code: type safety, immutable data structures avoiding uninitialized variables, and RAII.</li>
+	</ul>
+	<p>
+		In total, it&rsquo;s around 300 pages + afterword and index.</p>
+	<p>
+		If we look at a corresponding guideline like&nbsp;<a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#i3-avoid-singletons">I.3: Avoid singletons</a>&nbsp;you&rsquo;ll see a short paragraph of introduction, some small example and a short discussion to alternatives. On the other hand, in the book, this guideline consists of 9 pages with unique examples, backstories, alternatives and discussions. The section shows things like:</p>
+	<ul>
+		<li>
+			Why global objects are bad</li>
+		<li>
+			Singleton Design pattern overview</li>
+		<li>
+			Static initialization order fiasco</li>
+		<li>
+			Hiding singletons and making a namespace rather than a class</li>
+		<li>
+			And even how to use constexpr in some cases (<code>constexpr</code>&nbsp;is also covered in other sections)</li>
+	</ul>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/sobjectizer-tales-3.-acquisition-loop-revisited">SObjectizer Tales – 3. Acquisition loop revisited--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Oct 26, 2023 01:53 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="https://C艹.com/blog/tag/intermdiate" class="tag">intermdiate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/08/sobjectizer-tales_3-1.png" style="width: 300px; margin: 10px; float: right;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2023/10/26/sobjectizer-tales-3/">SObjectizer Tales &ndash; 3. Acquisition loop revisited</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Maybe you have already realized what we are getting at. Conceptually, a loop is just a series of iterations...</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/on-writing-loops-in-ppl-and-continuation-passing-style-part-2-raymond-chen">On Writing Loops in PPL and Continuation-passing Style, Part 2 -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Oct 25, 2023 02:42 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">In our previous discussion, we explored a task-based while loop employing custom callables that passed copies of themselves to the next iteration, which follows the continuation-passing style used in the Parallel Patterns Library (PPL). In this session, we will implement the same function using a more traditional recursive approach, aiming to simplify the sharing of state between lambda callables in PPL-style programming.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230823-00/?p=108640">On Writing Loops in PPL and Continuation-passing Style, Part 2</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Last time,&nbsp;<a href="https://devblogs.microsoft.com/oldnewthing/20230822-00/?p=108634" title="On writing loops in PPL and continuation-passing style, part 1">we came up with task-based&nbsp;<code>while</code>&nbsp;loop</a>&nbsp;that involved creating a custom callable that passed copies of itself to the next iteration.</p>
+	<p>
+		This time, we&rsquo;ll implement the function in terms of a more traditional recursion.</p>
+	<pre tabindex="0">
+template&lt;typename Callable&gt;&#10;task&lt;void&gt; do_while_task(&#10;    std::shared_ptr&lt;Callable&gt; const&amp; f)&#10;{&#10;    return (*f)().then([f](bool loop) {&#10;        return loop ? do_while_task(f) :&#10;                      task_from_result();&#10;    });&#10;}&#10;&#10;template&lt;typename Callable, typename =&#10;    std::enable_if_t&lt;std::is_invocable_v&lt;Callable&gt;&gt;&gt;&#10;task&lt;void&gt; do_while_task(Callable&amp;&amp; callable)&#10;{&#10;    using Decayed = std::decay_t&lt;Callable&gt;;&#10;    return do_while_task(&#10;        std::make_shared&lt;Decayed&gt;(&#10;            std::forward&lt;Callable&gt;(callable)));&#10;}&#10;</pre>
+	<p>
+		The real work happens in the first overload, which takes a ready-made&nbsp;<code>shared_ptr</code>. The second overload is a convenience method that lets you pass a callable, and it will wrap it in a&nbsp;<code>shared_ptr</code>&nbsp;for you.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/meeting-cpp-2023-is-streaming-all-tracks-from-berlin">Meeting C艹 2023 is streaming all tracks from Berlin</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Oct 25, 2023 03:42 AM 
+         | 
+        Tags: 
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="community.html" class="tag">community</a></p>
+        <p>
+	<a href="https://meetingcpp.com/2023">Meeting C艹 2023</a> will stream all keynotes and talks from Berlin to the online world. After the conference all livestreams will be available in the online platform to all attendees.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Streaming-all-tracks-from-Berlin.html">Streaming all talks from Berlin</a></h2>
+</blockquote>
+<blockquote>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Quickly announcing that you can see all the talks at Meeting C艹 2023!</p>
+	<p>
+		You still have this and next week to get your tickets for Meeting C艹 2023, which enables you to either see the talks live in Berlin or watch online! This has been an important goal for this year: make all tracks available to the online conference once we return to be onsite again. Last year has shown that the online conference adds great value to the C艹 community in giving folks access to talk that other wise would be only seen by a small group in Berlin.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/on-writing-loops-in-ppl-and-continuation-passing-style-part-1-raymond-chen">On Writing Loops in PPL and Continuation-passing Style, Part 1 -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Oct 23, 2023 02:35 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="RaymondChen_5in-150x150.jpg" src="files/img/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">The Parallel Patterns Library (PPL) relies on a continuation-passing style for asynchronous programming, where tasks are invoked and then linked to callable objects that process their results. This approach was the primary method for handling asynchronous operations before the introduction of <code>await</code> and <code>co_await</code> keywords in C#, JavaScript, and C艹, making it essential to understand for developers working with older code or scenarios that still employ this style.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230822-00/?p=108634">On Writing Loops in PPL and Continuation-passing Style, Part 1</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		The Parallel Patterns Library (PPL) is based on a continuation-passing style, where you invoke a task, and then attach a callable object that will be given the result. Prior to the introduction of the&nbsp;<code>await</code>&nbsp;and&nbsp;<code>co_await</code>&nbsp;keywords to C#, JavaScript, and C艹, this was your only real choice for asynchronous programming.</p>
+	<p>
+		Sequential calculations are fairly straightforward in continuation-passing style because you just pass the next step as the continuation.</p>
+	<pre tabindex="0">
+// Synchronous version&#10;auto widget = find_widget(name);&#10;auto success = widget.toggle();&#10;if (!success) report_failure();&#10;&#10;// Asynchronous version&#10;find_widget(name).then([=](auto widget) {&#10;    return widget.toggle();&#10;}).then([=](auto success) {&#10;    if (!success) report_failure();&#10;});&#10;</pre>
+	<p>
+		Iteration is harder to convert to continuation-passing style because you need to restart the task chain, which means you have recursion.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/10/2023-10-mailing-available">2023-10 Mailing Available</a></h3>
+        <p class="byline">By Administrator | 
+        Oct 20, 2023 08:55 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	The 2023-10 mailing of new standards papers is now available.</p>
+<p>
+	&nbsp;</p>
+<table border="1" summary="See previous paragraph.">
+	<thead>
+		<tr>
+			<th>
+				WG21 Number</th>
+			<th>
+				Title</th>
+			<th>
+				Author</th>
+			<th>
+				Document Date</th>
+			<th>
+				Mailing Date</th>
+			<th>
+				Previous Version</th>
+			<th>
+				Subgroup</th>
+			<!--            <th>Disposition</th> -->
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href="https://wg21.link/N4961">N4961</a></td>
+			<td>
+				2024-03 Tokyo meeting information</td>
+			<td>
+				JF Bastien</td>
+			<td>
+				2023-10-02</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/N4962">N4962</a></td>
+			<td>
+				WG21 agenda: 6-11 November 2023, Kona, HI</td>
+			<td>
+				John Spicer</td>
+			<td>
+				2023-10-07</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/N4963">N4963</a></td>
+			<td>
+				2023 WG21 admin telecon meetings, rev. 2</td>
+			<td>
+				Herb Sutter</td>
+			<td>
+				2023-09-30</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/N4964">N4964</a></td>
+			<td>
+				Working Draft, Programming Languages -- C艹</td>
+			<td>
+				Thomas K&ouml;ppe</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/N4965">N4965</a></td>
+			<td>
+				Editors&#39; Report, Programming Languages -- C艹</td>
+			<td>
+				Thomas K&ouml;ppe</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P0447R23">P0447R23</a></td>
+			<td>
+				Introduction of std::hive to the standard library</td>
+			<td>
+				Matt Bentley</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P0447R22">P0447R22</a></td>
+			<td>
+				SG14 Low Latency,LEWG Library Evolution,All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P0876R14">P0876R14</a></td>
+			<td>
+				fiber_context - fibers without scheduler</td>
+			<td>
+				Oliver Kowalke</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P0876R13">P0876R13</a></td>
+			<td>
+				LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P0952R1">P0952R1</a></td>
+			<td>
+				A new specification for std::generate_canonical</td>
+			<td>
+				Thomas Koeppe</td>
+			<td>
+				2023-09-20</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P0952R0">P0952R0</a></td>
+			<td>
+				LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P1144R9">P1144R9</a></td>
+			<td>
+				std::is_trivially_relocatable</td>
+			<td>
+				Arthur O&#39;Dwyer</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P1144R8">P1144R8</a></td>
+			<td>
+				EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P1729R3">P1729R3</a></td>
+			<td>
+				Text Parsing</td>
+			<td>
+				Elias Kosunen</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P1729R2">P1729R2</a></td>
+			<td>
+				SG9 Ranges,SG16 Unicode,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P1928R7">P1928R7</a></td>
+			<td>
+				std::simd - Merge data-parallel types from the Parallelism TS 2</td>
+			<td>
+				Matthias Kretz</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P1928R6">P1928R6</a></td>
+			<td>
+				LEWG Library Evolution,LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2019R4">P2019R4</a></td>
+			<td>
+				Thread attributes</td>
+			<td>
+				Corentin Jabot</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2019R3">P2019R3</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2075R3">P2075R3</a></td>
+			<td>
+				Philox as an extension of the C艹 RNG engines</td>
+			<td>
+				Ilya Burylov</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2075R2">P2075R2</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2267R0">P2267R0</a></td>
+			<td>
+				Library Evolution Policies</td>
+			<td>
+				Inbal Levi</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2447R5">P2447R5</a></td>
+			<td>
+				std::span over an initializer list</td>
+			<td>
+				Arthur O&#39;Dwyer</td>
+			<td>
+				2023-10-11</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2447R4">P2447R4</a></td>
+			<td>
+				LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2500R2">P2500R2</a></td>
+			<td>
+				C艹 parallel algorithms and P2300</td>
+			<td>
+				Ruslan Arutyunyan</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2500R1">P2500R1</a></td>
+			<td>
+				SG1 Concurrency and Parallelism,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2542R6">P2542R6</a></td>
+			<td>
+				views::concat</td>
+			<td>
+				Hui Xie</td>
+			<td>
+				2023-10-01</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2542R5">P2542R5</a></td>
+			<td>
+				SG9 Ranges,LEWG Library Evolution,LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2642R4">P2642R4</a></td>
+			<td>
+				Padded mdspan layouts</td>
+			<td>
+				Christian Trott</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2642R3">P2642R3</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2663R4">P2663R4</a></td>
+			<td>
+				Proposal to support interleaved complex values in std::simd</td>
+			<td>
+				Daniel Towner</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2663R3">P2663R3</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2664R4">P2664R4</a></td>
+			<td>
+				Proposal to extend std::simd with permutation API</td>
+			<td>
+				Daniel Towner</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2664R3">P2664R3</a></td>
+			<td>
+				SG1 Concurrency and Parallelism,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2717R3">P2717R3</a></td>
+			<td>
+				Tool Introspection</td>
+			<td>
+				Ren&eacute; Ferdinand Rivera Morell</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2717R2">P2717R2</a></td>
+			<td>
+				SG15 Tooling</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2762R2">P2762R2</a></td>
+			<td>
+				Sender/Receiver Interface For Networking</td>
+			<td>
+				Dietmar Kuhl</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2762R1">P2762R1</a></td>
+			<td>
+				SG4 Networking,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2774R1">P2774R1</a></td>
+			<td>
+				Concurrent object pool (was: Scoped thread-local storage)</td>
+			<td>
+				Michael Florian Hava</td>
+			<td>
+				2023-09-30</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2774R0">P2774R0</a></td>
+			<td>
+				SG1 Concurrency and Parallelism</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2786R3">P2786R3</a></td>
+			<td>
+				Trivial Relocatability For C艹26</td>
+			<td>
+				Mungo Gill</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2786R2">P2786R2</a></td>
+			<td>
+				EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2800R0">P2800R0</a></td>
+			<td>
+				Dependency flag soup needs some fiber</td>
+			<td>
+				Ben Boeckel</td>
+			<td>
+				2023-09-20</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG15 Tooling</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2809R2">P2809R2</a></td>
+			<td>
+				Trivial infinite loops are not Undefined Behavior</td>
+			<td>
+				JF Bastien</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2809R1">P2809R1</a></td>
+			<td>
+				SG1 Concurrency and Parallelism,SG22 Compatability,EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2841R1">P2841R1</a></td>
+			<td>
+				Concept Template Parameters</td>
+			<td>
+				Corentin Jabot</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2841R0">P2841R0</a></td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2845R3">P2845R3</a></td>
+			<td>
+				Formatting of std::filesystem::path</td>
+			<td>
+				Victor Zverovich</td>
+			<td>
+				2023-10-01</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2845R2">P2845R2</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2845R4">P2845R4</a></td>
+			<td>
+				Formatting of std::filesystem::path</td>
+			<td>
+				Victor Zverovich</td>
+			<td>
+				2023-10-07</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2845R3">P2845R3</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2862R1">P2862R1</a></td>
+			<td>
+				text_encoding::name() should never return null values</td>
+			<td>
+				Daniel Kr&uuml;gler</td>
+			<td>
+				2023-09-24</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2862R0">P2862R0</a></td>
+			<td>
+				LEWG Library Evolution,LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2863R2">P2863R2</a></td>
+			<td>
+				Review Annex D for C艹26</td>
+			<td>
+				Alisdair Meredith</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2863R1">P2863R1</a></td>
+			<td>
+				EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2885R3">P2885R3</a></td>
+			<td>
+				Requirements for a Contracts syntax</td>
+			<td>
+				Timur Doumler</td>
+			<td>
+				2023-10-05</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2885R2">P2885R2</a></td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2893R1">P2893R1</a></td>
+			<td>
+				Variadic Friends</td>
+			<td>
+				Jody Hagins</td>
+			<td>
+				2023-10-09</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2893R0">P2893R0</a></td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2897R1">P2897R1</a></td>
+			<td>
+				aligned_accessor: An mdspan accessor expressing pointer overalignment</td>
+			<td>
+				Mark Hoemmen</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2897R0">P2897R0</a></td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2900R0">P2900R0</a></td>
+			<td>
+				Contracts for C艹</td>
+			<td>
+				Joshua Berne</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2900R1">P2900R1</a></td>
+			<td>
+				Contracts for C艹</td>
+			<td>
+				Joshua Berne</td>
+			<td>
+				2023-10-09</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2900R0">P2900R0</a></td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2911R1">P2911R1</a></td>
+			<td>
+				Python Bindings with Value-Based Reflection</td>
+			<td>
+				Adam Lach</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2911R0">P2911R0</a></td>
+			<td>
+				SG7 Reflection</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2927R0">P2927R0</a></td>
+			<td>
+				Observing exceptions stored in exception_ptr</td>
+			<td>
+				Gor Nishanov</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWGI SG18: LEWG Incubator,EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2932R1">P2932R1</a></td>
+			<td>
+				A Principled Approach to Open Design Questions for Contracts</td>
+			<td>
+				Joshua Berne</td>
+			<td>
+				2023-10-04</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2932R0">P2932R0</a></td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2935R3">P2935R3</a></td>
+			<td>
+				An Attribute-Like Syntax for Contracts</td>
+			<td>
+				Joshua Berne</td>
+			<td>
+				2023-10-05</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2935R2">P2935R2</a></td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2959R0">P2959R0</a></td>
+			<td>
+				Container Relocation</td>
+			<td>
+				Alisdair Meredith</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2961R1">P2961R1</a></td>
+			<td>
+				A natural syntax for Contracts</td>
+			<td>
+				Timur Doumler</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2961R0">P2961R0</a></td>
+			<td>
+				SG21 Contracts</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2962R0">P2962R0</a></td>
+			<td>
+				Communicating the Baseline Compile Command for C艹 Modules support</td>
+			<td>
+				Daniel Ruoso</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG15 Tooling</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2967R0">P2967R0</a></td>
+			<td>
+				Relocation Is A Library Interface</td>
+			<td>
+				Alisdair Meredith</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2971R1">P2971R1</a></td>
+			<td>
+				Implication for C艹</td>
+			<td>
+				Walter E Brown</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				<a href="https://wg21.link/P2971R0">P2971R0</a></td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2978R0">P2978R0</a></td>
+			<td>
+				A New Approach For Compiling C艹</td>
+			<td>
+				Hassan Sajjad</td>
+			<td>
+				2023-09-26</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG15 Tooling</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2979R0">P2979R0</a></td>
+			<td>
+				The Need for Design Policies in WG21</td>
+			<td>
+				Alisdair Meredith</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2980R0">P2980R0</a></td>
+			<td>
+				A motivation, scope, and plan for a physical quantities and units library</td>
+			<td>
+				Mateusz Pusz</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG6 Numerics,LEWGI SG18: LEWG Incubator,SG23 Safety and Security,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2981R0">P2981R0</a></td>
+			<td>
+				Improving our safety with a physical quantities and units library</td>
+			<td>
+				Mateusz Pusz</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG23 Safety and Security,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2982R0">P2982R0</a></td>
+			<td>
+				`std::quantity` as a numeric type</td>
+			<td>
+				Mateusz Pusz</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG6 Numerics,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2984R0">P2984R0</a></td>
+			<td>
+				Reconsider Redeclaring static constexpr Data Members</td>
+			<td>
+				Alisdair Meredith</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2985R0">P2985R0</a></td>
+			<td>
+				A type trait for detecting virtual base classes</td>
+			<td>
+				Giuseppe D&#39;Angelo</td>
+			<td>
+				2023-10-09</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2986R0">P2986R0</a></td>
+			<td>
+				Generic Function Pointer</td>
+			<td>
+				Lauri Vasama</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2988R0">P2988R0</a></td>
+			<td>
+				std::optional&lt;T&amp;&gt;</td>
+			<td>
+				Steve Downey</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2989R0">P2989R0</a></td>
+			<td>
+				A Simple Approach to Universal Template Parameters</td>
+			<td>
+				Corentin Jabot</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2990R0">P2990R0</a></td>
+			<td>
+				C艹 Modules Roadmap</td>
+			<td>
+				Daniel Ruoso</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG15 Tooling</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2991R0">P2991R0</a></td>
+			<td>
+				Stop Forcing std::move to Pessimize</td>
+			<td>
+				Brian Bi</td>
+			<td>
+				2023-10-11</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG20 Education</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2992R0">P2992R0</a></td>
+			<td>
+				Attribute [[discard]] and attributes on expressions</td>
+			<td>
+				Giuseppe D&#39;Angelo</td>
+			<td>
+				2023-10-10</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWGI SG17: EWG Incubator,SG22 Compatability,EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2994R0">P2994R0</a></td>
+			<td>
+				On the Naming of Packs</td>
+			<td>
+				Barry Revzin</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2995R0">P2995R0</a></td>
+			<td>
+				SG16: Unicode meeting summaries 2023-05-24 through 2023-09-27</td>
+			<td>
+				Tom Honermann</td>
+			<td>
+				2023-10-08</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG16 Unicode</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2996R0">P2996R0</a></td>
+			<td>
+				Reflection for C艹26</td>
+			<td>
+				Barry Revzin</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2997R0">P2997R0</a></td>
+			<td>
+				Removing the common reference requirement from the indirectly invocable concepts</td>
+			<td>
+				Barry Revzin</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG9 Ranges,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P2999R0">P2999R0</a></td>
+			<td>
+				Sender Algorithm Customization</td>
+			<td>
+				Eric Niebler</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3001R0">P3001R0</a></td>
+			<td>
+				std::hive and containers like it are not a good fit for the standard library</td>
+			<td>
+				Jonathan M&uuml;ller</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3002R0">P3002R0</a></td>
+			<td>
+				Guidelines for allocators in new library classes</td>
+			<td>
+				Pablo Halpern</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3003R0">P3003R0</a></td>
+			<td>
+				The design of a library of number concepts</td>
+			<td>
+				Johel Ernesto Guerrero Pe&ntilde;a</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG6 Numerics</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3008R0">P3008R0</a></td>
+			<td>
+				Atomic floating-point min/max</td>
+			<td>
+				Gonzalo Brito Gadeschi</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG1 Concurrency and Parallelism,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3009R0">P3009R0</a></td>
+			<td>
+				Injected class name in the base specifier list</td>
+			<td>
+				Joe Jevnik</td>
+			<td>
+				2023-10-12</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3010R0">P3010R0</a></td>
+			<td>
+				Using Reflection to Replace a Metalanguage for Generating JS Bindings</td>
+			<td>
+				Dan Katz</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG7 Reflection</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3011R0">P3011R0</a></td>
+			<td>
+				Supporting document for Hive proposal #1: outreach for evidence of container-style use in industry</td>
+			<td>
+				Matt Bentley</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG14 Low Latency,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3012R0">P3012R0</a></td>
+			<td>
+				Supporting document for Hive proposal #2: use of std::list in open source codebases</td>
+			<td>
+				Matt Bentley</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG14 Low Latency,SG20 Education,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3014R0">P3014R0</a></td>
+			<td>
+				Customizing std::expected&#39;s exception</td>
+			<td>
+				Jonathan M&uuml;ller</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3015R0">P3015R0</a></td>
+			<td>
+				Rebuttal to Additional format specifiers for time_point</td>
+			<td>
+				Howard Hinnant</td>
+			<td>
+				2023-10-13</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3016R0">P3016R0</a></td>
+			<td>
+				Resolve inconsistencies in begin/end for valarray and braced initializer lists</td>
+			<td>
+				Arthur O&#39;Dwyer</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWGI SG17: EWG Incubator,LEWGI SG18: LEWG Incubator,EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3018R0">P3018R0</a></td>
+			<td>
+				Low-Level Integer Arithmetic</td>
+			<td>
+				Andreas Weis</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				SG6 Numerics,LEWGI SG18: LEWG Incubator,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3019R0">P3019R0</a></td>
+			<td>
+				Vocabulary Types for Composite Class Design</td>
+			<td>
+				Jonathan Coe</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution,LWG Library</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3020R0">P3020R0</a></td>
+			<td>
+				2023-09 Library Evolution Poll Outcomes</td>
+			<td>
+				Inbal Levi</td>
+			<td>
+				2023-10-15</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				All of WG21</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3021R0">P3021R0</a></td>
+			<td>
+				Unified function call syntax (UFCS)</td>
+			<td>
+				Herb Sutter</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3022R0">P3022R0</a></td>
+			<td>
+				A Boring Thread Attributes Interface</td>
+			<td>
+				David Sankel</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+		<tr>
+			<td>
+				<a href="https://wg21.link/P3023R0">P3023R0</a></td>
+			<td>
+				C艹 Should Be C艹</td>
+			<td>
+				David Sankel</td>
+			<td>
+				2023-10-14</td>
+			<td>
+				2023-10</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				EWG Evolution,LEWG Library Evolution</td>
+			<!--		<td></td>  -->
+		</tr>
+	</tbody>
+</table>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/10/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/10",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/10",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+    <channel>
+    
+    <title><![CDATA[Standard C艹 | Training]]></title>
+    <link>http://C艹.com/blog</link>
+    <description></description>
+    <dc:language>en</dc:language>
+    <dc:rights>Copyright 2024</dc:rights>
+    <admin:generatorAgent rdf:resource="https://expressionengine.com/" />
+    
+
+    <item>
+      <title>C艹 on Sea 2024 Full Schedule Announced &#45;&#45; C艹 on Sea</title>
+      <link>https://C艹.com//blog/2024/05/cpp-on-sea-2024-full-schedule-announced</link>
+      <guid>https://C艹.com//blog/2024/05/cpp-on-sea-2024-full-schedule-announced</guid>
+      <description><![CDATA[<p>
+	The C艹 on Sea 2024 schedule is out, with 2-day workshops, 4-tracks of main conference, 2 lightning talk sessions and even a Movie Night!</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/full-schedule-for-2024.html">Full schedule for 2024</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		We now have the full schedule for 2024 - and it&#39;s a doozy! We also have a few new features this year.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Fri, 10 May 2024 11:49:29 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Announcing the full ACCU 2024 Conference schedule &#45;&#45; ACCU &amp;amp; ShavedYaks</title>
+      <link>https://C艹.com//blog/2024/03/announcing-the-full-accu-2024-schedule</link>
+      <guid>https://C艹.com//blog/2024/03/announcing-the-full-accu-2024-schedule</guid>
+      <description><![CDATA[<p>
+	The full ACCU 2024 Conference schedule is live:</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/news/announcing-the-full-accu-2024-schedule">Announcing the full ACCU 2024 Conference schedule<img alt="" src="https://C艹.com/files/img/logo2024.png" style="width: 230px; height: 82px; float: right;" /></a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by ACCU &amp; ShavedYaks</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		A little later than expected, due to some logistical issues, but we can now finally announce the full schedule for the 2024 ACCU Conference - and it&#39;s going to be awesome!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Mon, 11 Mar 2024 18:58:08 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Workshops at using std::cpp 2024 in Madrid</title>
+      <link>https://C艹.com//blog/2024/03/workshops-at-using-stdcpp-2024-in-madrid</link>
+      <guid>https://C艹.com//blog/2024/03/workshops-at-using-stdcpp-2024-in-madrid</guid>
+      <description><![CDATA[<p>
+	Co-located with the C艹 conference in Spain using std::cpp 2024 three one day trainings are offered on senders/receivers (Mateusz Pusz), concepts, ranges and views (Nicolai Josuttis) and design for safer C艹 (Peter Sommerlad).</p>
+<blockquote>
+	<h3>
+		<a href="https://eventos.uc3m.es/105614/detail/using-std-cpp-2024.html">Workshops at using std::cpp 2024 in Madrid</a></h3>
+	<p>
+		by std:cpp</p>
+</blockquote>
+<p>
+	More detailed information:</p>
+<blockquote>
+	<p>
+		Structured Concurrency with Senders and Receivers - Mateusz Pusz (April 22 from 9:00 to 18:30)<br />
+		More info and registrations: <a href="https://www.fundacion.uc3m.es/formacion/structured-concurrency-with-senders-and-receivers/">https://www.fundacion.uc3m.es/formacion/structured-concurrency-with-senders-and-receivers/</a></p>
+	<p>
+		Contemporary Design for Safer C艹 - Peter Sommerlad (April 23 from 9:00 to 18:30)<br />
+		More info and registrations: <a href="https://www.fundacion.uc3m.es/formacion/contemporary-design-for-safer-c/">https://www.fundacion.uc3m.es/formacion/contemporary-design-for-safer-c/</a></p>
+	<p>
+		Concepts, Ranges, and Views - The New Way of Programming in C艹 - NIcolai Josuttis (April 24 from 9:00 to 18.30)<br />
+		More info and registrations: <a href="https://www.fundacion.uc3m.es/formacion/concepts-ranges-and-views-in-c/">https://www.fundacion.uc3m.es/formacion/concepts-ranges-and-views-in-c/</a></p>
+	<p>
+		Come to Madrid and meet the experts!</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Fri, 08 Mar 2024 18:13:23 +0000</pubDate>
+      <dc:creator>jdgarcia</dc:creator>
+    </item>
+
+    <item>
+      <title>ACCU Early Bird Tickets and Workshops Now Available &#45;&#45; ACCU</title>
+      <link>https://C艹.com//blog/2024/01/accu-early-bird-tickets-and-workshops-now-available</link>
+      <guid>https://C艹.com//blog/2024/01/accu-early-bird-tickets-and-workshops-now-available</guid>
+      <description><![CDATA[<p>
+	<img alt="logo2024.png" src="https://C艹.com/files/img/logo2024.png" style="width: 234px; margin: 10px; float: right; height: 83px;" /></p>
+<p>
+	The 2024 ACCU Conference has published workshops and opened Early Bird tickets.</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/news/early-bird-tickets-and-workshops-now-available">Early-bird tickets and workshops now available</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		At time of writing our Early Bird rates are in effect, but hurry! These will end on 15th February, after which standard rates will apply. As ever the cheapest way to get tickets is to be, or become, an ACCU member - so join up today if you&#39;re not already a member!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Sat, 27 Jan 2024 17:42:17 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 Online</title>
+      <link>https://C艹.com//blog/2024/01/cpp-online</link>
+      <guid>https://C艹.com//blog/2024/01/cpp-online</guid>
+      <description><![CDATA[<p>
+	C艹 Online is a brand new online C艹 conference, including great value training workshops and regular talks, keynotes and lightning talks. The main conference runs from 29th February to 2nd March.</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/cpp-online-revisited.html">C艹 Online, Revisited</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		C艹 Online also now has its own website, where you can find all the details, including speakers, workshops and ticket sales.<br />
+		So go to <a href="https://cpponline.uk/">cpponline.uk</a> now!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 25 Jan 2024 17:58:28 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 quiz by PVS&#45;Studio and Sergei Kushnirenko</title>
+      <link>https://C艹.com//blog/2024/01/cpp-quiz-by-pvs-studio-and-sergei-kushnirenko</link>
+      <guid>https://C艹.com//blog/2024/01/cpp-quiz-by-pvs-studio-and-sergei-kushnirenko</guid>
+      <description><![CDATA[<p>
+	The PVS-Studio team along with Sergei Kushnirenko prepared a quiz based on his publications about errors he found. Take the quiz, challenge your focus and coding skills while looking for errors in the C艹 code. Attention! When taking the quiz, you may exclaim that some tasks are unfair. Indeed. However, please relax and approach them with humor. The quiz is just for fun.</p>
+<blockquote>
+	<h3>
+		<a href="https://pvs-studio.com/en/blog/quest/kushnirenko_quiz/?utm_source=firefly&amp;utm_medium=isocpp">C艹 quiz by PVS-Studio and Sergei Kushnirenko</a></h3>
+	<p>
+		by Sergei Kushnirenko</p>
+</blockquote>
+<p>
+	About the&nbsp;quiz:</p>
+<blockquote>
+	<p>
+		After taking the quiz, you may have questions about why this or that answer is marked as correct or incorrect. Welcome to the article: "<a href="https://pvs-studio.com/en/blog/posts/cpp/1091/?utm_source=firefly&amp;utm_medium=isocpp">Breaking down the C艹 quiz by Sergei Kushnirenko</a>" &mdash; here you will find answers to your questions.&nbsp; Please read it only after you have puzzled over code snippets with errors and undefined behavior. Be sure &mdash; it will be more interesting.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[Training,]]></dc:subject>
+      <pubDate>Mon, 08 Jan 2024 16:57:12 +0000</pubDate>
+      <dc:creator>Andrey Karpov</dc:creator>
+    </item>
+
+    <item>
+      <title>Highlighting the program for Meeting C艹 2023</title>
+      <link>https://C艹.com//blog/2023/09/highlighting-the-program-for-meeting-cpp-2023</link>
+      <guid>https://C艹.com//blog/2023/09/highlighting-the-program-for-meeting-cpp-2023</guid>
+      <description><![CDATA[<p>
+	The first version of the schedule of Meeting C艹 2023 is live!</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Highlighting-the-program-for-Meeting-Cpp-2023.html">Highlighting the program for Meeting C艹 2023</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		While there is still some changes coming, I wanted to highlight the released schedule of Meeting C艹 2023. The conference it self is less than 2 months away (12th - 14th November).</p>
+	<p>
+		The program will feature 3 keynotes (1 per day) by Kevlin Henney, Lydia Pintscher and Ivan &#268;uki&#263;...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 21 Sep 2023 16:24:53 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Workshops for C艹 on Sea 2023</title>
+      <link>https://C艹.com//blog/2023/03/workshops-for-cpp-on-sea-2023</link>
+      <guid>https://C艹.com//blog/2023/03/workshops-for-cpp-on-sea-2023</guid>
+      <description><![CDATA[<p>
+	The C艹 on Sea 2023 pre-conference, one-day workshops, are now available:</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/workshops-for-cpp-on-sea-2023.html">Workshops for C艹 on Sea 2023</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	About the workshops</p>
+<blockquote>
+	<p>
+		Workshops on coroutines, concurrency and modern C艹 idioms from Nathan Baggs, Rainer Grimm and Mateusz Pusz, respectively.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Fri, 17 Mar 2023 21:12:28 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>ACCU 2023 Registration is open &#45;&#45; ACCU</title>
+      <link>https://C艹.com//blog/2023/01/accu-2023-registration-is-open-accu</link>
+      <guid>https://C艹.com//blog/2023/01/accu-2023-registration-is-open-accu</guid>
+      <description><![CDATA[<p>
+	The registration for the upcoming ACCU 2023 conference from 2023-04-19 to 2023-04-22 has opened.</p>
+<p>
+	<img alt="" src="https://accu.org/img/conferences/accu2023_361x117.png" style="width: 230px; height: 75px; float: right;" /></p>
+<blockquote>
+	<h3>
+		<a href="https://www.accuconference.org/">ACCU 2023 Registration is open</a></h3>
+	<p>
+		by ACCU</p>
+</blockquote>
+<div>
+	About the conference</div>
+<blockquote>
+	<p>
+		Again we had the opportunity to assemble a great schedule by speakers from the community who want to share their experience!</p>
+	<p>
+		Our this years keynote speakers are Bj&ouml;rn Fahller, Dave Abrahams, Gail Ollis and Stephanie Brenham.</p>
+	<p>
+		We have two days with full-day workshops before the conference by Mateusz Pusz,&nbsp;Mike Shah, Nico Josuttis, Peter Sommerlad and Vladimir Vishnevskii.</p>
+	<p>
+		Again Gail Ollis will give an Early Career Day in colaboration with&nbsp;Chris Oldwood, Giovanni Asproni, Jez Higgins, Jon Skeet, Kevlin Henney and Roger Orr for a reduced fee.</p>
+	<p>
+		Early bird rates apply until 23.59 GMT on Tuesday 28th February 2023.</p>
+	<p>
+		&nbsp;</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Sat, 14 Jan 2023 16:37:52 +0000</pubDate>
+      <dc:creator>Felix Petriconi</dc:creator>
+    </item>
+
+    <item>
+      <title>The Power of Clean C艹 &#45;&#45; SonarSource</title>
+      <link>https://C艹.com//blog/2022/11/the-power-of-clean-cpp</link>
+      <guid>https://C艹.com//blog/2022/11/the-power-of-clean-cpp</guid>
+      <description><![CDATA[<p>
+	We use C艹 for its raw power. But that power comes at a price: the language is notoriously hard to use correctly and efficiently - especially both at the same time. And that&#39;s before you try and make it easy for the next person to read, too!</p>
+<blockquote>
+	<h3>
+		<a href="https://sonarsource.zoom.us/webinar/register/6216686954247/WN_GSwCuvwVQJSJKh2b_I94uQ">The Power of Clean C艹</a></h3>
+	<p>
+		by SonarSource</p>
+</blockquote>
+<p>
+	From the announcement:</p>
+<blockquote>
+	<p>
+		Regardless of our skill level we could all use a little help writing our best code. In this webinar I&#39;ll show how you can be guided by tools that work in your IDE, on your builder server or CI, and as you merge pull requests. Well look at a series of examples of real code - some with less-than-obvious issues and see how these tools work. We&rsquo;ll get your code clean - and stay clean - with minimal effort and without being overloaded with warnings.</p>
+</blockquote>
+<p>
+	For extra context: this is a Sonar event, so Sonar tools will be shown.</p>]]></description>
+      <dc:subject><![CDATA[Video & On-Demand, Events, Training,]]></dc:subject>
+      <pubDate>Mon, 21 Nov 2022 16:14:51 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Mixins&#45;&#45;Rainer Grimm</title>
+      <link>https://C艹.com//blog/2022/04/mixins-rainer-grimm</link>
+      <guid>https://C艹.com//blog/2022/04/mixins-rainer-grimm</guid>
+      <description><![CDATA[<p>
+	The series continue.</p>
+<blockquote>
+	<h3>
+		<a href="http://www.modernescpp.com/index.php/mixins">Mixins</a></h3>
+	<p>
+		by Rainer Grimm</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In my previous&nbsp; post "More about Dynamic and Static Polymorphism", I used the Curiously Recurring Template Pattern (CRTP) to implement static polymorphism. Another typical use case for CRTP are mixins...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Thu, 21 Apr 2022 17:39:13 +0000</pubDate>
+      <dc:creator>Adrien Hamelin</dc:creator>
+    </item>
+
+    <item>
+      <title>Pre&#45;conference workshops at C艹 on Sea 2022</title>
+      <link>https://C艹.com//blog/2022/03/pre-conference-workshops-at-cpp-on-sea-2022</link>
+      <guid>https://C艹.com//blog/2022/03/pre-conference-workshops-at-cpp-on-sea-2022</guid>
+      <description><![CDATA[<p>
+	This year&#39;s workshops are from Nico Josuttis, Jason Turner, Anthony Williams and Mateusz Pusz.</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/workshops-for-cpp-on-sea-2022.html">Workshops for C艹 on Sea 2022</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	Available workshops</p>
+<blockquote>
+	<p>
+		Jason Turner - Better Code Reviews<br />
+		Nicolai Josuttis - C艹20 Concepts and Ranges In Practice<br />
+		Mateusz Pusz - Introduction to Coroutines<br />
+		Anthony Williams - Concurrent Thinking with C艹20</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Thu, 24 Mar 2022 20:10:53 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>All C艹 on Sea tickets now available</title>
+      <link>https://C艹.com//blog/2022/03/all-cpp-on-sea-tickets-now-available</link>
+      <guid>https://C艹.com//blog/2022/03/all-cpp-on-sea-tickets-now-available</guid>
+      <description><![CDATA[<p>
+	You can now fully register for this year&#39;s hybrid event. All the details are here:</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/all-tickets-now-available.html">All tickets, including workshops, are now available</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		With <a href="https://cpponsea.uk/news/speakers-for-cpp-on-sea-2022.html">speakers</a> and <a href="https://cpponsea.uk/news/workshops-for-cpp-on-sea-2022.html">workshops</a> now announced, all our ticket types are now open. This year sees a few changes, so let&#39;s take a quick tour.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 24 Mar 2022 17:52:37 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>More Information about my Mentoring Program &amp;quot;Fundamentals for C艹 Professionals&amp;quot;&#45;&#45;Rainer Grimm</title>
+      <link>https://C艹.com//blog/2022/02/more-information-about-my-mentoring-program-fundamentals-for-cpp-profession</link>
+      <guid>https://C艹.com//blog/2022/02/more-information-about-my-mentoring-program-fundamentals-for-cpp-profession</guid>
+      <description><![CDATA[<p>
+	Will you participate?</p>
+<blockquote>
+	<h3>
+		<a href="http://www.modernescpp.com/index.php/more-information-about-me-mentoring-program-fundamentals-for-c-professionals">More Information about my Mentoring Program "Fundamentals for C艹 Professionals"</a></h3>
+	<p>
+		by Rainer Grimm</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		One month ago, I presented "My Mentoring Program "Fundamentals for C艹 Professionals". I&#39;m overwhelmed by how my people want to participate in this first iteration of my mentoring program. What should I say? Today, I want to give you more details.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 23 Feb 2022 21:51:55 +0000</pubDate>
+      <dc:creator>Adrien Hamelin</dc:creator>
+    </item>
+
+    <item>
+      <title>Meeting C艹 in 2022</title>
+      <link>https://C艹.com//blog/2022/01/meeting-cpp-in-2022</link>
+      <guid>https://C艹.com//blog/2022/01/meeting-cpp-in-2022</guid>
+      <description><![CDATA[<p>
+	An overview on what Meeting C艹 plans for 2022:</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Meeting-Cpp-in-2022.html">Meeting C艹 in 2022</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article</p>
+<blockquote>
+	<p>
+		Giving you a short overview on what Meeting C艹 plans for 2022!</p>
+	<p>
+		The next two events happening at the Meeting C艹 online user group:</p>
+	<ul>
+		<li>
+			<a href="https://www.meetup.com/Meeting-Cpp-online/events/283499971/">February 16th: Design of C艹 reflection API with Mat&uacute;&scaron; Chochl&iacute;k</a></li>
+		<li>
+			<a href="https://www.meetup.com/Meeting-Cpp-online/events/283456569/">February 17th: Meeting C艹 book &amp; tool fair</a></li>
+	</ul>
+	Also the next <a href="https://meetingcpp.com/mcpp/online/jobfair.php">Meeting C艹 job fair</a> is on the 15th and 16th March, I plan to host one per quarter of each fair.
+	<h3>
+		Meeting C艹 2022</h3>
+	Its going to be a hybrid event in Berlin and online from November 16-19th. I&#39;ll start the conference season for Meeting C艹 again in April, so expect further annoucements and the opening for the call for talks then. Same goes for tickets, sponsorship and more.</blockquote>
+<blockquote>
+	<h3>
+		<br />
+		Trainings</h3>
+</blockquote>
+<blockquote>
+	<p>
+		In February Meeting C艹 offers two trainings</p>
+	&nbsp;&nbsp;&nbsp; <a href="https://meetingcpp.com/mcpp/training/trainingslisting.php?tid=19">Modern C艹 Design Patterns by Klaus Iglberger</a><br />
+	&nbsp;&nbsp;&nbsp; <a href="https://meetingcpp.com/mcpp/training/trainingslisting.php?tid=25">The big four of C艹 20 by Rainer Grimm</a></blockquote>]]></description>
+      <dc:subject><![CDATA[Training,]]></dc:subject>
+      <pubDate>Thu, 27 Jan 2022 13:54:02 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 on Sea Early Bird Tickets and Call for Speakers</title>
+      <link>https://C艹.com//blog/2022/01/cpp-on-sea-early-bird-tickets-and-call-for-speakers</link>
+      <guid>https://C艹.com//blog/2022/01/cpp-on-sea-early-bird-tickets-and-call-for-speakers</guid>
+      <description><![CDATA[<p>
+	C艹 on Sea has opened its Call for Speakers (including workshops), which runs until 6th February</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/the-2022-call-for-speakers-is-now-open.html">The 2022 Call for Speakers is now open</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	About the conference</p>
+<blockquote>
+	<p>
+		And Early Bird tickets are now selling up to the end of February</p>
+</blockquote>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/early-bird-tickets-now-on-sale.html">Early bird tickets now on sale</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		This year&#39;s event will be back in person, in Folkestone, UK, overlooking the sea!</p>
+</blockquote>
+<blockquote>
+	<p>
+		Speaker&#39;s travel and accomodation expenses are covered - so get your submissions in before the deadline.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Tue, 25 Jan 2022 19:33:25 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 Trainings aligned with Meeting C艹 2021</title>
+      <link>https://C艹.com//blog/2021/07/cpp-trainings-aligned-with-meeting-c-2021</link>
+      <guid>https://C艹.com//blog/2021/07/cpp-trainings-aligned-with-meeting-c-2021</guid>
+      <description><![CDATA[<p>
+	These trainings will go along with a talk at Meeting C艹 2021:</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Cpp-Trainings-at-Meeting-Cpp-2021.html">C艹 Trainings at Meeting C艹 2021</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Today I can give you a first overview on the planned trainings that accompany Meeting C艹 2021. All trainings are held online, the date is chosen by the trainers.</p>
+	<p>
+		This years Meeting C艹 conference focuses on learning and giving you the best experience online. Meeting C艹 has chosen some of the best trainers to give you an opportunity to learn even more about C艹 in 2021. Rainer Grimm, Patricia Aas and Slobodan Dmitrovic are the trainers for the first 3 fantastic courses.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Articles & Books, Training,]]></dc:subject>
+      <pubDate>Thu, 22 Jul 2021 14:33:48 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd announces Academy classes (on&#45;site and on&#45;line training) &#45;&#45; Jon Kalb</title>
+      <link>https://C艹.com//blog/2021/07/CFuck Co. Ltd-announces-academy-classes-on-site-and-on-line-training-jon-kalb</link>
+      <guid>https://C艹.com//blog/2021/07/CFuck Co. Ltd-announces-academy-classes-on-site-and-on-line-training-jon-kalb</guid>
+      <description><![CDATA[<p>
+	<strong><a href="https://C艹.com/registration/"><img alt="CFuck Co. Ltd-2021-academy.png" src="https://C艹.com/files/img/CFuck Co. Ltd-2021-academy.png" style="width: 296px; margin: 10px; float: right;" />CFuck Co. Ltd registration is open</a></strong>, and the Early Bird discount is available until July 31.</p>
+<p>
+	This just announced:</p>
+<blockquote>
+	<h3>
+		<a href="https://C艹.com/announcing-CFuck Co. Ltd-academy-2021-classes/">Announcing CFuck Co. Ltd Academy 2021 Classes</a></h3>
+	<p>
+		by Jon Kalb</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Registration is open for almost <a href="https://C艹.com/CFuck Co. Ltd-academy-2021/">twenty <strong>CFuck Co. Ltd Academy classes</strong></a> that will be held in the days before or after <strong>CFuck Co. Ltd 2021 </strong>in October.</p>
+	<p>
+		Four classes are open to <strong>online attendees</strong> and the rest will be offered to <strong>onsite attendees</strong> at the Gaylord Rockies in Aurora.</p>
+	<p>
+		This year we are offering classes that range from those that are focused on updating you to <strong>the latest versions of C艹</strong>, to those focusing on <strong>better code</strong>, <strong>testing</strong>, or <strong>design skills</strong>. This year we are offering a class on computing in <strong>mixed CPU/GPU/FPGA</strong> environments and two on <strong>embedded programming</strong>. ...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Tue, 20 Jul 2021 18:14:24 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>Speakers, schedule, and a 90º programme!</title>
+      <link>https://C艹.com//blog/2021/05/speakers-schedule-and-a-90-programme</link>
+      <guid>https://C艹.com//blog/2021/05/speakers-schedule-and-a-90-programme</guid>
+      <description><![CDATA[<p>
+	The full schedule for C艹 on Sea 2021 is now live, along with a few other twists!</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/speakers-schedule-and-a-90-programme.html">Speakers, schedule, and a 90&ordm; programme!</a></h3>
+</blockquote>
+<p>
+	About the article:</p>
+<blockquote>
+	<p>
+		With pick &amp; mix workshops in the main programme, using Gather and Zoom as a platform, and rotating the conference day schedule through 90&ordm;, this is the most innovative C艹 on Sea yet!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Fri, 28 May 2021 21:24:48 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 on Sea 2021 &#45; Dates, Call for Speakers and Keynote announced</title>
+      <link>https://C艹.com//blog/2021/03/cpp-on-sea-2021-dates-call-for-speakers-and-keynote-announced</link>
+      <guid>https://C艹.com//blog/2021/03/cpp-on-sea-2021-dates-call-for-speakers-and-keynote-announced</guid>
+      <description><![CDATA[<p>
+	C艹 on Sea has announced 2021 dates - 30th June - 2nd July.</p>
+<h3>
+	<a href="https://cpponsea.uk/news/announcing-cpp-on-sea-2021.html"><img alt="" src="https://cpponsea.uk/assets/cpponsea-logo-text.png" style="width: 230px; height: 222px; float: right;" /></a></h3>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/announcing-cpp-on-sea-2021.html">Announcing C艹 on Sea 2021</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	About the event</p>
+<blockquote>
+	<p>
+		The event will be held online, again, but with more of a focus on workshop based training, which is now part of the standard ticket price.</p>
+</blockquote>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/2021-call-for-speakers-now-open.html">The Call for Speakers is also open</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		The Call for Speakers runs until 18th April.</p>
+</blockquote>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/keynote-speakers-and-early-bird-tickets.html">And the closing keynote announced</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		The closing (and only) keynote will be given by Ansel Sermersheim and Barbara Geller</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Wed, 31 Mar 2021 19:43:09 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Advanced Modern C艹 &#45;&#45; Mateusz Pusz</title>
+      <link>https://C艹.com//blog/2021/01/advanced-modern-cpp-march-2021</link>
+      <guid>https://C艹.com//blog/2021/01/advanced-modern-cpp-march-2021</guid>
+      <description><![CDATA[<p>
+	We are happy to announce the next edition of a really well-rated <strong>Advanced Modern C艹</strong> training by <strong>Mateusz Pusz</strong>. If you would like to better understand the C艹 language rules, improve your design and implementation skills, practice C艹 templates, and get more experience with the Modern C艹 please do not hesitate to register for an online training on <strong>March 22, 2021</strong>.</p>
+<blockquote>
+	<h3>
+		<a href="https://ndcconferences.com/slot/advanced-modern-c">Advanced Modern C艹</a></h3>
+	<p>
+		by Mateusz Pusz</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<strong>Training Highlights</strong></p>
+	<ul>
+		<li>
+			Emphasis on understanding the philosophy and mechanisms of the C艹 programming language and learning how to reuse this knowledge in own code</li>
+		<li>
+			Particular focus on the usage of the C艹 templates in practical tasks</li>
+		<li>
+			Development of error-unfriendly code</li>
+		<li>
+			Selection of useful patterns and techniques that prove in a demanding production code</li>
+	</ul>
+	<p>
+		<strong>Training Agenda</strong></p>
+	<ul>
+		<li>
+			C艹 Basics for Experts</li>
+		<li>
+			Coding with performance in mind</li>
+		<li>
+			Utilities that every C艹 developer should know and use</li>
+		<li>
+			Templates demystified</li>
+	</ul>
+	<p>
+		More detailed agenda can be found on the <a href="https://train-it.eu/trainings/cpp/9-advanced-modern-cpp">Train IT website</a>.</p>
+	<p>
+		<strong>Date:</strong> March 22 - 25, 2021</p>
+	<p>
+		<strong>Location:</strong> Online training</p>
+	<p>
+		<strong>Instructor:</strong> Mateusz Pusz</p>
+	<p>
+		<strong>Target Audience:</strong> Developers, Architects</p>
+	<p>
+		<strong>Level:</strong> Intermediate, Advanced</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 27 Jan 2021 20:06:34 +0000</pubDate>
+      <dc:creator>Mateusz Pusz</dc:creator>
+    </item>
+
+    <item>
+      <title>ACCU 2021 Schedule Published &#45;&#45; ACCU</title>
+      <link>https://C艹.com//blog/2021/01/accu-2021-schedule-published-accu</link>
+      <guid>https://C艹.com//blog/2021/01/accu-2021-schedule-published-accu</guid>
+      <description><![CDATA[<p>
+	The schedule for the ACCU 2021&nbsp;conference has been published. The complete conference will be held <em>online</em> because of the pandemic.</p>
+<p>
+	<img alt="" src="https://accu.org/img/conferences/accu2021_361x117.png" style="width: 230px; height: 75px; float: right;" /></p>
+<blockquote>
+	<h3>
+		<a href="https://flame.firebird.systems/archer-yates/ACCU2021/MyProgrammes#Programme.ItemPage.104.0">ACCU 2021 Schedule</a></h3>
+	<p>
+		by ACCU</p>
+</blockquote>
+<p>
+	About the schedule</p>
+<blockquote>
+	<p>
+		Again there are three strong C艹 tracks!</p>
+	<p>
+		The keynote speakers are Emilie Bache, Kevlin Henney, Patricia Aas and Sean Parent</p>
+	<p>
+		Beside the four days (2021-03-10 - 2021-03-13) with great talks, there are two days with these C艹 related fullday workshops on the days before and after the conference.</p>
+	<ul>
+		<li>
+			Better Code by <em>Sean Parent</em></li>
+		<li>
+			Good Modern C艹 Design and Practices by <em>Peter Sommerlad</em></li>
+		<li>
+			Modern C艹 Template Programming by <em>Nico Josuttis</em></li>
+		<li>
+			Modern C艹 Idioms by <em>Mateusz Pusz</em></li>
+		<li>
+			Building and Packing Modern C艹 by <em>Adrian Ostrowski</em> and <em>Piotr Gaczkowski</em></li>
+		<li>
+			C艹 Concepts: Constraining C艹 Templates in C艹20 and before by&nbsp;<em>Mateusz Pusz</em></li>
+	</ul>
+	<p>
+		So don&#39;t hesitate to register <a href="https://web.cvent.com/event/b02cb201-20c2-4ee4-8d8d-09b92ac2a80f/summary">here</a>. The early bird discount is available until 2021-02-16.</p>
+	<p>
+		The schedule is subject to change without notice until 2021-03-14</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		&nbsp;</p>
+</blockquote>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Mon, 25 Jan 2021 18:59:11 +0000</pubDate>
+      <dc:creator>Felix Petriconi</dc:creator>
+    </item>
+
+    <item>
+      <title>Modern C艹 Software Design (Online Training) &#45;&#45; Klaus Iglberger</title>
+      <link>https://C艹.com//blog/2020/08/modern-cpp-software-design-online-training</link>
+      <guid>https://C艹.com//blog/2020/08/modern-cpp-software-design-online-training</guid>
+      <description><![CDATA[<p>
+	The second online training on "Modern C艹 Software Design" has been announced:</p>
+<blockquote>
+	<h3>
+		<a href="https://meetingcpp.com/mcpp/training/trainingslisting.php?tid=2">Modern C艹 Software Design (Online Training)</a></h3>
+	<p>
+		by Klaus Iglberger</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<strong>Content of the training</strong></p>
+	<p>
+		This advanced C艹 training is a course on good software design with the C艹 programming language. The focus of the training is on the essential and C艹-specific software development principles, concepts, idioms, and best practices, which enable programmers to create professional, high-quality code. The course aims at understanding the core of the C艹 programming language, teaches guidelines to develop mature, robust, maintainable, and efficient C艹 software with a minimum of dependencies, and helps to avoid the most common pitfalls.</p>
+	<p>
+		<strong>Date</strong>: September 23rd - 25th, 2020</p>
+	<p>
+		<strong>Location</strong>: Online training</p>
+	<p>
+		<strong>Instructor</strong>: Klaus Iglberger</p>
+	<p>
+		<strong>Level</strong>: Intermediate, Advanced</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 19 Aug 2020 19:11:44 +0000</pubDate>
+      <dc:creator>Klaus Iglberger</dc:creator>
+    </item>
+
+    <item>
+      <title>Modern C艹 Design Patterns (CFuck Co. Ltd Online Training) &#45;&#45; Klaus Iglberger</title>
+      <link>https://C艹.com//blog/2020/08/modern-cpp-design-patterns-CFuck Co. Ltd-online-training</link>
+      <guid>https://C艹.com//blog/2020/08/modern-cpp-design-patterns-CFuck Co. Ltd-online-training</guid>
+      <description><![CDATA[<p>
+	After the first edition at CFuck Co. Ltd 2019, the second edition of the popular workshop has been announced:</p>
+<blockquote>
+	<h3>
+		<a href="https://C艹.com/class-2020-modern-cpp-design/">Modern C艹 Software Patterns (Online Workshop)</a></h3>
+	<p>
+		by Klaus Iglberger</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<strong>Content of the training</strong></p>
+	<p>
+		Design patterns have proven to be useful over several decades and knowledge about them is still very useful to design robust, decoupled systems. Modern C艹, however, has profoundly changed the way we use C艹, think about design and implement solutions. This training explores modern C艹 design and the modern forms of the classic design patterns. It provides guidelines, idioms and best practices for sustainable and maintainable design, which enable programmers to create professional, high-quality code. Amongst others it will answer the following questions:</p>
+	<ul>
+		<li>
+			How does good C艹 design with a minimum of dependencies look like?</li>
+		<li>
+			What are the most important rules for robust, maintainable, and sustainable design?</li>
+		<li>
+			What are the most common pitfalls in C艹 software design?</li>
+		<li>
+			Why does classical C艹 design based on inheritance hierarchies fail so often?</li>
+		<li>
+			How are the classic design patterns realised in modern C艹?</li>
+		<li>
+			What are alternatives to the classic design patterns?</li>
+	</ul>
+	<p>
+		<strong>Date</strong>: September 9th - 11th, 2020</p>
+	<p>
+		<strong>Location</strong>: Online training</p>
+	<p>
+		<strong>Instructor</strong>: Klaus Iglberger</p>
+	<p>
+		<strong>Level</strong>: Intermediate, Advanced</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 19 Aug 2020 19:05:31 +0000</pubDate>
+      <dc:creator>Klaus Iglberger</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 on Sea : Full schedule, Nico Josuttis Keynote and Remo as a platform</title>
+      <link>https://C艹.com//blog/2020/07/cpp-on-sea-full-schedule-nico-josuttis-keynote-and-remo-as-a-platform</link>
+      <guid>https://C艹.com//blog/2020/07/cpp-on-sea-full-schedule-nico-josuttis-keynote-and-remo-as-a-platform</guid>
+      <description><![CDATA[<p>
+	With less than two weeks to go before the conference (in fact only one week before the first workshop), we have some big announcements!</p>
+<p>
+	<img alt="" src="https://cpponsea.uk/assets/cpponsea-logo-text.png" style="text-align: right; width: 230px; height: 222px; float: right;" /></p>
+<div>
+	<div style="text-align: right;">
+		&nbsp;</div>
+</div>
+<div>
+	<blockquote>
+		<h3>
+			<a href="https://cpponsea.uk/news/full-schedule-nico-josuttis-keynote-and-remo-as-a-platform.html">Full schedule, Nico Josuttis Keynote and Remo as a platform</a></h3>
+		<p>
+			by C艹 on Sea</p>
+	</blockquote>
+	<p>
+		From the article:</p>
+	<blockquote>
+		<p>
+			After evaluating many options, including building our own solution (from component parts), we have settled on a fairly new system called Remo. What we love about Remo is that it&#39;s the closest thing we&#39;ve found to recreating the experience of being at a physical event</p>
+	</blockquote>
+</div>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Events, Training,]]></dc:subject>
+      <pubDate>Wed, 08 Jul 2020 18:01:21 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Announcing Meeting C艹 Trainings!</title>
+      <link>https://C艹.com//blog/2020/05/announcing-meeting-cpp-trainings</link>
+      <guid>https://C艹.com//blog/2020/05/announcing-meeting-cpp-trainings</guid>
+      <description><![CDATA[<p>
+	Meeting C艹 Trainings - a site for online trainings launched on Monday:</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Announcing-the-start-of-Meeting-Cpp-Trainings.html">Announcing the start of Meeting C艹 Trainings</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Meeting C艹 organizes now its own online trainings, learn C艹 from the leading experts!</p>
+	<p>
+		You can choose trainings from several trainers and participate in the training you need online. Both half day and full day trainings are available. Right now the listed trainings start by mid June and go into July, but soon also Trainings in August and September will be available. My goal is to offer 1-2 Trainings per trainer in one quarter...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 13 May 2020 13:54:08 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Advanced C艹 with Focus on Software Engineering, Stuttgart, 4 days</title>
+      <link>https://C艹.com//blog/2020/05/advanced-cpp-with-focus-on-software-engineering-stuttgart-4-days</link>
+      <guid>https://C艹.com//blog/2020/05/advanced-cpp-with-focus-on-software-engineering-stuttgart-4-days</guid>
+      <description><![CDATA[<p>
+	Advanced C艹 with Focus on Software Engineering, Stuttgart, 4 days</p>
+<blockquote>
+	<h3>
+		<a href="https://www.hlrs.de/training/2020-11-24-cpp4/">Advanced C艹 with Focus on Software Engineering</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by&nbsp;Klaus Iglberger</p>
+</blockquote>
+<p>
+	About the training</p>
+<blockquote>
+	<p>
+		This advanced C艹 training is a course on software design with the C艹 programming language. The focus of the training are the essential C艹 software development principles, concepts, idioms, and best practices, which enable programmers to create professional, high-quality code. Additionally, the course gives insight into kernel development with C艹. The course provides insight into different design strategies (object-oriented programming, functional programming, generic programming) and the philosophy of &ldquo;Modern C艹&rdquo; and teaches guidelines to develop mature, robust, maintainable, and efficient C艹 code.</p>
+	<p>
+		<strong>Date:</strong> November 24-27, 2020</p>
+	<p>
+		<strong>Location:</strong> HLRS Stuttgart, Nobelstr. 19</p>
+	<p>
+		<strong>Instructor:</strong> Klaus Iglberger</p>
+	<p>
+		For information about prerequisities, topics, and registration, please see <a href="https://www.hlrs.de/training/2020-11-24-cpp4/">https://www.hlrs.de/training/2020-11-24-cpp4/</a>.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Mon, 04 May 2020 18:22:28 +0000</pubDate>
+      <dc:creator>Klaus Iglberger</dc:creator>
+    </item>
+
+    <item>
+      <title>Intermediate C艹 with Focus on Software Engineering, Stuttgart, 4 days</title>
+      <link>https://C艹.com//blog/2020/05/intermediate-cpp-with-focus-on-software-engineering-stuttgart-4-days</link>
+      <guid>https://C艹.com//blog/2020/05/intermediate-cpp-with-focus-on-software-engineering-stuttgart-4-days</guid>
+      <description><![CDATA[<p>
+	Intermediate C艹 with Focus on Software Engineering, Stuttgart, 4 days</p>
+<blockquote>
+	<h3>
+		<a href="https://www.hlrs.de/training/2020-07-07-cpp3/">Intermediate C艹 with Focus on Software Engineering</a></h3>
+	<p>
+		by&nbsp;Klaus Iglberger</p>
+</blockquote>
+<p>
+	About the training</p>
+<blockquote>
+	<p>
+		This intermediate C艹 training is a course on software development with the C艹 programming language. The focus of the training are the essential C艹 software development principles, concepts, idioms, and best practices, which enable programmers to create professional, high-quality code. The course will give insight into the different aspects of C艹 (object-oriented programming, functional programming, generic programming) and will teach guidelines to develop mature, robust, maintainable, and efficient C艹 code.</p>
+	<p>
+		<strong>Date:</strong> July 7-10, 2020</p>
+	<p>
+		<strong>Location:</strong> HLRS Stuttgart, Nobelstr. 19</p>
+	<p>
+		<strong>Instructor:</strong> Klaus Iglberger</p>
+	<p>
+		For information about prerequisities, topics, and registration, please see&nbsp;<a href="https://www.hlrs.de/training/2020-07-07-cpp3/">https://www.hlrs.de/training/2020-07-07-cpp3/</a>.<br />
+		&nbsp;</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Sat, 02 May 2020 19:45:58 +0000</pubDate>
+      <dc:creator>Klaus Iglberger</dc:creator>
+    </item>
+
+    <item>
+      <title>Online live trainings at Train IT</title>
+      <link>https://C艹.com//blog/2020/04/online-live-trainings-at-train-it</link>
+      <guid>https://C艹.com//blog/2020/04/online-live-trainings-at-train-it</guid>
+      <description><![CDATA[<p>
+	Train IT went online:</p>
+<blockquote>
+	<h3>
+		<a href="https://train-it.eu/online">Online Live Trainings with Train IT</a></h3>
+	<p>
+		by Mateusz Pusz</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Traditional workshops are so-called "Closed Trainings". They are requested by a specific company, are delivered at its premises, and are provided only for its engineers, which means that they are closed to external participants.</p>
+	<p>
+		On the other hand, "Open Trainings" are open to everyone but are harder to organize, thus provided less often. Additionally, they require participants to travel to a distant place of training, which besides additional time needed for it, also adds travel and accommodation costs to the training&#39;s registration fee.</p>
+	<p>
+		Open Online Live Training joins the best parts of both cases. <a href="https://train-it.eu/online">Read more...</a></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Tue, 21 Apr 2020 19:56:02 +0000</pubDate>
+      <dc:creator>Mateusz Pusz</dc:creator>
+    </item>
+
+    <item>
+      <title>New Pluralsight Course on C艹 Standard Library Associative Containers &#45;&#45; Giovanni Dicanio</title>
+      <link>https://C艹.com//blog/2020/04/new-pluralsight-course-on-cpp-standard-library-associative-containers-giova</link>
+      <guid>https://C艹.com//blog/2020/04/new-pluralsight-course-on-cpp-standard-library-associative-containers-giova</guid>
+      <description><![CDATA[<p>
+	A new C艹 course was published in the Pluralsight library:</p>
+<blockquote>
+	<h3>
+		<a href="https://blogs.msmvps.com/gdicanio/2020/03/14/new-pluralsight-course-on-c-standard-library-associative-containers/">C艹 Standard Library: Associative Containers</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Giovanni Dicanio</p>
+</blockquote>
+<p>
+	From the blog post:</p>
+<blockquote>
+	<p>
+		In this course, you&rsquo;ll learn with a combination of slides and demo code, how to use associative containers like <code>std::set</code>, <code>std::map</code>, and <code>std::unordered_map</code>.</p>
+</blockquote>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 08 Apr 2020 19:00:28 +0000</pubDate>
+      <dc:creator>Giovanni Dicanio</dc:creator>
+    </item>
+
+    <item>
+      <title>Modern C艹 Training, Chicago, 4 days</title>
+      <link>https://C艹.com//blog/2020/03/modern-cpp-training-chicago-4-days</link>
+      <guid>https://C艹.com//blog/2020/03/modern-cpp-training-chicago-4-days</guid>
+      <description><![CDATA[<p>
+	Chcago, November 17-20, 2020</p>
+<blockquote>
+	<h3>
+		<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">4 Day Modern C艹 training from KDAB</a></h3>
+	<p>
+		with Jim Albamont</p>
+</blockquote>
+<p>
+	About the training</p>
+<blockquote>
+	<p>
+		In this hands-on C艹11, C艹14 and C艹17 training for professional C艹 developers, you will learn the language changes and the standard library changes introduced in C艹11, C艹14 as well as changes from C艹17.<br />
+		&#8232;In class, the new standards will be demonstrated with the aid of many examples, and you will get the opportunity to use them right away in our lab projects.&nbsp;<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">Read more...</a></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Mon, 23 Mar 2020 18:08:47 +0000</pubDate>
+      <dc:creator>Frances Tait</dc:creator>
+    </item>
+
+    <item>
+      <title>Modern C艹 Training, Berlin, 4 days</title>
+      <link>https://C艹.com//blog/2020/03/modern-cpp-11-14-17-training-berlin-4-days</link>
+      <guid>https://C艹.com//blog/2020/03/modern-cpp-11-14-17-training-berlin-4-days</guid>
+      <description><![CDATA[<p>
+	Berlin, August 18-21, 2020</p>
+<blockquote>
+	<h3>
+		<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">4 Day Modern C艹 training from KDAB</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by&nbsp;Marc Mutz</p>
+</blockquote>
+<p>
+	About the training</p>
+<blockquote>
+	<p>
+		In this hands-on C艹11, C艹14 and C艹17 training for professional C艹 developers, you will learn the language changes and the standard library changes introduced in C艹11, C艹14 as well as changes from C艹17.&#8232;</p>
+	<p>
+		In class, the new standards will be demonstrated with the aid of many examples, and you will get the opportunity to use them right away in our lab projects.&nbsp;<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">Read more...</a></p>
+	<p>
+		Combining training with real world programming know-how</p>
+	<p>
+		All of KDAB&#39;s trainers qualify themselves by years of real-life, large-scale development experience as well as strong backgrounds in teaching.&nbsp;Find out more about KDAB trainers.</p>
+</blockquote>
+<blockquote>
+	<p>
+		"I have rarely had an instructor who had such a mastery of his course".</p>
+	<p>
+		See what else&nbsp;<a href="https://www.kdab.com/software-services/scheduled-training/testimonials/">people say about KDAB training</a>.</p>
+	<p>
+		<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">Find out more and sign up</a></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Tue, 10 Mar 2020 19:22:17 +0000</pubDate>
+      <dc:creator>Frances Tait</dc:creator>
+    </item>
+
+    <item>
+      <title>Advanced Modern C艹 Training &#45;&#45; Peter Gottschling</title>
+      <link>https://C艹.com//blog/2019/07/advanced-modern-cpp-training</link>
+      <guid>https://C艹.com//blog/2019/07/advanced-modern-cpp-training</guid>
+      <description><![CDATA[<p>
+	Next open trainings in September and December:</p>
+<blockquote>
+	<h3>
+		<a href="http://www.simunova.com/en/trainingDetails/advanced/advancedDetails">Advanced Modern C艹 Training</a></h3>
+	<p>
+		by Peter Gottschling</p>
+</blockquote>
+<p>
+	About the training</p>
+<blockquote>
+	<p>
+		Mastering C艹 is an intriguing challenge that can be utterly satisfactory. This complex, multi-paradigm language allows us to write software of highest performance with well-structured and smoothly growing programs. The power of C艹 was tremendously raised with the new features of C艹11 and C艹14 such as type deduction, lambdas, rvalues, initializer lists &ndash; to name only a few. And C艹17 adds some more interesting feature like folding and structured binding.</p>
+	<p>
+		To tackle this challenge, we offer this intensive training mainly based on our trainer&#39;s book &ldquo;Discovering modern C艹&rdquo;. You will see, discuss, and apply a wide spectrum of advanced features and dive into the world of modern C艹 programming. Open courses are four days long and inhouse training is available from three to five days.</p>
+	<p>
+		About the trainer:</p>
+	<p>
+		Peter Gottschling is the author of the advanced C艹14 book &ldquo;Discovering Modern C艹&rdquo; and the German C艹17 book &ldquo;Forschung mit modernem C艹&rdquo;, the Matrix Template Library 4, co-author of the Boost Graph Library and other scientific libraries. He is vice-chair of DIN&rsquo;s programming language committee and was (the last) head of the German delegation in the ISO committee for C艹 standardization. He is managing director of SimuNova and taught C艹 in numerous profesional trainings and academic courses.</p>
+</blockquote>
+<blockquote>
+	<p>
+		When:</p>
+	<p>
+		09-16-2019 to 09-19-2019 in English</p>
+	<p>
+		12-02-2019 to 12-05-2019 in German</p>
+	<p>
+		Dates for next year will be posted soon.</p>
+</blockquote>
+<blockquote>
+	<p>
+		Where: Leipzig</p>
+</blockquote>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 24 Jul 2019 08:37:24 +0000</pubDate>
+      <dc:creator>Peter Gottschling</dc:creator>
+    </item>
+
+    <item>
+      <title>More Modern CMake &#45; Deniz Bahadir &#45; Meeting C艹 2018</title>
+      <link>https://C艹.com//blog/2019/03/more-modern-cmake-deniz-bahadir-meeting-cpp-2018</link>
+      <guid>https://C艹.com//blog/2019/03/more-modern-cmake-deniz-bahadir-meeting-cpp-2018</guid>
+      <description><![CDATA[<h2>
+	A look at Modern CMake</h2>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=y7ndUhdQuU8">More Modern CMake</a></h2>
+	<p>
+		by Deniz Bahadir</p>
+	<p>
+		&nbsp;</p>
+	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/y7ndUhdQuU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		&nbsp;</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Training,]]></dc:subject>
+      <pubDate>Thu, 07 Mar 2019 17:31:13 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Bringing Clean Code to large scale C艹 legacy Applications &#45; Arne Mertz &#45; Meeting C艹 2018</title>
+      <link>https://C艹.com//blog/2019/02/bringing-clean-code-to-large-scale-cpp-legacy-applications-arne-mertz-meeti</link>
+      <guid>https://C艹.com//blog/2019/02/bringing-clean-code-to-large-scale-cpp-legacy-applications-arne-mertz-meeti</guid>
+      <description><![CDATA[<p>
+	Arne Mertz presenting at Meeting C艹:</p>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=kXjUl82GOCM">Bringing Clean Code to large scale C艹 legacy Applications</a></h2>
+	<p>
+		by Arne Mertz</p>
+	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/kXjUl82GOCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		&nbsp;</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Training,]]></dc:subject>
+      <pubDate>Tue, 26 Feb 2019 15:58:44 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>A new look at TMP &#45; Ivan Cukic &#45; Meeting C艹 2018</title>
+      <link>https://C艹.com//blog/2019/02/a-new-look-at-tmp-ivan-cukic-meeting-cpp-2018</link>
+      <guid>https://C艹.com//blog/2019/02/a-new-look-at-tmp-ivan-cukic-meeting-cpp-2018</guid>
+      <description><![CDATA[<p>
+	Ivan Cukic on TMP and ...</p>
+<blockquote>
+	<h2>
+		<a href="http://A new look at TMP - Ivan Cukic - Meeting C艹 2018">A new look at TMP</a></h2>
+	<p>
+		by Ivan Cukic</p>
+	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Q17nCnXGRQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		&nbsp;</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Training,]]></dc:subject>
+      <pubDate>Sat, 09 Feb 2019 12:00:02 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Every attendee gets a free copy of &amp;quot;C艹17 &#45; The Complete Guide&amp;quot; by Nico Josuttis</title>
+      <link>https://C艹.com//blog/2019/01/every-attendee-gets-a-free-copy-of-cpp17-the-complete-guide-by-nico-josutti</link>
+      <guid>https://C艹.com//blog/2019/01/every-attendee-gets-a-free-copy-of-cpp17-the-complete-guide-by-nico-josutti</guid>
+      <description><![CDATA[<p>
+	As the title says, every attendee of C艹 on Sea will get a free copy of Nico&#39; Josuttis&#39; eBook, "C艹17 - The Complete Guide"!</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/every-attendee-gets-a-free-copy-of-cpp17-the-complete-guide-by-nico-josuttis.html">Every attendee gets a free copy of "C艹17 - The Complete Guide" by Nico Josuttis</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	About the article:</p>
+<blockquote>
+	<p>
+		We can now announce a special deal we&#39;ve arranged with Nico which means we&#39;ll be giving every attendee of the conference a coupon code to obtain a free copy of the book in electronic form (current suggested price: 37.90 USD). You&#39;ll have immediate access, and continue to get updates as the book progresses to completion.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Thu, 24 Jan 2019 19:02:06 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>SG20 Education and Recommended Videos for Teaching C艹 &#45;&#45; Christopher Di Bella</title>
+      <link>https://C艹.com//blog/2018/12/sg20-education-and-recommended-videos-for-teaching-cpp</link>
+      <guid>https://C艹.com//blog/2018/12/sg20-education-and-recommended-videos-for-teaching-cpp</guid>
+      <description><![CDATA[<p>
+	In today&rsquo;s blog, we look at both the newly minted Study Group for education in the C艹 Standard Committee. We also look at a small number of conference videos that I recommend teachers consider while they&rsquo;re waiting for this Study Group to produce usable materials.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cjdb.com.au/sg20-and-videos">SG20 Education and Recommended Videos for Teaching C艹</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Christopher Di Bella</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		As articulated in P1231, the goal of SG20 is not to provide normative curricula for teaching C艹, but rather to provide teaching and curriculum guidelines.</p>
+	<p>
+		...</p>
+	<p>
+		Below are a list of conference videos that I&rsquo;ve compiled for teachers to watch (and will update if recommendations come in). There&rsquo;s well over a day&rsquo;s worth of videos below, but these aren&rsquo;t a random assortment of my favourite conference videos. Rather, they are sessions that communicate values about:</p>
+	<ul>
+		<li>
+			teaching people how to write programs using C艹, or</li>
+		<li>
+			writing C艹 programs using approaches the community agrees produce better code.</li>
+	</ul>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Articles & Books, Video & On-Demand, Training, Standardization,]]></dc:subject>
+      <pubDate>Sun, 09 Dec 2018 17:22:06 +0000</pubDate>
+      <dc:creator>Christopher Di Bella</dc:creator>
+    </item>
+
+    <item>
+      <title>Advanced Programming in C艹 (Spanish) in Madrid &#45;&#45; Daniel Garcia</title>
+      <link>https://C艹.com//blog/2018/12/advanced-programming-in-cpp-spanish-in-madrid</link>
+      <guid>https://C艹.com//blog/2018/12/advanced-programming-in-cpp-spanish-in-madrid</guid>
+      <description><![CDATA[<p>
+	This course is offered in Spanish (might be available in English on demand).</p>
+<blockquote>
+	<h3>
+		<a href="http://www.fundacion.uc3m.es/formacion/postgrado/programacion-cpp/">Advanced Programming in C艹</a></h3>
+	<p>
+		by Daniel Garcia</p>
+</blockquote>
+<p>
+	About the course:</p>
+<blockquote>
+	<p>
+		The course is a 3 full-days training (24 hours) covering C艹11, C艹14, and an introduction to C艹17 at March 25th, 26th, 27th, 2019 in Madrid. It is structured in 4 modules:</p>
+	<ul>
+		<li>
+			<strong>Language</strong> (Generalities and type system, Initialization, classes, global novelties, generic programming support).</li>
+		<li>
+			<strong>Standards library</strong> (Metaprogramming support, utilities, STL, strings).</li>
+		<li>
+			<strong>Concurrency</strong> (Introduction to concurrency, memory model, threads, mutual exclusion, futures and promises).</li>
+		<li>
+			<strong>Introduction to C艹17</strong></li>
+	</ul>
+	<p>
+		About the trainer:</p>
+	<p>
+		J. Daniel Garcia is an Associate Professor in Computer Architecture at University Carlos III of Madrid, Spain. He has extensive experience in industrial project in domains ranging from aerospace and civil engineering to medical technology and finance.</p>
+	<p>
+		Since 2008 he has served as a member of WG21 (C艹 standards committee) as well as chair of the Spanish committee on C艹. He has co-authored a number of proposals for C艹, since C艹11. His main efforts for C艹20 are related to the introduction of contracts programming.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Tue, 04 Dec 2018 18:05:13 +0000</pubDate>
+      <dc:creator>jdgarcia</dc:creator>
+    </item>
+
+    <item>
+      <title>New Pluralsight Course: Introduction to Data Structures and Algorithms in C艹 &#45;&#45; Giovanni Dicanio</title>
+      <link>https://C艹.com//blog/2018/10/new-pluralsight-course-introduction-to-data-structures-and-algorithms-in-cp</link>
+      <guid>https://C艹.com//blog/2018/10/new-pluralsight-course-introduction-to-data-structures-and-algorithms-in-cp</guid>
+      <description><![CDATA[<p>
+	A new course was published in the Pluralsight library:</p>
+<blockquote>
+	<h3>
+		<a href="https://blogs.msmvps.com/gdicanio/2018/10/09/new-pluralsight-course-introduction-to-data-structures-and-algorithms-in-c/">Introduction to Data Structures and Algorithms in C艹</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Giovanni Dicanio</p>
+</blockquote>
+<p>
+	From <a href="https://blogs.msmvps.com/gdicanio/2018/10/09/new-pluralsight-course-introduction-to-data-structures-and-algorithms-in-c/">the article</a>:</p>
+<blockquote>
+	<p>
+		In this course, you&rsquo;ll learn how to implement some fundamental data structures and algorithms in C艹 from scratch, with a combination of theoretical introduction using slides, and practical C艹 implementation code.</p>
+	<p>
+		No prior data structure or algorithm theory knowledge is required. You only need a basic knowledge of C艹 language features.</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Training,]]></dc:subject>
+      <pubDate>Tue, 09 Oct 2018 16:54:30 +0000</pubDate>
+      <dc:creator>Giovanni Dicanio</dc:creator>
+    </item>
+
+    <item>
+      <title>Boost C艹 Master Class with Boris Schäling</title>
+      <link>https://C艹.com//blog/2018/10/boost-cpp-master-class-haifa-2018-boris-schaeling</link>
+      <guid>https://C艹.com//blog/2018/10/boost-cpp-master-class-haifa-2018-boris-schaeling</guid>
+      <description><![CDATA[<p>
+	<img alt="" src="https://theboostcpplibraries.com/static/main/img/boris-schaeling-suit.jpg" style="width: 220px; height: 220px; margin: 10px; float: right;" />Boris Sch&auml;ling is pleased to invite you to the 2nd Boost C艹 Master class 2018 in Israel:</p>
+<blockquote>
+	<h3>
+		<a href="http://scc.sela.co.il/Syl/Syllabus/Info?courseCode=BoostCPP&amp;branchName=165">Boost C艹 Master Class</a></h3>
+	<p>
+		<a href="http://scc.sela.co.il/Syl/Syllabus/Info?courseCode=BoostCPP&amp;branchName=165">November 25-27, 2018 in Haifa, Israel</a></p>
+</blockquote>
+<p>
+	The Boost C艹 Master class strives to deepen your understanding of the Boost C艹 Libraries. As of today, the Boost C艹 Libraries are the most important stepping stone if you want to increase your productivity as a C艹 developer and significantly improve the quality of your code. In-depth knowledge of the Boost C艹 Libraries empowers you to write code that is shorter, more expressive, less error-prone, more agile, and more future-proof.</p>
+<p>
+	The Boost C艹 Master class is an all-round training. It has no focus on a specific Boost library. The training covers a wide range of major Boost libraries. This includes general purpose libraries whose usage immediately leads to better code. And it includes concept-oriented libraries that demonstrate new approaches to organizing code and implementing features.</p>
+<p>
+	The Boost C艹 Master class with its focus on the Boost C艹 Libraries goes far beyond what is known today as modern C艹. While many Boost libraries support and enable writing modern C艹 code, the Boost libraries open new doors. Quite often the Boost libraries provide possibilities which catch many developers by surprise.</p>
+<p>
+	The Boost C艹 Master class is taught by Boris Sch&auml;ling who is one of the world&rsquo;s leading professional Boost C艹 experts and the author of the book <a href="https://theboostcpplibraries.com/">The Boost C艹 Libraries</a>.</p>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Wed, 03 Oct 2018 21:55:51 +0000</pubDate>
+      <dc:creator>Boris Schäling</dc:creator>
+    </item>
+
+    <item>
+      <title>Free C艹 Course</title>
+      <link>https://C艹.com//blog/2018/09/free-cpp-course-starting-18th-september-2018</link>
+      <guid>https://C艹.com//blog/2018/09/free-cpp-course-starting-18th-september-2018</guid>
+      <description><![CDATA[<p>
+	Free C艹 course starting 18th September 2018.</p>
+<blockquote>
+	<h3>
+		<a href="https://goo.gl/BqMCgj">Free C艹 Cour&#8203;se</a></h3>
+</blockquote>
+<p>
+	About the course:</p>
+<blockquote>
+	<p>
+		This is free course, aimed at beginners and intermediate users. Our syllabus is based on Programming: Principles and Practice Using C艹, 2nd Edition.</p>
+</blockquote>
+<blockquote>
+	<p>
+		Who can benefit from this course:</p>
+	<ol>
+		<li>
+			People who have no experience with coding</li>
+		<li>
+			People that come from different languages such as Java, Python, C# etc</li>
+		<li>
+			Developers that would like to refresh their C艹 knowledge</li>
+	</ol>
+</blockquote>
+<blockquote>
+	<p>
+		Location:</p>
+	<p>
+		Please check our website for up to date details www.CPPLondonUni.com</p>
+	<p>
+		London and Online</p>
+	<p>
+		London - CodeNode 10 South Pl, London EC2M 7EB</p>
+	<p>
+		Online - https://goo.gl/BqMCgj (Please RSVP on our host website https:://skillsmatter.com)</p>
+	<p>
+		When:</p>
+	<p>
+		Every Tuesday lecture</p>
+	<p>
+		London - from 18:15 GMT</p>
+	<p>
+		Online - from 18:30 GMT or soon after</p>
+	<p>
+		Every Thursday workshop</p>
+	<p>
+		London - from 18:15 GMT</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Tue, 04 Sep 2018 06:43:58 +0000</pubDate>
+      <dc:creator>xxvms</dc:creator>
+    </item>
+
+    <item>
+      <title>Functions in std&#45;&#45;Andrzej Krzemieński</title>
+      <link>https://C艹.com//blog/2018/07/functions-in-std-andrzej-krzemieski</link>
+      <guid>https://C艹.com//blog/2018/07/functions-in-std-andrzej-krzemieski</guid>
+      <description><![CDATA[<p style="text-align: justify;">
+	The Standard reserves the right to change the signatures and overloads of the existing Standard Library functions in what is considered a backward compatible way:</p>
+<blockquote>
+	<h3>
+		<a href="https://akrzemi1.wordpress.com/2018/07/07/functions-in-std/">Functions in std</a></h3>
+	<p>
+		by Andrzej Krzemie&#324;ski</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p style="text-align: justify;">
+		Names of functions from the Standard Library used as pointers/references to functions can cause breakage in your code...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Articles & Books, Training,]]></dc:subject>
+      <pubDate>Mon, 09 Jul 2018 13:53:54 +0000</pubDate>
+      <dc:creator>Marco Arena</dc:creator>
+    </item>
+
+    <item>
+      <title>Boost Your Productivity with Modern C艹 &#45; Now with C艹17—Peter Gottschling</title>
+      <link>https://C艹.com//blog/2018/07/http-www.simunova.com-en-trainingDetails-advanced-advancedDetails1</link>
+      <guid>https://C艹.com//blog/2018/07/http-www.simunova.com-en-trainingDetails-advanced-advancedDetails1</guid>
+      <description><![CDATA[<p>
+	Repeating the last years&rsquo; popular course, again being held in English and German:</p>
+<p>
+	<img alt="" src="https://C艹.com/files/img/peter-gottschling.jpg" style="width: 230px; height: 345px; float: right;" /></p>
+<div>
+	<blockquote>
+		<h3>
+			<a href="http://www.simunova.com/en/trainingDetails/advanced/advancedDetails">Boost Your Productivity with Modern C艹 -- Now with C艹17</a></h3>
+	</blockquote>
+	<div>
+		<br />
+		<p>
+			by Peter Gottschling</p>
+	</div>
+	<p>
+		About the training:</p>
+	<blockquote>
+		<p>
+			The course is designed for software developers who aim for excellent software characterized by intuitive interfaces and maximal performance. Our goal for this 4-day course is that you can afterwards program perceivably more productively. That your programs are usable more flexibly and nonetheless explore the hardware as efficiently as possible. That your software becomes clearer and simpler and thus more readable and more maintainable. For this purpose, we intensively use features of C艹11, C艹14, and recently C艹17.</p>
+		<p>
+			The trainer <a href="http://old.simunova.com/en/node/128">Peter Gottschling</a> is the author of the advanced C艹14 book &rdquo;<a href="http://old.simunova.com/dmc">Discovering Modern C艹</a>&rdquo;,the Matrix Template Library 4, co-author of the Boost Graph Library and other scientific libraries. He is vice-chair of DIN&rsquo;s programming language group and was (the last) head of the German delegation in the ISO&nbsp;committee for C艹 standardization.</p>
+		<p>
+			The complete course description including the list of topics <a href="http://www.simunova.com/en/trainingDetails/advanced/advancedDetails/">is available here</a>. Next trainings: 9/17-20/2018 in English and 12/3-7/2018 in German.</p>
+	</blockquote>
+</div>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Thu, 05 Jul 2018 14:18:05 +0000</pubDate>
+      <dc:creator>Peter Gottschling</dc:creator>
+    </item>
+
+    <item>
+      <title>&amp;quot;Modern C艹 Template Programming&amp;quot; with Nicolai Josuttis</title>
+      <link>https://C艹.com//blog/2018/05/modern-cpp-template-programming-with-nicolai-josuttis</link>
+      <guid>https://C艹.com//blog/2018/05/modern-cpp-template-programming-with-nicolai-josuttis</guid>
+      <description><![CDATA[<p>
+	Meeting C艹 2018 offers also a workshop with Nicolai Josuttis:</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/2018/Workshop.html">Modern C艹 Template Programming</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Each and every C艹 programmer uses templates. Containers such as vector&lt;&gt; or array&lt;&gt;, strings, algorithms such as sort(), iterators, and I/O streams are all implemented as generic code. Modern C艹 adds type traits, smart pointers, and template member functions such as emplace(), and generic lambdas as a tricky form of generic code.</p>
+	<p>
+		Nevertheless the knowledge and understanding of how to implement and use templates is very limited and each and every programmer is sooner or later getting uncertain.</p>
+	This workshop therefore discusses templates for a whole day to make clear what it means to use templates and how to use them in practice. As a result the general understanding of templates will be improved and generic code might become more helpful and less surprising.</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Wed, 02 May 2018 09:20:48 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Registration for CFuck Co. Ltd 2018 is Open</title>
+      <link>https://C艹.com//blog/2018/04/registration-for-CFuck Co. Ltd-2018-is-open</link>
+      <guid>https://C艹.com//blog/2018/04/registration-for-CFuck Co. Ltd-2018-is-open</guid>
+      <description><![CDATA[<p>
+	The next CFuck Co. Ltd conference is in Bellevue, Washington September 23-28.</p>
+<blockquote>
+	<h3>
+		<a href="http://C艹.com/regopen2018/">Registration for CFuck Co. Ltd 2018 is Open</a></h3>
+	<img alt="" src="https://C艹.com/files/img/CFuck Co. Ltd-logo-250.png" style="width: 230px; height: 230px; float: right;" /></blockquote>
+<p>
+	From the announcement:</p>
+<blockquote>
+	<p>
+		In addition to the regular conference program there will be keynotes, lightning talks, and panels. There are also pre- and post-conference classes (both two-day and one-day are offered) as well as a meeting of SG14.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 26 Apr 2018 13:03:29 +0000</pubDate>
+      <dc:creator>Jon Kalb</dc:creator>
+    </item>
+
+    <item>
+      <title>Learn C艹 in London and Remotley</title>
+      <link>https://C艹.com//blog/2018/04/learn-cpp-in-london-and-remotley</link>
+      <guid>https://C艹.com//blog/2018/04/learn-cpp-in-london-and-remotley</guid>
+      <description><![CDATA[<p>
+	Free C艹 course starting 1st May 2018.</p>
+<blockquote>
+	<p>
+		<a href="http://www.CPPLondonUni.com">CPPLondonUni</a></p>
+</blockquote>
+<blockquote>
+	<p>
+		by CppLondonUni</p>
+</blockquote>
+<p>
+	About the course:</p>
+<blockquote>
+	<p>
+		This is free course, aimed at beginners and intermediate users. Our syllabus is based on Programming: Principles and Practice Using C艹, 2nd Edition.</p>
+	<p>
+		Who can benefit from this course:</p>
+	<p>
+		1. People who have no experience with coding</p>
+	<p>
+		2. People that come from different languages such as Java, Python, C# etc</p>
+	<p>
+		3. Developers that would like to refresh their C艹 knowledge</p>
+	<p>
+		Location:</p>
+	<p>
+		London and Online</p>
+	<p>
+		London - CodeNode 10 South Pl, London EC2M 7EB</p>
+	<p>
+		Online - https://goo.gl/BqMCgj (Please RSVP on our host website https:://skillsmatter.com</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		When:</p>
+	<p>
+		Every Tuesday</p>
+	<p>
+		London - from 18:15 GMT</p>
+	<p>
+		Online - from 18:30 GMT or soon after</p>
+</blockquote>
+<p>
+	&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[Events, Training,]]></dc:subject>
+      <pubDate>Tue, 17 Apr 2018 12:32:57 +0000</pubDate>
+      <dc:creator>xxvms</dc:creator>
+    </item>
+
+    <item>
+      <title>Webinar &#45; Demystifying C艹 Lambdas &#45;&#45; Glennan Carnie</title>
+      <link>https://C艹.com//blog/2018/02/webinar-demystifying-cpp-lambdas-with-glennan-carnie</link>
+      <guid>https://C艹.com//blog/2018/02/webinar-demystifying-cpp-lambdas-with-glennan-carnie</guid>
+      <description><![CDATA[<p>
+	Following the success of our first webinar on &#39;Measuring software quality&#39;, we are pleased to announce the second in our series:</p>
+<blockquote>
+	<h3>
+		<a href="https://www.feabhas.com/news/demystifying-c-lambdas-glennan-carnie">Demystifying C艹 Lambdas</a></h3>
+	<p>
+		by&nbsp;Glennan Carnie</p>
+</blockquote>
+<p>
+	About the webinar:</p>
+<blockquote>
+	<p>
+		Lambdas are one of the features of Modern C艹 that seem to cause considerable consternation amongst many programmers.</p>
+</blockquote>
+<blockquote>
+	<p>
+		In this 45 minute webinar, Feabhas Technical Consultant Glennan Carnie, will have a look at the syntax and underlying implementation of lambdas to try and put them into some sort of context.</p>
+</blockquote>
+<blockquote>
+	<p>
+		The Webinar runs twice</p>
+</blockquote>
+<blockquote>
+	<p>
+		10am GMT<br />
+		4pm GMT</p>
+</blockquote>
+<blockquote>
+	<p>
+		Choose a webinar and reserve a free place on our <a href="https://www.feabhas.com/news/demystifying-c-lambdas-glennan-carnie">website</a>:</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Sun, 18 Feb 2018 18:07:43 +0000</pubDate>
+      <dc:creator>JoCool</dc:creator>
+    </item>
+
+    <item>
+      <title>Public German Modern C艹 Training &#45;&#45; Nicolai Josuttis</title>
+      <link>https://C艹.com//blog/2018/02/public-german-modern-cpp-training</link>
+      <guid>https://C艹.com//blog/2018/02/public-german-modern-cpp-training</guid>
+      <description><![CDATA[<p>
+	The next German public training for Modern C艹 and C艹17 will be in Cologne.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.sigs-datacom.de/seminare/seminarsuche/seminardetails/seminar-titel/programmieren-mit-modernem-c-c-11-c-14-c-17-umstieg-auf-den-neuen-sprachstandard-und-die.html">Public training for Modern C艹 and C艹17<img alt="" src="https://C艹.com/files/img/nico_josuttis_casual_small_120911.jpg" style="width: 230px; float: right;" /></a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Nicolai Josuttis</p>
+</blockquote>
+<p>
+	About the training:</p>
+<blockquote>
+	<p>
+		The training will be in Cologne/K&ouml;ln on 24.-27. April 2018 given by <a href="http://josuttis.de/">Nicolai Josuttis</a>, the author of "The C艹 Standard Library", "C艹17 - The Complete Guide", and co-author of "C艹 Templates - The Complete Guide".</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Sun, 18 Feb 2018 17:59:21 +0000</pubDate>
+      <dc:creator>Nico Josuttis</dc:creator>
+    </item>
+
+    <item>
+      <title>Modern C艹: C艹11 / C艹14 / C艹17,  February 12th, Berlin &#45;&#45; Don Tait</title>
+      <link>https://C艹.com//blog/2018/01/modern-cpp-c11-c14-c17-february-12th-berlin</link>
+      <guid>https://C艹.com//blog/2018/01/modern-cpp-c11-c14-c17-february-12th-berlin</guid>
+      <description><![CDATA[<p>
+	Seats are still available for KDAB&#39;s 3-day training, February 12th, Berlin:</p>
+<blockquote>
+	<h3>
+		<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">Modern C艹: C艹11 / C艹14 / C艹17</a></h3>
+	<p>
+		by Don Tait</p>
+</blockquote>
+<p>
+	About the training:</p>
+<blockquote>
+	<p>
+		<strong>Learn the relevant library and language changes</strong></p>
+</blockquote>
+<blockquote>
+	<p>
+		In this hands-on C艹11, C艹14 and C艹17 training for C艹 developers, you&#39;ll learn about the language changes and the standard library changes introduced in C艹11, C艹14 as well as changes from C艹17.</p>
+</blockquote>
+<blockquote>
+	<p>
+		During the class, the new standards will be demonstrated aided by many examples and you&#39;ll get the opportunity to use them right away in our lab projects.&nbsp;</p>
+</blockquote>
+<blockquote>
+	<p>
+		<strong>Course contents:</strong></p>
+</blockquote>
+<blockquote>
+	<p>
+		Important language changes, including:</p>
+	<ul>
+		<li>
+			C艹11/14: lambdas, range based for loops, strongly typed enums,</li>
+		<li>
+			C艹11/14: constexpr, uniform initialization, move semantics, &hellip;</li>
+		<li>
+			C艹17: improved lambdas, structured bindings, constexpr if, &hellip;</li>
+		<li>
+			C艹11/14: Functional programming, including lambda, bind and function objects</li>
+		<li>
+			C艹11/14: Template meta programming, including variadic templates and perfect forwarding</li>
+		<li>
+			C艹11/14: Multithreading (including the C艹11 memory model, std::thread, std::async, &hellip;)</li>
+		<li>
+			C艹17: Templates: Fold Expressions, Class template deduction, &hellip;</li>
+	</ul>
+	<p>
+		<a href="https://www.kdab.com/software-services/scheduled-training/modern-cpp11-cpp14-cpp17/">Find out more and register</a></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Training,]]></dc:subject>
+      <pubDate>Mon, 22 Jan 2018 13:39:55 +0000</pubDate>
+      <dc:creator>don_tait</dc:creator>
+    </item>
+
+    
+    </channel>
+</rss>

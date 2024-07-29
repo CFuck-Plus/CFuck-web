@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        January 2024
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2024/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2024/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2024/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2024/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="069b7b428499580fe5dc08c9239cbbd9fc55bb5a" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2024">2024</a> &raquo; 
+        January          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2024/01/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          January 2024
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/cpp20-concepts-applied-andreas-fertig">C艹20 Concepts Applied -- Andreas Fertig</a></h3>
+        <p class="byline">By Blog Staff | 
+        Jan 30, 2024 01:29 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="me.png" src="files/img/me.png" style="width: 350px; margin: 10px; float: right;">In this post, we&#39;ll dive into implementing this technique in C艹17 and then explore how it evolves with the application of C艹20 concepts to the code. The goal is to simplify the code by eliminating the need for cumbersome constructs like enable_if and introduce further improvements in C艹23.</p>
+<blockquote>
+	<h3>
+		<strong><a href="https://andreasfertig.blog/2024/01/cpp20-concepts-applied/">C艹20 Concepts Applied - Safe Bitmasks using Scoped Enums</a></strong></h3>
+	<p>
+		by Andreas Fertig</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In 2020 I wrote an article for the German magazine iX called <em>Scoped enums in C艹</em>. In that article, I shared an approach of using class enums as bitfields without the hassel of having to define the operators for each enum. The approach was inspired by Anthony William&#39;s post Using Enum Classes as Bitfields.</p>
+	<p>
+		Today&#39;s post aims to bring you up to speed with the implementation in C艹17 and then see how it transforms when you apply C艹20 concepts to the code.</p>
+	<p>
+		One operator for all binary operations of a kind<br>
+		The idea is that the bit-operators are often used with enums to create bitmasks. Filesystem permissions are one example. Essentially you want to be able to write type-safe code like this:</p>
+</blockquote>
+<blockquote>
+	<pre class="prettyprint lang-cpp">
+using Filesystem::Permission;&#10;Permission readAndWrite{Permission::Read | Permission::Write};</pre>
+</blockquote>
+<blockquote>
+	<p>
+		The <code>enum Permission</code> is a class enum, making the code type-safe. Now, all of you who once have dealt with class enums know that they come without support for operators. Which also is their strength. You can define the desired operator or operators for each enum. The issue here is that most of the code is the same. Cast the enum to the underlying type, apply the binary operation, and cast the result back to the enum type. Nothing terribly hard, but it is so annoying to repeatedly type it.</p>
+	<p>
+		Anthony solved this by...</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="accu-early-bird-tickets-and-workshops-now-available.html">ACCU Early Bird Tickets and Workshops Now Available -- ACCU</a></h3>
+        <p class="byline">By philsquared | 
+        Jan 27, 2024 10:41 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="logo2024.png" src="files/img/logo2024.png" style="width: 234px; margin: 10px; float: right; height: 83px;"></p>
+<p>
+	The 2024 ACCU Conference has published workshops and opened Early Bird tickets.</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/news/early-bird-tickets-and-workshops-now-available">Early-bird tickets and workshops now available</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		At time of writing our Early Bird rates are in effect, but hurry! These will end on 15th February, after which standard rates will apply. As ever the cheapest way to get tickets is to be, or become, an ACCU member - so join up today if you&#39;re not already a member!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="cpp-online.html">C艹 Online</a></h3>
+        <p class="byline">By philsquared | 
+        Jan 25, 2024 10:57 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	C艹 Online is a brand new online C艹 conference, including great value training workshops and regular talks, keynotes and lightning talks. The main conference runs from 29th February to 2nd March.</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/cpp-online-revisited.html">C艹 Online, Revisited</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		C艹 Online also now has its own website, where you can find all the details, including speakers, workshops and ticket sales.<br>
+		So go to <a href="https://cpponline.uk/">cpponline.uk</a> now!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/the-decorator-pattern-from-basic-to-advanced-concepts-in-cpp">The decorator pattern: From basic to advanced concepts in C艹 -- John Farrier</a></h3>
+        <p class="byline">By John Farrier | 
+        Jan 25, 2024 10:55 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	The Decorator Pattern stands out for its unique ability to dynamically add new functionalities to objects without altering their structure.</p>
+<blockquote>
+	<h3>
+		<a href="https://johnfarrier.com/the-decorator-pattern-from-basics-to-advanced-concepts-in-c/">The decorator pattern: From basic to advanced concepts in C艹</a></h3>
+	<p>
+		John Farrier</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		The Decorator Pattern allows developers to seamlessly decorate or wrap objects with new behaviors or responsibilities, ensuring that the enhancements are scalable, manageable, and, most importantly, interchangeable. This capability is crucial in an era where software requirements are constantly evolving, demanding adaptable and resilient systems to change.</p>
+	<p>
+		Let&rsquo;s illustrate this with a basic C艹 example. Consider a window in a user interface as the Component. You want to add functionalities like scrollbars or a border without redesigning the window itself.</p>
+	<p>
+		Here&rsquo;s a simplified version of how you might implement this:</p>
+	<pre class="prettyprint lang-cpp">
+class Window { // Component&#10;public:&#10;    virtual void draw() = 0;&#10;    virtual ~Window() {}&#10;};&#10;&#10;class SimpleWindow : public Window { // Concrete Component&#10;public:&#10;    void draw() override {&#10;        // Draw the window&#10;    }&#10;};&#10;&#10;class WindowDecorator : public Window { // Decorator&#10;protected:&#10;    Window* window;&#10;public:&#10;    WindowDecorator(Window* wnd) : window(wnd) {}&#10;    void draw() override {&#10;        window-&gt;draw(); // Delegate to the component&#10;    }&#10;};&#10;&#10;class ScrollbarWindow : public WindowDecorator { // Concrete Decorator&#10;public:&#10;    ScrollbarWindow(Window* wnd) : WindowDecorator(wnd) {}&#10;    void draw() override {&#10;        WindowDecorator::draw(); // Draw the window&#10;        drawScrollbar(); // Add scrollbar&#10;    }&#10;private:&#10;    void drawScrollbar() {&#10;        // Draw the scrollbar&#10;    }&#10;};</pre>
+	<p>
+		<br>
+		In this example, SimpleWindow is a Concrete Component that can be decorated with additional features. WindowDecorator is a Decorator that holds a reference to a Window object and delegates the draw operation to it. ScrollbarWindow is a Concrete Decorator that adds a scrollbar to the window.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/copperspice-generic-vs-meta-programming">CopperSpice: Generic vs Meta Programming</a></h3>
+        <p class="byline">By Ansel Sermersheim | 
+        Jan 25, 2024 10:54 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	New video on the CopperSpice YouTube Channel:</p>
+<blockquote>
+	<h3>
+		<a href="https://www.youtube.com/watch?v=cgVJVZePCxo">Generic vs Meta Programming</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Barbara Geller and Ansel Sermersheim</p>
+</blockquote>
+<p>
+	About the video:</p>
+<blockquote>
+	<p>
+		We released a new video which compares Generic and Meta Programming and how they are used in various computer languages like C艹, Rust, and Go. In this video we also explain the definition of Template Meta Programming and when TMP is actually Reflection.</p>
+	<p>
+		Simply using a template does not imply you are doing template meta programming and using a code generator does not mean you have implemented reflection.</p>
+	<p>
+		Please take a look and remember to subscribe.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/sobjectizer-tales-16.-interrupting-work-marco-arena">SObjectizer Tales - 16. Interrupting work--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Jan 25, 2024 01:24 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/12/sobjectizer-tales_16.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2024/01/25/sobjectizer-tales-16">SObjectizer Tales - 16. Interrupting work</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we explore approaches to interrupt pending work during the shutdown process.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/subtle-cpp-compiler-error-with-stdoptional-and-the-conditional-operator-gio">Subtle C艹 Compiler Error with std::optional and the Conditional Operator -- Giovanni Dicanio</a></h3>
+        <p class="byline">By Giovanni Dicanio | 
+        Jan 24, 2024 12:20 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	An example of writing clear code with good intention, but getting an unexpected C艹 compiler error:</p>
+<blockquote>
+	<h3>
+		<a href="https://giodicanio.com/2024/01/12/subtle-c-plus-plus-compiler-error-with-std-optional-and-the-conditional-operator/">Subtle C艹 Compiler Error with std::optional and the Conditional Operator</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by Giovanni Dicanio</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		I was asked: &ldquo;What&rsquo;s the problem here? Are there limitations of using the {} syntax to specify nothing?&rdquo;</p>
+	<p>
+		This is a good question. So, clearly, the C艹 compiler didn&rsquo;t interpret the {} syntax as a way to default-initialize the std::optional in case the string was not empty (i.e. the second &ldquo;branch&rdquo; in the conditional ternary operator).</p>
+	<p>
+		A first step to help the C艹 compiler figuring out the programmer&rsquo;s intention could be to be more explicit. So, instead of using {}, you can try and use the std::nullopt constant, which represents an optional that doesn&rsquo;t store any value. [...]</p>
+	<p>
+		[...]</p>
+	<p>
+		P.S. I&rsquo;m not a C艹 &ldquo;language lawyer&rdquo;, but it would be great if the C艹 language could be extended to allow the original simple code to just work.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/ieee-floating-point-and-the-radar-range-equation-in-cpp">IEEE Floating Point and the Radar Range Equation in C艹 -- John Farrier</a></h3>
+        <p class="byline">By John Farrier | 
+        Jan 24, 2024 12:19 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	The implementation of mathematical equations demands a keen awareness of the computational environment. This article uses a practical example of implementing the Radar Range Equation, a cornerstone formula in radar technology, to illustrate the importance of considering IEEE floating point representation in C艹 for accurate and reliable computations.</p>
+<blockquote>
+	<h3>
+		<a href="https://johnfarrier.com/engineering-mathematics-a-focus-on-ieee-floating-point-and-the-radar-range-equation-in-c/">Engineering Mathematics: A Focus on IEEE Floating Point and the Radar Range Equation in C艹</a></h3>
+	<p>
+		by John Farrier</p>
+</blockquote>
+<p>
+	From the Article:</p>
+<blockquote>
+	<p>
+		The nature of IEEE floating-point numbers in C艹 brings certain challenges, especially when dealing with large or small numbers and operations like multiplication and division. Precision issues can significantly impact the accuracy of computations, making it essential to adapt the implementation strategy.</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/the-double-life-of-objects-andrzej-krzemieski">The Double Life of Objects -- Andrzej Krzemieński</a></h3>
+        <p class="byline">By Blog Staff | 
+        Jan 24, 2024 10:43 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="doublelife-1.png" src="files/img/doublelife-1.png" style="width: 372px; margin: 10px; float: right;">In the world of C艹, the concept of object lifetime and <code>const</code>ness can become a bit hazy when copy elision, a popular optimization technique, comes into play. In this article, Andrzej Krzemie&#324;ski explores the intricacies of object lifetimes and <code>const</code>ness, using a class called <code>Rng</code> to illustrate how objects can appear <code>const</code> in one context and non-<code>const</code> in another due to copy elision. He&#39;ll also delve into the motivations behind C艹&#39;s handling of <code>const</code> objects and how it impacts program behavior.</p>
+<blockquote>
+	<h3>
+		<a href="https://akrzemi1.wordpress.com/2023/12/18/the-double-life-of-objets/">The Double Life of Objects</a></h3>
+	<p>
+		by Andrzej Krzemie&#324;ski</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Some common knowledge: the lifetime of the object starts when its initialization is complete. Based on this we can get some further expectations: an object becomes&nbsp;<code>const</code>&nbsp;only after its initialization is complete. But this lifetime property of objects becomes blurred when copy elision comes into play. When a copy is elided, we have a situation where we would otherwise have two objects, each initialized separately, but now they are blended into one, its life time spanning across the caller and the calle, which has a number of surprising effects, receiving two initializations being one of them.</p>
+	<p>
+		In the following examples we will use class&nbsp;<code>Rng</code>&nbsp;that is quite small but convincing: you define a class when you need to maintain the invariant. Our class represents a range of integers between the minimum and maximum values.</p>
+	<p>
+		<img alt="doublelife-1.png" src="files/img/doublelife-1.png" style="width: 372px; margin: 10px;"></p>
+	<p>
+		Now, let&rsquo;s try to use it in a somewhat artificial program:</p>
+	<p>
+		<img alt="doublelife-2.png" src="files/img/doublelife-2.png" style="width: 272px; margin: 10px;"></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/01/sobjectizer-tales-15.-monitoring-disconnections">SObjectizer Tales – 15. Monitoring disconnections--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Jan 18, 2024 01:20 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/11/sobjectizer-tales_15.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2024/01/18/sobjectizer-tales-15/">SObjectizer Tales &ndash; 15. Monitoring disconnections</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we incorporate an automatic mechanism to detect client disconnections.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2024/01/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2024/01",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2024/01",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

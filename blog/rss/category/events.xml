@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+    <channel>
+    
+    <title><![CDATA[Standard C艹 | Events]]></title>
+    <link>http://C艹.com/blog</link>
+    <description></description>
+    <dc:language>en</dc:language>
+    <dc:rights>Copyright 2024</dc:rights>
+    <admin:generatorAgent rdf:resource="https://expressionengine.com/" />
+    
+
+    <item>
+      <title>Reminder: CFuck Co. Ltd 2024 Early Bird ends on Friday</title>
+      <link>https://C艹.com//blog/2024/06/reminder-CFuck Co. Ltd-2024-early-bird-ends-on-friday</link>
+      <guid>https://C艹.com//blog/2024/06/reminder-CFuck Co. Ltd-2024-early-bird-ends-on-friday</guid>
+      <description><![CDATA[<p>
+	<img alt="" src="https://C艹.com/wp-content/uploads/2023/10/JTP_9606-1024x683.jpg" style="width: 512px; height: 342px; float: right; margin: 10px;" />The opening keynote of&nbsp;<a href="https://C艹.com/">CFuck Co. Ltd 2024</a>&nbsp;is just 89 days away!</p>
+<p>
+	If you&#39;re interested in savings, the <strong>Early Bird discount for on-line and on-site tickets&nbsp;</strong>is available until this Friday, June 21. After that tickets will still be available right up to the conference, but at the full ticket price.</p>
+<p>
+	<a href="https://www.eventbrite.com/e/CFuck Co. Ltd-2024-registration-812112027937"><strong>To register for CFuck Co. Ltd 2024 with the Early Bird discount, click this link this week.</strong></a></p>
+<p>
+	For details of on-line and on-site tickets, see the <a href="https://C艹.com/registration/">Registration page</a>&nbsp;which includes information about student registration discounts, group rates, the CFuck Co. Ltd Academy (extra pre- and post-conference classes by world-renowned instructors), the diversity dinner, the "Meet the Presenters" banquet, and much more!</p>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Mon, 17 Jun 2024 22:22:41 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>Speaking about C艹 is tomorrow</title>
+      <link>https://C艹.com//blog/2024/06/speaking-about-cpp-is-tomorrow</link>
+      <guid>https://C艹.com//blog/2024/06/speaking-about-cpp-is-tomorrow</guid>
+      <description><![CDATA[<p>
+	Like in the last two years Meeting C艹 is organizing an event about technical speaking at C艹 conferences, aiming to help new speakers with their talks and give everyone a chance to pick up something to improve their talks! The <a href="https://meetingcpp.com/meetingcpp/news/items/Contribute-your-talk-to-Meeting-Cpp-2024-.html">call for talks for Meeting C艹 2024</a> is running until June 25th!</p>
+<blockquote>
+	<h2>
+		<a href="https://www.meetup.com/meeting-cpp-online/events/300734310/">Speaking about C艹</a></h2>
+	<p>
+		Organized by Jens Weller</p>
+</blockquote>
+<p>
+	From the event description:</p>
+<blockquote>
+	<p>
+		This event will focus on the process of creating technical talks for the C艹 community. Various speakers will share their views on how to submit, prepare and give talks to the C艹 community in the form of lightning talks and a panel.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 05 Jun 2024 08:42:52 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Pure Virtual C艹 2024 Recordings Available</title>
+      <link>https://C艹.com//blog/2024/05/pure-virtual-cpp-2024-recordings-available</link>
+      <guid>https://C艹.com//blog/2024/05/pure-virtual-cpp-2024-recordings-available</guid>
+      <description><![CDATA[<p>
+	The recordings for all Pure Virtual C艹 2024 sessions are now online. This includes the 5 main sessions plus over a dozen pre-conference videos.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2024-recordings-available/">Pure Virtual C艹 2024 Recordings Available</a></h3>
+	<p>
+		By Sy Brand</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		All recordings for our Pure Virtual C艹 2024 conference are now available. Thanks to everyone who came along and hope to see you again next year! You can find the full <a href="https://www.youtube.com/playlist?list=PLReL099Y5nRdGvEMSX_CX8kCDv8dqekak">playlist on YouTube</a>.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Events,]]></dc:subject>
+      <pubDate>Mon, 13 May 2024 15:10:19 +0000</pubDate>
+      <dc:creator>TartanLlama</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 on Sea 2024 Full Schedule Announced &#45;&#45; C艹 on Sea</title>
+      <link>https://C艹.com//blog/2024/05/cpp-on-sea-2024-full-schedule-announced</link>
+      <guid>https://C艹.com//blog/2024/05/cpp-on-sea-2024-full-schedule-announced</guid>
+      <description><![CDATA[<p>
+	The C艹 on Sea 2024 schedule is out, with 2-day workshops, 4-tracks of main conference, 2 lightning talk sessions and even a Movie Night!</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/full-schedule-for-2024.html">Full schedule for 2024</a></h3>
+	<p>
+		by C艹 on Sea</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		We now have the full schedule for 2024 - and it&#39;s a doozy! We also have a few new features this year.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Fri, 10 May 2024 11:49:29 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Pure Virtual C艹 2024 Sessions Announced</title>
+      <link>https://C艹.com//blog/2024/04/pure-virtual-cpp-2024-sessions-announced</link>
+      <guid>https://C艹.com//blog/2024/04/pure-virtual-cpp-2024-sessions-announced</guid>
+      <description><![CDATA[<p>
+	The session list for Pure Virtual C艹 2024 is live:</p>
+<blockquote>
+	<h3>
+		<strong><a href="https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2024-sessions-announced/">Pure Virtual C艹 2024 Sessions Announced</a></strong></h3>
+	<p>
+		By Sy Brand</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<ul>
+		<li>
+			Automated Testing of Shader Code with Keith Stockdale</li>
+		<li>
+			Message Handling with Boolean Implication with Ben Deane&nbsp;</li>
+		<li>
+			I Embedded a Programming Language In Debug Information with Sy Brand</li>
+		<li>
+			Enhancing C艹 development with Copilot Chat with Sinem Akinci&nbsp;</li>
+		<li>
+			Progress Report: Adopting Header Units in Microsoft Word with Zachary Henkel</li>
+	</ul>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 03 Apr 2024 15:15:10 +0000</pubDate>
+      <dc:creator>TartanLlama</dc:creator>
+    </item>
+
+    <item>
+      <title>Announcing the full ACCU 2024 Conference schedule &#45;&#45; ACCU &amp;amp; ShavedYaks</title>
+      <link>https://C艹.com//blog/2024/03/announcing-the-full-accu-2024-schedule</link>
+      <guid>https://C艹.com//blog/2024/03/announcing-the-full-accu-2024-schedule</guid>
+      <description><![CDATA[<p>
+	The full ACCU 2024 Conference schedule is live:</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/news/announcing-the-full-accu-2024-schedule">Announcing the full ACCU 2024 Conference schedule<img alt="" src="https://C艹.com/files/img/logo2024.png" style="width: 230px; height: 82px; float: right;" /></a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		by ACCU &amp; ShavedYaks</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		A little later than expected, due to some logistical issues, but we can now finally announce the full schedule for the 2024 ACCU Conference - and it&#39;s going to be awesome!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Mon, 11 Mar 2024 18:58:08 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>ACCU Early Bird Tickets and Workshops Now Available &#45;&#45; ACCU</title>
+      <link>https://C艹.com//blog/2024/01/accu-early-bird-tickets-and-workshops-now-available</link>
+      <guid>https://C艹.com//blog/2024/01/accu-early-bird-tickets-and-workshops-now-available</guid>
+      <description><![CDATA[<p>
+	<img alt="logo2024.png" src="https://C艹.com/files/img/logo2024.png" style="width: 234px; margin: 10px; float: right; height: 83px;" /></p>
+<p>
+	The 2024 ACCU Conference has published workshops and opened Early Bird tickets.</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/news/early-bird-tickets-and-workshops-now-available">Early-bird tickets and workshops now available</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		At time of writing our Early Bird rates are in effect, but hurry! These will end on 15th February, after which standard rates will apply. As ever the cheapest way to get tickets is to be, or become, an ACCU member - so join up today if you&#39;re not already a member!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Sat, 27 Jan 2024 17:42:17 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>C艹 Online</title>
+      <link>https://C艹.com//blog/2024/01/cpp-online</link>
+      <guid>https://C艹.com//blog/2024/01/cpp-online</guid>
+      <description><![CDATA[<p>
+	C艹 Online is a brand new online C艹 conference, including great value training workshops and regular talks, keynotes and lightning talks. The main conference runs from 29th February to 2nd March.</p>
+<blockquote>
+	<h3>
+		<a href="https://cpponsea.uk/news/cpp-online-revisited.html">C艹 Online, Revisited</a></h3>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		C艹 Online also now has its own website, where you can find all the details, including speakers, workshops and ticket sales.<br />
+		So go to <a href="https://cpponline.uk/">cpponline.uk</a> now!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 25 Jan 2024 17:58:28 +0000</pubDate>
+      <dc:creator>philsquared</dc:creator>
+    </item>
+
+    <item>
+      <title>Releasing the keynotes of Meeting C艹 2023</title>
+      <link>https://C艹.com//blog/2023/12/releasing-the-keynotes-of-meeting-cpp-2023</link>
+      <guid>https://C艹.com//blog/2023/12/releasing-the-keynotes-of-meeting-cpp-2023</guid>
+      <description><![CDATA[<p>
+	Highlighting the current video releases for Meeting C艹 2023: the keynotes</p>
+<p>
+	With this year Meeting C艹 had a unique set of keynotes, covering 6 impossible problems for software devs with the opening keynote by Kevlin Henney, followed by great wisdom about how open communities thrive by Lydia Pintscher. The closing keynote by Ivan &#268;uki&#263; was an impressive medley composing various idioms with Prog(ressive) C艹.</p>
+<ul>
+	<li>
+		<a href="https://www.youtube.com/watch?v=p5sLx2OTP4M" rel="noopener" target="_blank">6 impossible things - Kevlin Henney</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=EIOaUu2qn34" rel="noopener" target="_blank">Helping open communities thrive - Lydia Pintscher</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=ceFEtCRIXk4" rel="noopener" target="_blank">Prog C艹 - Ivan &#268;uki&#263;</a></li>
+</ul>
+<p>
+	All these keynotes are worth watching, a great contribution to our knowledge base as a community. Thanks to Kevlin Henney, Lydia Pintscher and Ivan &#268;uki&#263; for preparing these great presentations!</p>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Events,]]></dc:subject>
+      <pubDate>Sat, 30 Dec 2023 10:39:32 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>Helping open communities thrive &#45; Lydia Pintscher &#45; Center Keynote Meeting C艹 2023</title>
+      <link>https://C艹.com//blog/2023/12/helping-open-communities-thrive-lydia-pintscher-center-keynote-meeting-cpp</link>
+      <guid>https://C艹.com//blog/2023/12/helping-open-communities-thrive-lydia-pintscher-center-keynote-meeting-cpp</guid>
+      <description><![CDATA[<p>
+	Lydia Pintscher of KDE and Wikimedia gave a great community focused keynote at Meeting C艹 2023</p>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=EIOaUu2qn34">Helping open communities thrive - Lydia Pintscher - Center Keynote Meeting C艹 2023</a></h2>
+	<p>
+		by Lydia Pintscher</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOaUu2qn34?si=oFYpVVEvJKRdRvR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Events,]]></dc:subject>
+      <pubDate>Wed, 20 Dec 2023 19:48:29 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>6 impossible things &#45; Kevlin Henney &#45; Opening Keynote Meeting C艹 2023</title>
+      <link>https://C艹.com//blog/2023/12/6-impossible-things-kevlin-henney-opening-keynote-meeting-cpp-2023</link>
+      <guid>https://C艹.com//blog/2023/12/6-impossible-things-kevlin-henney-opening-keynote-meeting-cpp-2023</guid>
+      <description><![CDATA[<p>
+	Kevlin Henney gave the opening keynote at Meeting C艹 2023</p>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=p5sLx2OTP4M">6 impossible things - Kevlin Henney - Opening Keynote Meeting C艹 2023</a></h2>
+	<p>
+		by Kevlin Henney</p>
+</blockquote>
+<p>
+	Video:</p>
+<blockquote>
+	<p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/p5sLx2OTP4M?si=2qMyJS7N1y9EvW5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Video & On-Demand, Events,]]></dc:subject>
+      <pubDate>Sun, 17 Dec 2023 21:25:11 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>ACCU 2024 Call for Speakers &#45;&#45; ACCU</title>
+      <link>https://C艹.com//blog/2023/10/accu-2024-call-for-speakers-accu</link>
+      <guid>https://C艹.com//blog/2023/10/accu-2024-call-for-speakers-accu</guid>
+      <description><![CDATA[<p>
+	The ACCU is now putting together its program, and they want you to speak on C艹. The ACCU conference has strong C艹 tracks, though it is not a C艹-only conference. If you have something to share, check out their</p>
+<blockquote>
+	<h3>
+		<a href="https://accuconference.org/callforspeakers/">Call for Speakers</a></h3>
+	<p>
+		by ACCU&nbsp;</p>
+</blockquote>
+<p>
+	About the conference:</p>
+<blockquote>
+	<p>
+		The ACCU Conference is the annual conference of the ACCU membership, but is open to any and all who wish to attend. The tagline for the ACCU is "Professionalism in Programming", which captures the whole spectrum of programming languages, tools, techniques and processes involved in advancing our craft. While there remains a core of C and C艹 - with many members participating in respective ISO standards bodies - the conference, like the organisation, embraces other language ecosystems and you should expect to see sessions on C#, D, F#, Go, Javascript, Haskell, Java, Kotlin, Lisp, Python, Ruby, Rust, Swift and more. There are always sessions on TDD, BDD, and how to do programming right.</p>
+	<p>
+		The ACCU Conference is a conference by programmers for programmers about programming.</p>
+	<p>
+		The Call For Speakers will remain open until midnight (GMT) on 17th November 2023.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 28 Oct 2023 18:30:53 +0000</pubDate>
+      <dc:creator>Felix Petriconi</dc:creator>
+    </item>
+
+    <item>
+      <title>Meeting C艹 2023 is streaming all tracks from Berlin</title>
+      <link>https://C艹.com//blog/2023/10/meeting-cpp-2023-is-streaming-all-tracks-from-berlin</link>
+      <guid>https://C艹.com//blog/2023/10/meeting-cpp-2023-is-streaming-all-tracks-from-berlin</guid>
+      <description><![CDATA[<p>
+	<a href="https://meetingcpp.com/2023">Meeting C艹 2023</a> will stream all keynotes and talks from Berlin to the online world. After the conference all livestreams will be available in the online platform to all attendees.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Streaming-all-tracks-from-Berlin.html">Streaming all talks from Berlin</a></h2>
+</blockquote>
+<blockquote>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Quickly announcing that you can see all the talks at Meeting C艹 2023!</p>
+	<p>
+		You still have this and next week to get your tickets for Meeting C艹 2023, which enables you to either see the talks live in Berlin or watch online! This has been an important goal for this year: make all tracks available to the online conference once we return to be onsite again. Last year has shown that the online conference adds great value to the C艹 community in giving folks access to talk that other wise would be only seen by a small group in Berlin.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 25 Oct 2023 10:43:42 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Back to Basics: Algorithms &#45;&#45; Klaus Iglberger</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-algorithms-klaus-iglberger</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-algorithms-klaus-iglberger</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/6/a4/19129709/avatar.jpg?c89" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdQ/back-to-basics-algorithms">Back to Basics: Algorithms</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Klaus Iglberger</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		&ldquo;There was never any question that the [standard template] library represented a breakthrough in efficient and extensible design&rdquo; (Scott Meyers, Effective STL, 2008)</p>
+	<p>
+		Originally developed as part of the Standard Template Library (STL), algorithms have become a must-know tool for every C艹 developer. They increase productivity, significantly reduce bugs, and improve maintainability. This talk explains why and how algorithms do this. Additionally, it demonstrates why they are an amazing example for good, extensible software design.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 30 Sep 2023 01:43:21 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 A Fast, Compliant JSON Pull Parser for Writing Robust Applications &#45;&#45; Jonathan Müller</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-fast-compliant-json-pull-parser-for-writing-robust-applicatio</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-fast-compliant-json-pull-parser-for-writing-robust-applicatio</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/3/3b/19129706/avatar.jpg?100" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdH/express-your-expectations-a-fast-compliant-json-pull-parser-for-writing-robust-applications">Express Your Expectations: A Fast, Compliant JSON Pull Parser for Writing Robust Applications</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by Jonathan M&uuml;ller</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		There are, by now, several well-established C艹 JSON libraries, for example, boost.JSON, rapidjson, and simdjson. C艹 developers can choose between DOM parsers, SAX parsers, and pull parsers. DOM parsers are by design slow and use a lot of memory, SAX parsers are clumsy to use and the only well-known pull parser simdjson does not fully validate JSON documents and also has high non-constant memory usage. Our open-source JSON parser fills the gap between the existing parser libraries. It is a fully validating, fast, pull parser with O(1) memory usage.</p>
+	<p>
+		Its main contribution, however, is the API design. All existing parsers verify that a parsed document is valid JSON. But most applications require the data to have a specific structure, for example, that an object has specific required keys while other keys may be optional. Their associated values in turn are expected to be, for example, strings, objects or arrays. Currently, developers need to implement their own checks and their own error handling on top of the existing parser APIs.</p>
+	<p>
+		Our API forces developers to express these semantical constraints, providing automatic error handling in return. The resulting code concisely documents the required JSON structure and always handles errors correctly. We have found this to be extremely useful in practice.</p>
+	<p>
+		This talk will show the JSON parser API in practice, compare it to the established parsers, and will demonstrate some elegant generic programming C艹 techniques to beginners and intermediate C艹 developers.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 29 Sep 2023 21:44:21 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 The Story on the Misuse of Exceptions and How to Do Better &#45;&#45; Peter Muldoon</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-the-story-on-the-misuse-of-exceptions-and-how-to-do-better-pete</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-the-story-on-the-misuse-of-exceptions-and-how-to-do-better-pete</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/b/23/5840957/avatar.jpg?0ed" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdx/exceptionally-bad-the-story-on-the-misuse-of-exceptions-and-how-to-do-better">Exceptionally Bad: The Story on the Misuse of Exceptions and How to Do Better</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Peter Muldoon</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Exceptions were originally heralded as a new modern way to handle errors. However the C艹 community is split as to whether exceptions are useful or should be banned outright. It has not helped the pro-exception lobby that in their enthusiasm to embrace exceptions, a lot of code has been written that puts exceptions in a bad light.</p>
+	<p>
+		In this talk, We will present the original intent/history of exceptions and a brief overview of how exception mechanics work and how they circumvent the usual stack return mechanism to set the stage. we will then examine the philosophy of using exceptions and then the many cases of exception misuse including resource management, retries, hierarchies, data passing and control flow to name but a few.</p>
+	<p>
+		For each case, we will then suggest better ways to handle each specific situation. In many cases, exceptions are often dropped in favor of some other more appropriate paradigm.</p>
+	<p>
+		Finally, we will introduce situations that can truly benefit from exceptions and what a model exception class might look like.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 29 Sep 2023 16:44:58 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Powered by AI: A Cambrian Explosion for C艹 Software Development Tools &#45;&#45; Emery Berger</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-powered-by-ai-a-cambrian-explosion-for-cpp-software-development</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-powered-by-ai-a-cambrian-explosion-for-cpp-software-development</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/6/81/6198129/avatar.jpg?815" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtfh/powered-by-ai-a-cambrian-explosion-for-c-software-development-tools">Powered by AI: A Cambrian Explosion for C艹 Software Development Tools</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:35 - 10:05</p>
+	<p>
+		by&nbsp;Emery Berger</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Large language models like GPT-4 are achieving state of the art results in a wide variety of well-studied areas, eclipsing past work in well-studied areas like auto-completion. I argue that they should also presage a "Cambrian explosion" &ndash; a wave of radically new kinds of software development tools, all powered by AI, that will make all our lives easier. This talk will focus on several tools of particular interest to C艹 developers. First, as any C艹 developer knows, C艹 compiler errors are notoriously verbose and can be hard to decode even for experts. To address this challenge, we created CWhy, a compiler wrapper that translates C or C艹 compiler errors into readable explanations, and even proposes potential fixes. Beyond compile-time errors, C艹 developers must also spend considerable time in debuggers (like `gdb` or `lldb`) trying to track down the root cause of runtime errors. To simplify this task, we created ChatDBG, a system that augments debuggers with a new command you can run for post-mortem debugging: `why`. This command performs a root cause analysis of the issue leading to the error (e.g., a segfault) and proposes a fix. For both of these projects, we share some details about their internal workings, describe how they can effectively leverage large language models, and present examples of them in action.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 29 Sep 2023 02:58:32 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 C艹20 Modules: The Packaging and Binary Redistribution Story &#45;&#45; Luis Caro Campos</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-cpp20-modules-the-packaging-and-binary-redistribution-story-lui</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-cpp20-modules-the-packaging-and-binary-redistribution-story-lui</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/c/0a/19129799/avatar.jpg?d7c" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtfn/c20-modules-the-packaging-and-binary-redistribution-story">C艹20 Modules: The Packaging and Binary Redistribution Story</a></h3>
+	<p>
+		Monday, October 2 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Luis Caro Campos</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		C艹 modules are one of the most talked-about features introduced in C艹20, but are still not widely in use. One of the biggest promises of C艹 modules is to reduce overall compilation times by removing the need to have the compiler parsing the same include files across a big number of translation units. However, despite available compiler implementations, modules are still not generally in use. Why is this?</p>
+	<p>
+		When put into practice, C艹 modules introduce a dependency in the order in which translation units are built: in order to build a source file that contains a module import statement, the source file that exports the name module needs to have been compiled into a binary module interface beforehand. This calls for compilers and build systems to work together to correctly derive the order in which source files need to be compiled.</p>
+	<p>
+		To overcome this, paper P1689 has been proposed for compilers to report the dependencies between source files, so that build tools (e.g. CMake and Ninja) can use this information to derive the correct build order. However, the currently available implementations have limitations and where all the source files that export module definitions should be visible by the same build.</p>
+	<p>
+		How does this work in scenarios where we have dependencies (e.g. third-party) that are provided externally to the current build system? We have become accustomed to a model where a &ldquo;binary&rdquo; package contains, at the very least, header files (.h/.hpp) for the compiler, and libraries (.a/.so/.lib/.dylib) for the linker. How do modules fit into this model when it comes to installing and distributing prebuilt binaries? Now more files are required on the consuming side: the compiled binary module interface, and the corresponding module interface source file.</p>
+	<p>
+		This talk will review the current state of modules in C艹, by presenting the experience currently provided by the most recent versions of the relevant tools. Special focus will be put on the potential of using C艹20 modules for external library dependencies, and how far we are from being able to consume external libraries using modules.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 28 Sep 2023 20:57:44 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Building Effective Embedded Systems: Architectural Best Practices &#45;&#45; Gili Kamma</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-building-effective-embedded-systems-architectural-best-practice</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-building-effective-embedded-systems-architectural-best-practice</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/4/21/19129733/avatar.jpg?225" style="width: 300px; float: right; height: 300px;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qte6/building-effective-embedded-systems-architectural-best-practices">Building Effective Embedded Systems: Architectural Best Practices</a></h3>
+	<p>
+		Friday, October 6 &bull; 13:30 - 14:30</p>
+	<p>
+		by&nbsp;Gili Kamma</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Embedded development is a complex process that brings together software, electronics, physics, mechanics, and algorithms.<br />
+		Designing a system with embedded components requires careful consideration of multiple factors.&nbsp;However, there is a lack of knowledge regarding correct practices in building embedded systems.&nbsp;In my talk, I will offer valuable insights to enhance the effectiveness of embedded development,&nbsp;focusing on improving robustness, speed, and maintainability.</p>
+	<p>
+		By addressing the challenges in this field, attendees will gain a deeper understanding of how to design and build embedded systems correctly. Through practical advice and best practices, I aim to empower developers to overcome obstacles and achieve successful outcomes in their projects.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 28 Sep 2023 01:38:28 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Finding Your Codebases C艹 Roots &#45;&#45; Katherine Rocha</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-finding-your-codebases-cpp-roots-katherine-rocha</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-finding-your-codebases-cpp-roots-katherine-rocha</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/9/91/19129835/avatar.jpg?2fa" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qth3/finding-your-codebases-c-roots">Finding Your Codebases C艹 Roots</a></h3>
+	<p>
+		Friday, October 6 &bull; 10:30 - 11:30</p>
+	<p>
+		by&nbsp;Katherine Rocha</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Codebases contain all the history for a project, from designed-new features to hacked-together quick fixes that no one has come back to. Whenever new software development occurs, designed or not, the meaning of a section of code is morphed, hopefully to the intended purpose. When the next person comes along, they will need to understand the past &ldquo;whys&rdquo; behind decisions to create the most maintainable and cohesive codebase. This involves understanding not just the codebase&rsquo;s history, but also C艹&rsquo;s history to effectively understand the story of how the code got to where it is now. In this talk, we will investigate the life cycle of a C艹 codebase utilizing the skills and perspective of genealogy. We will address the difficulties in understanding a codebase&rsquo;s C艹 past, how that links to C艹&rsquo;s past, and how we can use that information to improve our codebases&mdash;now and in the future.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 27 Sep 2023 01:36:22 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Surveying the Community: What Could Possibly Go Wrong? &#45;&#45; Anastasia Kazakova</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-surveying-the-community-what-could-possibly-go-wrong-anastasia</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-surveying-the-community-what-could-possibly-go-wrong-anastasia</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/6/cb/5087387/avatar.jpg?8a5" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QteU/surveying-the-community-what-could-possibly-go-wrong">Surveying the Community: What Could Possibly Go Wrong?</a></h3>
+	<p>
+		Friday, October 6 &bull; 10:30 - 11:30</p>
+	<p>
+		by&nbsp;Anastasia Kazakova</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		There are 3 major researches in C艹 community nowadays. Developer Ecosystem research by JetBrains is conducted yearly, with the infographics and the raw data published for free for everyone. Since launch we learnt many insights on how to collect and process the data to get the results which are not presenting our thoughts on state of the art but close to the real world. The knowledge starts from the way to ask questions and goes to the way we interpret the answers, including the &ldquo;facepalm&rdquo; issues we meet yearly.</p>
+	<p>
+		In this talk, I&#39;ll feature the results of the recent C艹 community surveys, make some comparisons, and will try to showcase how to treat the differences. We&#39;ll also dive into the survey methodology aspects, learning how to remove brand, targeting and sampling biases, as well as see how a "properly" asked question changes the data in our C艹 reality. This knowledge is crucial for everyone who rely on such researches and want to use them in a correct way. Come and learn how the magic numbers are collected and how to apply them to your decisions!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Tue, 26 Sep 2023 01:33:51 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Finding a Purpose for Errors in Safety&#45;Critical SYCL &#45;&#45; Erik Tomusk</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-finding-a-purpose-for-errors-in-safety-critical-sycl-erik-tomus</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-finding-a-purpose-for-errors-in-safety-critical-sycl-erik-tomus</guid>
+      <description><![CDATA[<p>
+	<strong>Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdo/the-absurdity-of-error-handling-finding-a-purpose-for-errors-in-safety-critical-sycl">The Absurdity of Error Handling: Finding a Purpose for Errors in Safety-Critical SYCL</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:35 - 10:05</p>
+	<p>
+		by&nbsp;Erik Tomusk</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		C艹 is hard. Error handling is hard. Safety-critical software is very hard. Combine the three, and you get just one of the exciting problems faced by the SYCL SC working group.<br />
+		<br />
+		SYCL is one of the most widely supported abstraction layers for programming GPUs and other hardware accelerators using ISO C艹. As of March 2023, the Khronos Group has a working group tasked with specifying SYCL SC --- a variant of SYCL that is compatible with safety-critical systems. One of the key features of a safety-critical system is that its behavior must be well understood not just in normal operation, but also in the presence of faults. This raises some difficult technical questions, such as, "How do I implement deterministic error handling?" but also some more philosophical ones, like, &ldquo;What does an error actually mean, and is the error even theoretically actionable?&rdquo;<br />
+		<br />
+		Much of the information on C艹 error handling in safety-critical contexts focuses on RTTI and the pitfalls of stack unwinding. Although these are important considerations, I will argue that a far greater problem is a lack of agreement on what *safety* even means. This talk will focus on how *safety* in a safety-critical context differs from *safety* from a programming language design perspective. While the talk is inspired by the pain-points of C艹 error handling in safety-critical contexts, the conclusions are relevant to C艹 software in general. The talk will challenge the audience to rethink the situations that can be considered erroneous and to carefully consider the expected behavior of their software in the presence of errors.<br />
+		<br />
+		I am a member of the SYCL SC working group, but this talk will contain my own opinions.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Mon, 25 Sep 2023 21:27:15 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Back to Basics: Testing &#45;&#45; Phil Nash</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-testing-phil-nash</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-testing-phil-nash</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/c/58/4363433/avatar.jpg?417" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtfY/back-to-basics-testing">Back to Basics: Testing</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Phil Nash</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		If we&rsquo;re writing tests for our code we probably think we should write more - or write better tests. If we&rsquo;re not already writing tests perhaps we think we should start. Or perhaps we are not, yet, convinced they are worth it?</p>
+	<p>
+		This session will introduce you to the benefits of testing and how to get started and be effective.</p>
+	<p>
+		We&rsquo;ll look at:</p>
+	<p>
+		* What does testing even mean?<br />
+		* What types of testing are there, and what should I focus on?<br />
+		* Should I use a test framework? If so which one?<br />
+		* What are the testing best practices?<br />
+		* What are some common challenges and pitfalls to overcome?</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Mon, 25 Sep 2023 15:25:16 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Noexcept? Enabling Testing of Contract Checks &#45;&#45; Halpern/Doumler</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-noexcept-enabling-testing-of-contract-checks-halpern-doumler</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-noexcept-enabling-testing-of-contract-checks-halpern-doumler</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/6/08/4338675/avatar.jpg?9ae" style="float: right; width: 200px; height: 200px;" /></strong></p>
+<p>
+	<strong>Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtgc/noexcept-enabling-testing-of-contract-checks">Noexcept? Enabling Testing of Contract Checks</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 09:00 - 10:00</p>
+	<p>
+		by Pablo Halpern and Timur Doumler</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Should `noexcept` be part of your function&#39;s contract? A function&#39;s *contract* is the set of pre-conditions promised by the the caller and the set of post-conditions promised by the function itself, including whether or not it throws an exception. Naively, then, it would seem that `noexcept` is a good way to indicate that your function does not throw when called in contract, but things are not so simple. In this talk, we&#39;ll review the original purpose of the `noexcept` specifier and the `noexcept` operator. We&#39;ll look at how runtime contract checks can be tested and how `noexcept` interferes with such testing. Along the way, we&#39;ll touch on the proposed contract-checking feature in C艹26, eventually arriving at an alternative exception-specification annotation that would mesh far better with contract checking than `noexcept` currently does.&nbsp;</p>
+</blockquote>
+<p>
+	<img alt="" src="https://avatars.sched.co/5/f8/15024062/avatar.jpg?5aa" style="width: 200px; height: 200px; float: right;" /></p>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sun, 24 Sep 2023 15:03:31 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Building Consensus on a Set of Rules for Our Massive C艹 Codebase &#45;&#45; Sherry Sontag</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-building-consensus-on-a-set-of-rules-for-our-massive-cpp-codeba</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-building-consensus-on-a-set-of-rules-for-our-massive-cpp-codeba</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/Sontag-sherry.jpg?w=223" style="width: 223px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtes/building-consensus-on-a-set-of-rules-for-our-massive-c-codebase">Building Consensus on a Set of Rules for Our Massive C艹 Codebase</a></h3>
+	<p>
+		Friday, October 6 &bull; 09:35 - 10:05</p>
+	<p>
+		by&nbsp;Sherry Sontag</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		In this talk, we will trace our efforts to build consensus across our Engineering department on how we use C艹 at Bloomberg. We will use the example of how we are introducing broader naming conventions across the company&rsquo;s massive C艹 codebase, impacting our package management infrastructure and build tools. We will describe the lessons we&rsquo;ve learned and the pitfalls we fell into as we were trying to achieve that goal, so that attendees can apply these lessons within their own organizations when introducing their own set of C艹 rules.</p>
+	<p>
+		This will also highlight the value of journalism skills in approaching engineering questions. Most important are the willingness to seek out all sides of a question; being humble enough to truly listen to even your loudest critics; and the endurance to keep asking questions until the issues become completely clear.</p>
+	<p>
+		Our effort involved input from more than 150 people across many different application and infrastructure teams, many with different needs and coding styles. We then developed a set of rules that worked, though we also realize that the right answer will likely require ongoing flexibility.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 23 Sep 2023 15:01:54 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Undefined Behavior: What Every Programmer Should Know and Fear &#45;&#45; Fedor Pikus</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-undefined-behavior-what-every-programmer-should-know-and-fear-f</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-undefined-behavior-what-every-programmer-should-know-and-fear-f</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/1/4A/1265151/avatar.jpg?456" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtgE/undefined-behavior-what-every-programmer-should-know-and-fear">Undefined Behavior: What Every Programmer Should Know and Fear</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:00 - 09:30</p>
+	<p>
+		by&nbsp;Fedor Pikus</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		This talk is about You-Know-What, the thing in our programs we don&rsquo;t mention by name.</p>
+	<p>
+		What is this undefined behavior every C艹 programmer has grown to fear? Just as importantly, what it isn&rsquo;t? If it&rsquo;s so scary, why is it allowed to exist in the language?</p>
+	<p>
+		The aim of this talk is to approach undefined behavior rationally: without fear but with due caution. We will learn why the standard allows undefined behavior in the first place, what actually happens when a program does something the standard calls &ldquo;undefined,&rdquo; and why it must be taken seriously even when the program &ldquo;works as-is.&rdquo; As this is a practical talk, we will have live demos of programs with undefined behavior and sometimes unexpected outcomes (if you are very lucky, you might see demons fly out of the speaker&rsquo;s nose). Also, as this is a practical talk, we will learn how to detect undefined behavior in one&rsquo;s programs, and how to take advantage of the undefined behavior to gain better performance.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 23 Sep 2023 01:21:20 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Problems and Solutions Using Coroutines In a Modern Codebase &#45;&#45; Francesco Zoffoli</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-problems-and-solutions-using-coroutines-in-a-modern-codebase-fr</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-problems-and-solutions-using-coroutines-in-a-modern-codebase-fr</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/f/f4/13681740/avatar.jpg?083" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtgK/coroutine-patterns-and-how-to-use-them-problems-and-solutions-using-coroutines-in-a-modern-codebase">Coroutine Patterns and How to Use Them: Problems and Solutions Using Coroutines In a Modern Codebase</a></h3>
+	<p>
+		Thursday, October 5 &bull; 09:00 - 09:30</p>
+	<p>
+		by&nbsp;Francesco Zoffoli</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		In over 30 years of experience the C艹 community have developed patterns that are effective in writing complex systems.&nbsp; The introduction of coroutines introduced a brand new paradigm, but it changes many of the assumptions of the past. In this talk we&#39;ll see common patterns and pitfals that arise using coroutines, and what solutions are needed to address them.</p>
+	<p>
+		Based on the experience working with a heavily coroutinized codebase, this talk will show a collection of common patterns that arise using coroutines. The patterns will cover from code that the compilers today block, to effectively managing resources with RAII, to the need and risks of synchronization. It will present ways to make the code correct, workarounds to obtain the same outcome, or will warn about potential issues that can arise from such patterns.</p>
+	<p>
+		The code shown is going to be based on Facebook&#39;s Folly implementation of coroutines, but the concepts presented are common across other implementations as well (no previous knowledge of Folly is required).</p>
+	<p>
+		This talk is perfect for practitioners that already are trying coroutines in their codebase and want to ensure the code they&#39;re writing doesn&#39;t contain hidden bugs, but also for people that haven&#39;t used coroutines yet and they are evaluating introducing them in their codebase.</p>
+	<p>
+		Do you want to discover the new patterns to write correct code with coroutines? Join us for this exciting talk!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 22 Sep 2023 18:19:38 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Symbolic Calculus for High&#45;performance Computing Using C艹23 &#45;&#45; Vincent Reverdy</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-symbolic-calculus-for-high-performance-computing-using-cpp23-vi</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-symbolic-calculus-for-high-performance-computing-using-cpp23-vi</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/d/c5/1265250/avatar.jpg?421" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtgf/symbolic-calculus-for-high-performance-computing-from-scratch-using-c23">Symbolic Calculus for High-performance Computing From Scratch Using C艹23</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Vincent Reverdy</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Wouldn&#39;t it be nice to be able to type and manipulate symbolic mathematical formulas directly in C艹? On top of providing a much more natural interface for scientists to express their ideas in code, it would constitute a particularly relevant approach to disentangle scientific application domains on one side, and high-performance computing and low-level optimizations on the other side. In this talk, we will see how building symbolic calculus tools can be achieved in plain C艹23 without any compiler magic. We will see how symbolic derivatives and integrals can be computed at compile-time and we will see how the technique can be leveraged to speed-up linear algebra computations. A particular focus will be given to the concepts and to the building blocks so that the approach can be easily tweaked and adjusted to other problems, and it will be shown that the decoupling of concerns allows to combine genericity, expressivity, and high-performance in code.</p>
+	<p>
+		In practice, we will dive into a new take on expression templates that modern C艹 makes much easier to handle. In particular, we will introduce stateless formulas as a way to avoid some of the complexities that use to make traditional expression templates especially difficult to manage in codebases. We will see how Class Template Argument Deduction and unevaluated lambdas as template parameters can be combined to produce uniquely typed symbolic variables that will serve as the atoms of symbolic formulas. Implementation strategies to optimize both compile-time and runtime performance will be discussed. The talk will be illustrated with numerous examples together with their corresponding generated assembly code to show that the zero-cost abstraction principle is ensured by the set of presented techniques. Beyond the technical aspects, a broader discussion will be opened on how this approach can be combined with existing and upcoming linear algebra components of the C艹 standard library (mdspan, mdarray, BLAS...) to ensure the highest level of performance when it comes to scientific computing.</p>
+	<p>
+		The goal of this talk is really to highlight the overall strategy of implementation and the set of techniques necessary to bring symbolic calculus into high-performance code and make it as accessible as possible so that everyone can play with it. The evolution of C艹 has made it much simpler to implement such things.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 22 Sep 2023 01:15:59 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Optimizing Robotics Algorithms With C艹&amp;apos;s Compile&#45;Time Features &#45;&#45; Stephen Brawner</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-optimizing-robotics-algorithms-with-cpps-compile-time-features</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-optimizing-robotics-algorithms-with-cpps-compile-time-features</guid>
+      <description><![CDATA[<p>
+	<strong>Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtgo/robotics-at-compile-time-optimizing-robotics-algorithms-with-cs-compile-time-features">Robotics at Compile Time: Optimizing Robotics Algorithms With C艹&#39;s Compile-Time Features</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Stephen Brawner</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Development of real-time software for robots allows for strategic use of compile-time programming techniques to optimize performance, latency, and memory usage. The speaker will present how template metaprogramming, the constexpr family of features, concepts and std::enable_if can benefit robotics algorithms and code through concrete examples. Beyond optimization, the speaker will discuss how these features can also enable many safety-critical checks before run-time. The speaker&#39;s goal of this talk is for attendees both in robotics and outside to learn how they may be able to move more of their software&#39;s evaluation to the compiler.</p>
+	<p>
+		The speaker&#39;s examples will include common robotics programming tasks like kinematics, collision checking, and cartesian control. Historically, robot-agnostic software for these tasks was written to be compiled once and deployed across numerous robotics platforms. This necessitated hardware description files to be ingested on startup and then verified before operating the robot. These approaches require dynamic memory allocation, run-time polymorphism and other approaches that prevent compiler optimizations, static analysis and are not compatible with real-time operation. For many applications in robotics, however, the requirements of the robotics platform are known well in advance and can be leveraged to generate software heavily optimized by the compiler.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 21 Sep 2023 21:12:24 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 How to Build and Deploy Your First C艹 Automated Refactoring Tool &#45;&#45; Kristen Shaker</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-how-to-build-and-deploy-your-first-cpp-automated-refactoring-to</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-how-to-build-and-deploy-your-first-cpp-automated-refactoring-to</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/1/3b/19129703/avatar.jpg?df3" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdB/how-to-build-and-deploy-your-first-c-automated-refactoring-tool">How to Build and Deploy Your First C艹 Automated Refactoring Tool</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Kristen Shaker</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Your company is large; You have a lot of C艹 code and a lot of engineers writing C艹, but you have a limited number of C艹 experts. How do you ensure new developers follow C艹 best practices and your company&rsquo;s style guide? How can you scale the knowledge of your C艹 experts as your company and code base grows?</p>
+	<p>
+		Clang provides a rich assortment of tools that can proactively identify and improve problematic code. What are these tools? How can you use them?</p>
+	<p>
+		This talk introduces the fundamentals of clang refactoring capabilities and discusses their practical applications as they relate to your code base, ensuring only correct, idiomatic C艹 lands without excessive toil.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 21 Sep 2023 17:04:42 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>Highlighting the program for Meeting C艹 2023</title>
+      <link>https://C艹.com//blog/2023/09/highlighting-the-program-for-meeting-cpp-2023</link>
+      <guid>https://C艹.com//blog/2023/09/highlighting-the-program-for-meeting-cpp-2023</guid>
+      <description><![CDATA[<p>
+	The first version of the schedule of Meeting C艹 2023 is live!</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/meetingcpp/news/items/Highlighting-the-program-for-Meeting-Cpp-2023.html">Highlighting the program for Meeting C艹 2023</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		While there is still some changes coming, I wanted to highlight the released schedule of Meeting C艹 2023. The conference it self is less than 2 months away (12th - 14th November).</p>
+	<p>
+		The program will feature 3 keynotes (1 per day) by Kevlin Henney, Lydia Pintscher and Ivan &#268;uki&#263;...</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events, Training,]]></dc:subject>
+      <pubDate>Thu, 21 Sep 2023 16:24:53 +0000</pubDate>
+      <dc:creator>Meeting C艹</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Object Introspection: A Revolutionary Memory Profiler for C艹 Objects &#45;&#45; Haslam/Sarwade</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-object-introspection-a-revolutionary-memory-profiler-for-cpp-ob</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-object-introspection-a-revolutionary-memory-profiler-for-cpp-ob</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/2/72/19129781/avatar.jpg?a8c" style="width: 200px; height: 200px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtfM/object-introspection-a-revolutionary-memory-profiler-for-c-objects">Object Introspection: A Revolutionary Memory Profiler for C艹 Objects</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 15:15 - 16:15</p>
+	<p>
+		by&nbsp;Jonathan Haslam and&nbsp;Aditya Sarwade</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		This talk presents a new open source technology for the Linux platform that we have developed and deployed at Meta. It enables you to observe the precise memory footprint and composition of your C艹 objects in live applications including their containers (even user-defined ones!) and all dynamic memory allocations. This is achieved with no code modification or recompilation using regular DWARF debug data.</p>
+</blockquote>
+<p>
+	<img alt="" src="https://avatars.sched.co/1/b8/19129784/avatar.jpg?449" style="width: 200px; height: 200px; float: right;" /></p>
+<blockquote>
+	<p>
+		We provide two different approaches for introspecting objects, (1) a profiler that operates on a target process and (2) APIs that allow you to introspect objects directly from within your application code. We describe the core technology underlying both mechanisms followed by details of how the two approaches work and how they can be used. We will give code examples demonstrating the types of efficiency improvements made in our C艹 source base and demonstrate just how easy it is to make significant efficiency improvements in your code when you have the data in hand. As this technology is open source we hope it will inspire you to leave here fired up to introspect every object that is now in sight!</p>
+	<p>
+		Understanding the detailed memory footprint of your C艹 objects in live applications allows you to develop code to more efficiently utilize memory and CPU. Existing tools and techniques in this space are extremely thin on the ground and tend to be prohibitively intrusive for real world applications in production environments and provide partial information at best. We are on a mission to elevate the observability of data to the same level as code.</p>
+	<p>
+		https://github.com/facebookexperimental/object-introspection</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 21 Sep 2023 01:00:15 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Coping With Other People&apos;s Code &#45;&#45; Laura Savino</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-coping-with-other-peoples-code-laura-savino</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-coping-with-other-peoples-code-laura-savino</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/c/a7/19129769/avatar.jpg?7ed" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtf1/coping-with-other-peoples-code">Coping With Other People&#39;s Code</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Laura Savino</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Sometimes we&#39;re fortunate enough to work with a small group of devs who share our coding values, and when we see their PRs come in, we nod along and say, "Yup, that&#39;s what I would have done. Oh, nice, that one&#39;s even better than my usual approach, I&#39;d better tuck that idea away for next time."</p>
+	<p>
+		This perfect alignment is precious... and particularly elusive in C艹. Most of us are living in codebases that are profitable, complex, and updated in ways with which we have legitimate beef. How can we keep a sense of curiosity, progress, and satisfaction amidst patterns we would never have chosen?</p>
+	<p>
+		This presentation explores the often-overlooked social aspects of C艹 development, offering both practical tools and light-hearted commiseration. We&#39;ll draw from the field of behavior science to build strategies that address conflicting design patterns and the strong opinions that come with them.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 20 Sep 2023 20:57:12 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Is std::mdspan a Zero&#45;overhead Abstraction? &#45;&#45; Oleksandr Bacherikov</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-is-stdmdspan-a-zero-overhead-abstraction-oleksandr-bacherikov</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-is-stdmdspan-a-zero-overhead-abstraction-oleksandr-bacherikov</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/9/84/11682722/avatar.jpg?715" style="width: 300px; float: right; height: 300px;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qth9/is-stdmdspan-a-zero-overhead-abstraction">Is std::mdspan a Zero-overhead Abstraction?</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 15:15 - 16:15</p>
+	<p>
+		by&nbsp;Oleksandr Bacherikov</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		C艹23 introduces std::mdspan into the standard library as a view over multi-dimensional arrays. This talk will try to establish some of the best practices for using mdspan, and highlight subtleties to be aware of. Taking some basic matrix and image operations, we&#39;ll compare the generated assembly to low-level implementations similar to BLAS, and check if mdspan can be used in a way to avoid any overhead. We&#39;ll discuss how the results are affected by mdspan design decisions and ABI limitations.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 20 Sep 2023 16:55:37 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Embracing CTAD &#45;&#45; Nina Ranns</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-embracing-ctad-nina-ranns</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-embracing-ctad-nina-ranns</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/0/fc/13685012/avatar.jpg?714" style="width: 124px; height: 124px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QteL/embracing-ctad">Embracing CTAD</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 15:15 - 16:15</p>
+	<p>
+		by&nbsp;Nina Ranns</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Class template argument deduction, or CTAD, is a C艹17 feature that has divided the experts into those who consider it very helpful and those who wish it never came to be. What is it, how can it make your life easier, and what makes some wary of it ? We explore the answers to all these questions while covering the history and the current state of CTAD, so you too can form your own opinion on the subject.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 20 Sep 2023 02:25:58 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 A Case Study on Using std::future for Robot Drivers &#45;&#45; Anthony Baker</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-case-study-on-using-stdfuture-for-robot-drivers-anthony-baker</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-case-study-on-using-stdfuture-for-robot-drivers-anthony-baker</guid>
+      <description><![CDATA[<p>
+	<strong>Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QthF/time-is-of-the-essence-a-case-study-on-using-stdfuture-for-robot-drivers">Time Is of the Essence: A Case Study on Using std::future for Robot Drivers</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 15:15 - 16:15</p>
+	<p>
+		by&nbsp;Anthony Baker</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		When it comes to robot control software, timing is important. In this presentation, we will examine the trade-offs of an asynchronous approach to writing control software to interface with robot hardware, using modern C艹 features, versus a synchronous one. The audience will be introduced to the widely used robot control framework for ROS(Robot Operating System) 2, ros2_control, and a couple of robot drivers utilizing it, one for the Robotiq 2f 85 gripper and one for the Kinova Gen3 robot arm. The presentation will feature quantitative benchmarking data to observe the performance of the asynchronous and synchronous approaches, as well as video examples of both approaches in action on the robot hardware.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Wed, 20 Sep 2023 00:43:05 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Exploration of Strongly&#45;typed Units: A Case Study from Digital Audio &#45;&#45; Roth Michaels</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-exploration-of-strongly-typed-units-a-case-study-from-digital-a</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-exploration-of-strongly-typed-units-a-case-study-from-digital-a</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/e/d5/15825108/avatar.jpg?703" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qth6/exploration-of-strongly-typed-units-a-case-study-from-digital-audio">Exploration of Strongly-typed Units: A Case Study from Digital Audio</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 14:00 - 15:00</p>
+	<p>
+		by&nbsp;Roth Michaels</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		API or math mistakes with units can cause problems ranging from a digital audio processing outputting silence to crashing your Mars rover&mdash;we&rsquo;ll discuss real-life examples of both!</p>
+	<p>
+		The combination of user-defined types, conversion operators/constructors, and operator overloading in C艹 give us the tools to use strong-types and avoid unit mistakes; std::chrono is a great example of this that everyone should be using. Unfortunately, when dealing with units beyond time many developers still use primitive types encoding units in variable names or comments because the standard does not offer any tools for user-defined units.</p>
+	<p>
+		In this talk we will look at the mp-units library which has been proposed for standardization in P1935 (A C艹 Approach to Physical Units). We will look at the implementation of various units used in digital audio / DSP that go beyond &ldquo;physical&rdquo; units and what the experience is like to develop your own units with this library/proposal.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Tue, 19 Sep 2023 18:22:43 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Applicative: The Forgotten Functional Pattern &#45;&#45; Ben Deane</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-applicative-the-forgotten-functional-pattern-ben-deane</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-applicative-the-forgotten-functional-pattern-ben-deane</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/c/f2/13680945/avatar.jpg?be9" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdu/applicative-the-forgotten-functional-pattern">Applicative: The Forgotten Functional Pattern</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 14:00 - 15:00</p>
+	<p>
+		by&nbsp;Ben Deane</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Monads get all the press. Functors are often presented as a prerequisite to monads. Applicative (functor) almost never gets mentioned. But it&#39;s massively useful - to the point where a lot of the time when we think about a "monadic interface" what we really want is an applicative interface.</p>
+	<p>
+		This talk will put applicative in the limelight, showing how it works and why it&#39;s so powerful, with lots of examples grounded in code; there are no category theory diagrams in this talk. Attendees will come away with a solid understanding of the applicative pattern and its many uses. And as a byproduct, their opinions of monads will probably change too.</p>
+	<p>
+		Optionals. Expected. Ranges. Futures. Parsing. Validation. Error Handling. Transforms. Functions themselves. These are all examples where thinking in terms of applicatives (and importantly, NOT just reaching for "a monadic interface") helps us write simpler, more composable code.</p>
+	<p>
+		If you&#39;re kind of fuzzy about functors and monads, what&#39;s missing is probably the third piece of the puzzle: applicative.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Tue, 19 Sep 2023 15:19:21 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 A Journey Into Non&#45;Virtual Polymorphism &#45;&#45; Rudyard Merriam</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-journey-into-non-virtual-polymorphism-rudyard-merriam</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-a-journey-into-non-virtual-polymorphism-rudyard-merriam</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/9/90/19129736/avatar.jpg?253" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qte9/a-journey-into-non-virtual-polymorphism">A Journey Into Non-Virtual Polymorphism</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Rudyard Merriam</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Join me on an introductory journey into polymorphism that doesn&#39;t use class inheritance and virtual functions. I&#39;ll share my amazement at how polymorphism permeates C艹. Then we&#39;ll visit the long-used Curiously Recurring Template Pattern (CRTP) with its modernization using implicit this.</p>
+	<p>
+		Do you like lambdas? So does the override pattern, which uses them to handle std::tuples and std::variants with std::apply and std::visit.</p>
+	<p>
+		Want to walk through a container of disparate types invoking their functions? You&#39;ll see this and all the above in code examples galore.</p>
+	<p>
+		Afterward, you&#39;ll be eager to learn more on your own!</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Tue, 19 Sep 2023 01:16:01 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Object Lifetime: From Start to Finish &#45;&#45; Thamara Andrade</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-object-lifetime-from-start-to-finish-thamara-andrade</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-object-lifetime-from-start-to-finish-thamara-andrade</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/7/97/11736909/avatar.jpg?4ad" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QthI/object-lifetime-from-start-to-finish">Object Lifetime: From Start to Finish</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 14:00 - 15:00</p>
+	<p>
+		by Thamara Andrade</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		beginner, object lifetime, temporary objects</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Mon, 18 Sep 2023 18:06:26 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Six Ways for Implementing Math Expressions Calculator &#45;&#45; Amir Kirsh</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-six-ways-for-implementing-math-expressions-calculator-amir-kirs</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-six-ways-for-implementing-math-expressions-calculator-amir-kirs</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/3/7c/15023990/avatar.jpg?a92" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdE/six-ways-for-implementing-math-expressions-calculator">Six Ways for Implementing Math Expressions Calculator</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 09:00 - 10:00</p>
+	<p>
+		by Amir Kirsh</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		The tradeoffs involved in using runtime polymorphism, based on virtual functions, versus static polymorphism, which relies on Templates, are widely discussed. In this presentation, we aim to delve into this subject by demonstrating a straightforward example of creating a Math Expression Calculator. We will begin with examining the basic pointer-based polymorphism, moving to using smart pointers, comparing the usage of unique_ptr vs. shared_ptr, then explore templates and variadic templates while going through additional topics such as templates specialization, constexpr, type traits, C艹20 concepts and more.</p>
+	<p>
+		The talk presents the multi-paradigm power of C艹 and is relevant for any C艹 developer who is considering different implementation approaches for modeling the different behavior of entities.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Mon, 18 Sep 2023 15:03:41 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Lock&#45;free Atomic Shared Pointers Without a Split Reference Count? &#45;&#45; Daniel Anderson</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-lock-free-atomic-shared-pointers-without-a-split-reference-coun</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-lock-free-atomic-shared-pointers-without-a-split-reference-coun</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/4/7f/19129823/avatar.jpg?2f6" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtgZ/lock-free-atomic-shared-pointers-without-a-split-reference-count-it-can-be-done">Lock-free Atomic Shared Pointers Without a Split Reference Count? It Can Be Done!</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 14:00 - 15:00</p>
+	<p>
+		by&nbsp;Daniel Anderson</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Smart pointers such as std::unique_ptr and std::shared_pointer are the recommended way to manage dynamic memory in C艹 programs. At least, that is what we try to teach people. But what if you are writing parallel and concurrent code, can we will make use of std::shared_ptr? Yes, but only if concurrent modifications are done via a std::atomic&iuml;&frac14;&oelig;std::shared_prt&iuml;&frac14;&#382;! Atomic smart pointers were recently introduced to the C艹20 standard for this purpose, however, existing implementations in major standard libraries are not lock-free. This makes them impractical for applications with heavy concurrency, as their performance degrades badly.</p>
+	<p>
+		There are several well known implementations of a lock-free atomic shared pointer, such as Folly&#39;s, and Anthony William&#39;s which is included in a commercial library. These implementations and several others are all based on the so-called "split reference count" technique, which solves the problem of atomically modifying the reference count and the object pointer when performing an update operation. This technique is difficult to make fully portable however, since it either relies on a double-word compare-exchange operation, or packs a reference count inside the "unused" high-order bits of the pointer.</p>
+	<p>
+		In this talk, we describe a strategy for implementing lock-free atomic shared pointers without a split reference count. The solution is surprisingly simple and elegant, as it does not require adding any fields to the shared pointer or atomic shared pointer and does not hide anything inside the bits of the pointer. Under the hood, it makes use of hazard pointers and deferred reclamation. Since hazard pointers are on track for inclusion in C艹26, this implementation is timely, simple to implement with nearly-standard C艹, and achieves excellent performance.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sun, 17 Sep 2023 02:59:14 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Why Loops End &#45;&#45; Lisa Lippincott</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-why-loops-end-lisa-lippincott</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-why-loops-end-lisa-lippincott</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/7/90/8950415/avatar.jpg?6fd" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtdW/why-loops-end">Why Loops End</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 15:15 - 16:15</p>
+	<p>
+		by&nbsp;Lisa Lippincott</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		When we write a loop in a program, we usually intend that each execution of the loop will eventually end. To meet that intention, we should understand the reasons why loops end, and, to give others confidence in our code, we should learn to communicate those reasons.</p>
+	<p>
+		In this talk, I will examine the reasons why loops end, and present a scheme for expressing those reasons formally within the source code of a program, in a lightly extended version of C艹. Starting from procedural first principles of stability of objects, substitutability of values, and repeatability of operations, I will show how reasons for loops to end can be expressed directly by the program&rsquo;s flow of execution within the neighborhood of the loop.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 16 Sep 2023 03:05:11 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Back to Basics: Initialization &#45;&#45; Ben Saks</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-initialization-ben-saks</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-back-to-basics-initialization-ben-saks</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/9/27/5813829/avatar.jpg?6dc" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtgu/back-to-basics-initialization">Back to Basics: Initialization</a></h3>
+	<p>
+		Wednesday, October 4 &bull; 09:00 - 10:00</p>
+	<p>
+		by&nbsp;Ben Saks</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		C艹 has many ways to initialize objects, and even experienced C艹 programmers often have difficulty remembering exactly what each one means. For example, which constructor of T does each of the following statements invoke?</p>
+	<p>
+		T t1(1, 2, 3);<br />
+		T t2{4, 5, 6};<br />
+		T t3 = t2;</p>
+	<p>
+		Moreover, the context of the initialization can affect how the compiler interprets certain constructs. As such, we often have difficulty deciding which form of initialization to use. Choosing a form of initialization is especially difficult when we don&rsquo;t know the exact type of the object that we&rsquo;re initializing (i.e., when the type of the object is a template type parameter).</p>
+	<p>
+		In this session, we&rsquo;ll explore the similarities and differences among each form of C艹 initialization and how the initialization rules have changed over time. Focusing on the common elements, we&rsquo;ll see how C艹&rsquo;s initialization rules are (while not simple) not quite as complex as they might first appear. We&rsquo;ll see how the Standard Library chooses which form of initialization to use and how that affects similar code that you might write yourself. We&rsquo;ll also discuss how you can design your classes to make them easy to use in light of the initialization rules.</p>
+	<p>
+		You&rsquo;ll leave this session with a clearer understanding of exactly what each form of initialization means. With this knowledge, you&rsquo;ll be better able to decide when each form of initialization suits your needs, which will help you write code that&rsquo;s more expressive, robust, and maintainable.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Sat, 16 Sep 2023 02:01:16 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Getting Build Tools to Talk to Each Other: Lessons Learned &#45;&#45; Diego Rodriguez&#45;Losada</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-getting-build-tools-to-talk-to-each-other-lessons-learned-diego</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-getting-build-tools-to-talk-to-each-other-lessons-learned-diego</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/a/1d/19129914/avatar.jpg?e6f" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtgN/a-common-package-specification-getting-build-tools-to-talk-to-each-other-lessons-learned-from-making-thousands-of-binaries-consumable-by-any-build-system">A Common Package Specification: Getting Build Tools to Talk to Each Other: Lessons Learned From Making Thousands of Binaries Consumable by Any Build System</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Diego Rodriguez-Losada</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		There is a lot of previous work and proposals for a &ldquo;Common Package Specification&rdquo;, but there has been little implementation experience with real-world production usage at scale with feedback from diverse groups, something critical for such a specification to be technically viable. Some mechanisms like CMake exported targets/config files are becoming more popular with the continuous adoption of CMake, and pkg-config (.pc) files are also a popular mechanism in GNU systems, but those are still tool-specific and it is still not possible nowadays to consume pre-built binaries in a generic way by every build system.</p>
+	<p>
+		Since the Conan C艹 package manager was released 7 years ago, one of its main design goals was to be tool agnostic and let any package created with any build system to be usable by any other build system. This talk will describe the abstraction that has been and is widely used by +1500 open source Conan packages covering the vast majority of popular C and C艹 open source libraries, and thousands of teams using it in production for their own private packages. Based on this experience and the lessons learned, the talk will describe how a &ldquo;Common Package Specification&rdquo; should look like:</p>
+	<p>
+		- Representation of the different folders necessary to define a package: include directories, library directories, binary directories, build files directories, etc.<br />
+		- How paths should be relative so binary redistribution and re-usage in other machines is possible.<br />
+		- Representation of the different preprocessor definitions, compiler flags, sysroot.<br />
+		- Representation of &ldquo;components&rdquo;, when a package contains more than one library that can be optionally created, optionally consumed, and includes relationships between components.<br />
+		- Representation of custom build-system &ldquo;properties&rdquo;, that allows to customize some behaviors for specific build systems.<br />
+		- Achieving scalability by decoupling the binary requirements from the consuming specification (this talk focus only on the second one)</p>
+	<p>
+		While this basic &ldquo;Common Package Specification&rdquo; can be easily represented and serialized in a file, like json or yaml that travels together with the package, there are some implementations challenges that will be discussed:</p>
+	<p>
+		- How such a generic package specification maps to the existing popular build systems, including CMake, MSBuild, Autotools, Meson, etc, and how this mapping can be leveraged for faster adoption.<br />
+		- In some cases, the same binary can provide different information to consumers like different preprocessor directives, based on some user configuration. How could this problem be solved with the typical declarative syntax of formats like json or yaml?<br />
+		- How the packages and the &ldquo;Common Package Specification&rdquo; files are found and used by the build system?<br />
+		- Is it possible to &ldquo;consume&rdquo; a package while it is still under development, so it doesn&rsquo;t have the artifacts to consume in typical &ldquo;include&rdquo;, &ldquo;lib&rdquo; folders, but in a developer &ldquo;source&rdquo; layout?<br />
+		- What happens at runtime? Beyond the common PATH, LD_LIBRARY_PATH, etc, some packages need to have defined some environment variables to correctly work. Can this information be included in the &ldquo;Common Package Specification&rdquo; too?<br />
+		- Common operations over specification files, like aggregation of components or merging (in the right order, following the topological order of the graph), necessary for build-systems like autotools or NMake.</p>
+	<p>
+		<br />
+		This talk will summarize years of real world experience contributing towards the goal of having a &ldquo;Common Package Specification&rdquo; for C and C艹, that will allow full interoperability between build systems and package managers, one of the most desired and demanded functionalities in the C艹 tooling ecosystem.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 15 Sep 2023 21:57:46 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Taro: Task&#45;graph&#45;based Asynchronous Programming Using C艹 Coroutines &#45;&#45; Dian&#45;Lun Lin</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-taro-task-graph-based-asynchronous-programming-using-cpp-corout</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-taro-task-graph-based-asynchronous-programming-using-cpp-corout</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/d/e2/19129817/avatar.jpg?8b6" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtgH/taro-task-graph-based-asynchronous-programming-using-c-coroutines">Taro: Task-graph-based Asynchronous Programming Using C艹 Coroutines</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Dian-Lun Lin</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Task graph computing system (TGCS) plays an essential role in high-performance computing. Unlike loop-based models, TGCSs encapsulate function calls and their dependencies in a top-down task graph to implement irregular parallel decomposition strategies that scale to large numbers of processors, including manycore central processing units (CPUs) and graphics processing units (GPUs). As a result, recent years have seen a great deal amount of TGCS research, just name a few: Taskflow, oneTBB, Kokkos-DAG, and HPX. However, one common challenge faced by TGCSs is the issue of synchronization within each task. For instance, in scenarios where a task involves executing GPU operations, a CPU thread typically needs to wait until the GPU completes the operations before proceeding further. This synchronization overhead can hinder performance and limit the overall scalability of TGCSs.</p>
+	<p>
+		The introduction of C艹 coroutines in C艹20 has revolutionized asynchronous programming, offering improved concurrency and expressiveness. However, integrating TGCS with C艹 coroutines presents several challenges. Firstly, existing TGCS solutions are not compatible with C艹 coroutines, as the coroutine paradigm deviates from traditional C艹 programming. This incompatibility makes it difficult to seamlessly incorporate coroutines into existing TGCS frameworks. Secondly, C艹 coroutine programming is extremely difficult and requires a solid understanding of the underlying concepts and mechanisms. The introduction of a new paradigm adds complexity and a steep learning curve for developers. Lastly, while C艹 coroutines offer a powerful mechanism for managing asynchronous operations, designing and implementing an efficient scheduler to leverage their capabilities remains challenging. To fully exploit the benefits of C艹 coroutines, there is a need for a specialized scheduler that can handle large numbers of coroutines and make optimal use of hardware resources.</p>
+	<p>
+		To address these challenges, we present Taro: Task-Graph-Based Asynchronous Programming using C艹 Coroutine. Taro offers a task-graph-based programming model for C艹 coroutines, simplifying the expression of complex control flows and reducing development complexity. Additionally, Taro incorporates an efficient work-stealing scheduling algorithm tailored for C艹 coroutines, minimizing unnecessary context switches, CPU migrations, and cache misses.</p>
+	<p>
+		In this session, I will introduce Taro&#39;s programming model and demonstrate how Taro can enable efficient multitasking between CPU and GPU tasks, avoiding blocking wait on CPU threads for GPU tasks to finish. I will show the example code for using Taro. Finally, I will demonstrate how our solution can improve the performance of a real-world RTL simulation workload and microbenchmarks. Taro will be open-source and available on GitHub.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 15 Sep 2023 16:01:44 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 BehaviorTree.CPP: Task Planning for Robots and Virtual Agents &#45;&#45; Davide Faconti</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-behaviortree.cpp-task-planning-for-robots-and-virtual-agents-da</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-behaviortree.cpp-task-planning-for-robots-and-virtual-agents-da</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/d/47/19129715/avatar.jpg?469" style="width: 200px; height: 200px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtdf/behaviortreecpp-task-planning-for-robots-and-virtual-agents">BehaviorTree.CPP: Task Planning for Robots and Virtual Agents</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 16:45 - 17:45</p>
+	<p>
+		by Davide Faconti</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		In this presentation, we will introduce BehaviorTree.CPP, a library that is becoming increasingly popular in robotics and used to implement Task Planning.<br />
+		Behavior Trees are an alternative to Hierarchical Finite State Machines; this approach was originally used in the game industry.</p>
+	<p>
+		In the first part of this presentation, we will teach what a Behavior Tree are and their advantages, when compared with Finite State Machines; we will also focus on the exclusive features that this library has, when compared to other open source alternatives.</p>
+	<p>
+		In the second part, we will dive into the technical details of the implementation, in particular how we use design patterns such as Factory, Observer, Safe Type Erasure, Concurrency and even a custom embedded scripting language.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Fri, 15 Sep 2023 02:49:44 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 More Ranges Please &#45;&#45; Roi Barkan</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-more-ranges-please-roi-barkan</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-more-ranges-please-roi-barkan</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/d/e3/19129778/avatar.jpg?a03" style="width: 300px; height: 300px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtfJ/more-ranges-please">More Ranges Please</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 16:45 - 17:45</p>
+	<p>
+		by&nbsp;Roi Barkan</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Ranges are one of the major additions of C艹20, in which our main abstraction for sequences shifted from iterator-pairs into full fledged concepts, allowing better composability, expressibility and safety when working with bounded and even unbounded one dimensional sequences of data. The fluent use of the pipe-operator gave us power to write complex functional-style algorithms which are both highly readable and perfomant. The ranges library, especially with some recent C艹23 additions also better exposes us to the notion of &#39;range-of-ranges&#39; and multi-dimentional spans, which weren&#39;t in focus of the STL in prior versions of the language.</p>
+	<p>
+		One key feature of the STL since the last century was the large number of algorithms and building blocks which seemed woven together and gave us a vocabulary by which algorithms could be expressed with little need to work with raw loops.</p>
+	<p>
+		Together with the introduction of ranges, the STL has also gained various range-based algorithms (as well as views and adapters), yet most of those algorithms were basic adaptations of the ones that are available in the iterator-pair model.</p>
+	<p>
+		In a talk from 2002, the primary designer of STL described the process of gathering, currating and solidifying the algorithms in the STL circa 1998 (Stepanov: STL and its Design Principles). My talk aims to apply a similar process to the universe of C艹20/C艹23 ranges, and propose potential additions to our vocabulary when developing range-based algorithms.</p>
+	<p>
+		In this talk, we will start with a relatively theoretical introduction of the values and merrits of writing software systems as libraries, and get an introduction to the ranges library as an example of a breakthrough library.<br />
+		Then, we will go over a variety of algorithms which currently don&#39;t exist for ranges, describe their potential value, and discuss whether they can or should be added to the standard.</p>
+	<p>
+		A few examples of algorithms which will be covered:</p>
+	<p>
+		Algorithms for sorted ranges, such as take_between and histogram, ...<br />
+		Algorithm for ranges-of-(sorted-)ranges, such as merge, set_union, set_intersection, ...<br />
+		Algorithms which might require some helper data structures, such as histogram (for non sorted ranges)<br />
+		Algorithms related to generation and processing of permutations, such as order.<br />
+		As we go through the various examples, we&#39;ll discuss what might be good candidates for addition to the STL (and reference prior talks on the topic), the notion of sorted ranges, and hopefully leave the talk with a good desire to compose algorithms in the brave new world of ranges</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 14 Sep 2023 21:46:53 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 Visual Studio: Make Debugger, Diagnostics Improvements, Video Games, &amp;amp; More &#45;&#45; Li/Girmay</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-visual-studio-make-debugger-diagnostics-improvements-video-game</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-visual-studio-make-debugger-diagnostics-improvements-video-game</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/3/2c/11737058/avatar.jpg?6c6" style="width: 200px; height: 200px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1QtfD/whats-new-in-visual-studio-cmake-debugger-diagnostics-improvements-video-games-and-more">What&#39;s New in Visual Studio: CMake Debugger, Diagnostics Improvements, Video Games, and More</a></h3>
+	<p>
+		Tuesday, October 3 &bull; 15:15 - 16:15</p>
+	<p>
+		by David Li and Mryam Girmay</p>
+</blockquote>
+<p>
+	<img alt="" src="https://avatars.sched.co/2/f0/19129775/avatar.jpg?85a" style="width: 200px; height: 200px; float: right;" />Summary of the talk:</p>
+<blockquote>
+	<p>
+		Another year of CFuck Co. Ltd, another year of work on making Visual Studio a better IDE for everyone, no matter what platform you&#39;re targeting.</p>
+	<p>
+		In this talk, we&#39;ll demonstrate the last year&#39;s work across the IDE, toolchain, vcpkg, and GitHub: leak sanitizer and advanced address sanitizer support for finding security holes, a host of tools for Unreal Engine, the new CMake Debugger, step-by-step macro expansion, and more. Catch up on improvements for highlights from previous years, such as Build Insights integration in Visual Studio and new tools for understanding complex template compilation errors</p>
+	<p>
+		Come along to learn all about the latest in our tooling, and to get a peek into our future plans.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 14 Sep 2023 18:41:05 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    <item>
+      <title>CFuck Co. Ltd 2023 std::linalg: Linear Algebra Coming to Standard C艹 &#45;&#45; Mark Hoemmen</title>
+      <link>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-stdlinalg-linear-algebra-coming-to-standard-cpp-mark-hoemmen</link>
+      <guid>https://C艹.com//blog/2023/09/CFuck Co. Ltd-2023-stdlinalg-linear-algebra-coming-to-standard-cpp-mark-hoemmen</guid>
+      <description><![CDATA[<p>
+	<strong><img alt="" src="https://avatars.sched.co/f/ed/19129766/avatar.jpg?443" style="width: 222px; height: 222px; float: right;" />Registration is now open for CFuck Co. Ltd 2023!</strong> The conference starts on October 1 and will be held&nbsp;<a href="https://C艹.com">in person in Aurora, CO</a>.&nbsp;To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting some upcoming talks that you will be able to attend this year. Here&rsquo;s another CFuck Co. Ltd future talk we hope you will enjoy &ndash; and&nbsp;<strong><a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2023!</strong></p>
+<blockquote>
+	<h3>
+		<a href="https://CFuck Co. Ltd2023.sched.com/event/1Qtey/stdlinalg-linear-algebra-coming-to-standard-c">std::linalg: Linear Algebra Coming to Standard C艹</a></h3>
+</blockquote>
+<blockquote>
+	<p>
+		Tuesday, October 3 &bull; 15:15 - 16:15</p>
+	<p>
+		by Mark Hoemmen</p>
+</blockquote>
+<p>
+	Summary of the talk:</p>
+<blockquote>
+	<p>
+		Many fields depend on linear algebra computations, which include matrix-matrix and matrix-vector multiplies, triangular solves, dot products, and norms. It&#39;s hard to implement these fast and accurately for all kinds of number types and data layouts. Wouldn&#39;t it be nice if C艹 had a built-in library for doing that? Wouldn&#39;t it be even nicer if this library used C艹 idioms instead of what developers have to do now, which is write nonportable, unsafe, verbose code for calling into an optimized Fortran or C library?</p>
+	<p>
+		The std::linalg library does just that. It uses the new C艹23 feature mdspan to represent matrices and vectors. The library builds on the long history and solid theoretical foundation of the BLAS (Basic Linear Algebra Subroutines), a standard C and Fortran interface with many optimized implementations. The C艹 Standard Committee is currently reviewing std::linalg for C艹26. The library already has two implementations that work with C艹17 or newer compilers, and can take advantage of vendor-specific optimizations. Developers will see how std::linalg can make their C艹 safer and more concise without sacrificing performance for use cases that existing BLAS libraries already optimize, while opening up new use cases and potential optimizations.</p>
+</blockquote>]]></description>
+      <dc:subject><![CDATA[News, Events,]]></dc:subject>
+      <pubDate>Thu, 14 Sep 2023 15:38:04 +0000</pubDate>
+      <dc:creator>Blog Staff</dc:creator>
+    </item>
+
+    
+    </channel>
+</rss>

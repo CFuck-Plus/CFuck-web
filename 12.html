@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        December 2023
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2023/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2023/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2023/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2023/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="05d9f8e31e8fac9715490ebbb7c00c371c2a0024" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2023">2023</a> &raquo; 
+        December          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/12/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          December 2023
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="releasing-the-keynotes-of-meeting-cpp-2023.html">Releasing the keynotes of Meeting C艹 2023</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Dec 30, 2023 03:38 AM 
+         | 
+        Tags: 
+                    <a href="performance.html" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="c__14.html" class="tag">C艹14</a>
+                    <a href="basics.html" class="tag">basics</a>
+                    <a href="advanced.html" class="tag">advanced</a></p>
+        <p>
+	Highlighting the current video releases for Meeting C艹 2023: the keynotes</p>
+<p>
+	With this year Meeting C艹 had a unique set of keynotes, covering 6 impossible problems for software devs with the opening keynote by Kevlin Henney, followed by great wisdom about how open communities thrive by Lydia Pintscher. The closing keynote by Ivan &#268;uki&#263; was an impressive medley composing various idioms with Prog(ressive) C艹.</p>
+<ul>
+	<li>
+		<a href="https://www.youtube.com/watch?v=p5sLx2OTP4M" rel="noopener" target="_blank">6 impossible things - Kevlin Henney</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=EIOaUu2qn34" rel="noopener" target="_blank">Helping open communities thrive - Lydia Pintscher</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=ceFEtCRIXk4" rel="noopener" target="_blank">Prog C艹 - Ivan &#268;uki&#263;</a></li>
+</ul>
+<p>
+	All these keynotes are worth watching, a great contribution to our knowledge base as a community. Thanks to Kevlin Henney, Lydia Pintscher and Ivan &#268;uki&#263; for preparing these great presentations!</p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/boost-1.84.0-has-been-released">Boost 1.84.0 has been released</a></h3>
+        <p class="byline">By Blog Staff | 
+        Dec 28, 2023 01:26 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<a href="https://www.boost.org/users/download/"><img alt="space.png" src="files/img/space.png" style="width: 2px; margin: 10px; float: right;"><img alt="space.png" src="files/img/space.png" style="width: 2px; margin: 10px; float: right;"><img alt="getboost.png" src="files/img/getboost.png" style="width: 147px; margin: 10px; float: right;">Release 1.84.0 of the Boost C艹 Libraries is now available.</a></p>
+<p>
+	These open-source libraries work well with the C艹 Standard Library, and are usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use.</p>
+<p>
+	Release 1.84.0 contains two new libraries and numerous enhancements and bug fixes for existing libraries.</p>
+<p>
+	<strong>New Libraries</strong></p>
+<ul>
+	<li>
+		<a href="https://www.boost.org/libs/cobalt/">Cobalt</a>: Basic algorithms and types for C艹20 coroutines, from Klemens Morgenstern.</li>
+	<li>
+		<a href="https://www.boost.org/libs/redis/">Redis</a>: Redis async client library built on top of Boost.Asio, from Marcelo Zimbres Silva.</li>
+</ul>
+<p>
+	Here are some useful links for 1.84.0.</p>
+<ul>
+	<li>
+		<a href="https://www.boost.org/users/history/version_1_84_0.html">Details, including download links</a>.</li>
+	<li>
+		You can also <a href="https://sourceforge.net/projects/boost/files/boost/1.84.0/">download directly from SourceForge</a>.</li>
+	<li>
+		To install this release on your system, see <a href="https://www.boost.org/doc/libs/1_84_0/more/getting_started/index.html">getting started</a>.</li>
+</ul>
+<p>
+	<br>
+	Marshall Clow and Glen Fernandes managed this release - we very much appreciate their continued hard work!</p>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/sobjectizer-tales-12.-receiving-commands-from-the-network">SObjectizer Tales – 12. Receiving commands from the network--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Dec 28, 2023 02:12 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/10/sobjectizer-tales_12.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2023/12/28/sobjectizer-tales-12/">SObjectizer Tales &ndash; 12. Receiving commands from the network</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we introduce a gRPC-based agent that will receive start and stop commands from outside our program.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/cpp20-spans-threads-and-fun-bartlomiej-filipek">C艹20, Spans, Threads and Fun -- Bartlomiej Filipek</a></h3>
+        <p class="byline">By Blog Staff | 
+        Dec 27, 2023 04:28 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="C艹20_Spans_Threads_and_Fun.png" src="files/img/C__20_Spans_Threads_and_Fun.png" style="width: 372px; margin: 10px; float: right;">In this post, we&rsquo;ll have fun using C艹20&rsquo;s spans to process data on multiple threads. What&rsquo;s more, we&rsquo;ll be equipped with the latest concurrency features from C艹20.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cppstories.com/2023/spans-threads-cpp20/">C艹20, Spans, Threads and Fun</a></h3>
+	<p>
+		by Bartlomiej Filipek</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Our task is relatively simple but can be extended to various multi-phase computations.</p>
+	<p>
+		We need to initialize a container with numbers, filter them, then build a histogram.</p>
+	<p>
+		Here&rsquo;s the overview of the process:</p>
+	<p>
+		<img alt="" src="2023/images/spans_threads_diag.png"></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/clion-nova-explodes-onto-the-c-and-cpp-development-scene-anastasia-kazakova">CLion Nova Explodes onto the C and C艹 Development Scene -- Anastasia Kazakova</a></h3>
+        <p class="byline">By Blog Staff | 
+        Dec 22, 2023 04:28 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="clionnova.png" src="files/img/clionnova.png" style="width: 400px; margin: 10px; float: right;">We&rsquo;re announcing a free early preview of CLion, which uses the ReSharper C艹/Rider C艹 language engine instead of the CLion "legacy" engine. The Preview build is available via our dedicated Toolbox App feed. At some point in 2024, depending on the results of the feedback collected, CLion Nova will be merged into CLion. Until then, the Preview build will be free to use and can be installed in parallel with your usual CLion (Classic) installation.</p>
+<blockquote>
+	<h3>
+		<a href="https://blog.jetbrains.com/clion/2023/11/clion-nova/">CLion Nova Explodes onto the C and C艹 Development Scene</a></h3>
+	<p>
+		by Anastasia Kazakova</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		The first C艹 engine by JetBrains was designed for AppCode, our IDE for iOS and macOS developers. It was part of the IntelliJ Platform, initially written in Java and later also in Kotlin. The approach and the architecture of the engine serve many languages in IntelliJ-based IDEs well; however, this design turned out not to be the best fit for the C艹 language specifically.</p>
+	<p>
+		To more quickly align with the evolution of C艹 and to separate the engine and IDE processes, a clangd-based engine was later added to CLion. Built on our custom branch of clangd, this engine detects any warnings and errors, shows them in the editor, and suggests quick-fixes, as well as performing highlighting, completion, and certain navigation actions. It&rsquo;s also used for things like&nbsp;<a href="https://blog.jetbrains.com/clion/2023/11/striving-for-better-cpp-code-part-i-data-flow-analysis-basics/">data flow analysis</a>&nbsp;and MISRA checks. Meanwhile, CLion&rsquo;s &ldquo;legacy&rdquo; engine is responsible for other code insight features like refactorings. You can see a detailed &ldquo;list of responsibilities&rdquo; in our&nbsp;<a href="https://www.jetbrains.com/help/clion/2023.3/c-support.html" rel="noopener" target="_blank">CLion documentation</a>.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="prog-cpp-ivan-cukic-closing-keynote-meeting-c-2023.html">Prog C艹 - Ivan Čukić - Closing Keynote Meeting C艹 2023</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Dec 22, 2023 12:17 PM 
+         | 
+        Tags: 
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="keynote.html" class="tag">keynote</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="basics.html" class="tag">basics</a></p>
+        <p>
+	Ivan &#268;uki&#263; gave a great Closing Keynote at this years Meeting C艹 conference in Berlin.</p>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=ceFEtCRIXk4">Prog C艹 - Ivan &#268;uki&#263; - Closing Keynote Meeting C艹 2023</a></h2>
+	<p>
+		by Ivan &#268;uki&#263;</p>
+	<p>
+		Video</p>
+	<p>
+		<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/ceFEtCRIXk4?si=oTTmXyV4zF9onrni" title="YouTube video player" width="560"></iframe></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/top-10-errors-in-c-and-cpp-projects-in-2023">Top 10 errors in C and C艹 projects in 2023</a></h3>
+        <p class="byline">By Andrey Karpov | 
+        Dec 22, 2023 05:26 AM 
+         | 
+        Tags: 
+                    <a href="https://C艹.com/blog/tag/pvs-studio" class="tag">pvs-studio</a></p>
+        <p>
+	New Year is coming! It means, according to tradition, it&#39;s time to recall 10 of the most interesting bugs that PVS-Studio found during 2023.</p>
+<blockquote>
+	<h3>
+		<a href="https://pvs-studio.com/en/blog/posts/cpp/1092/?utm_source=firefly&amp;utm_medium=isocpp">Top 10 errors in C and C艹 projects in 2023</a></h3>
+	<p>
+		by Alexey Gorshkov</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this case, the developers wanted to fill the keyEventList array with zeros. Pay attention to the third parameter &mdash; the number of bytes the developers wanted to fill with zeros. In this case, sizeof(keyEventList) evaluates the pointer size instead of the array size. It depends on the target platform, but most often it&#39;s 4 or 8 bytes. However, the size of the structure is clearly larger than 4 or 8 bytes.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/sobjectizer-tales-11.-interlude-testing">SObjectizer Tales – 11. Interlude: testing--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Dec 21, 2023 06:28 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/10/sobjectizer-tales_11.png" style="width: 300px; margin: 10px; float: right; height: 147px;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2023/12/21/sobjectizer-tales-11/">SObjectizer Tales &ndash; 11. Interlude: testing</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we discuss how to test message passing-styled applications and we&#39;ll add some unit and integration tests to our project.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/helping-open-communities-thrive-lydia-pintscher-center-keynote-meeting-cpp">Helping open communities thrive - Lydia Pintscher - Center Keynote Meeting C艹 2023</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Dec 20, 2023 12:47 PM 
+         | 
+        Tags: 
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="keynote.html" class="tag">keynote</a>
+                    <a href="community.html" class="tag">community</a></p>
+        <p>
+	Lydia Pintscher of KDE and Wikimedia gave a great community focused keynote at Meeting C艹 2023</p>
+<blockquote>
+	<h2>
+		<a href="https://www.youtube.com/watch?v=EIOaUu2qn34">Helping open communities thrive - Lydia Pintscher - Center Keynote Meeting C艹 2023</a></h2>
+	<p>
+		by Lydia Pintscher</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOaUu2qn34?si=oFYpVVEvJKRdRvR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/12/how-can-i-prevent-myself-from-using-a-parameter-after-ive-extracted-all-val">How Can I Prevent Myself From Using a Parameter After I’ve Extracted All Value? -- Raymond Chen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Dec 18, 2023 04:27 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	Imagine you have a function parameter that you want to protect from direct access, ensuring that all future interactions occur through a wrapper or transformation. This situation often arises in scenarios like implementing a logging wrapper for a class. In this discussion, we&#39;ll explore a clever technique known as "hide_name" to achieve this goal, allowing you to enforce the use of the wrapper and prevent direct access to the parameter.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/oldnewthing/20230915-00/?p=108775">How Can I Prevent Myself From Using a Parameter After I&rsquo;ve Extracted All Value From It?</a></h3>
+	<p>
+		By Raymond Chen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Suppose you have a function that takes a parameter that you want to transform in some way, and you want to require that all future access to the parameter be done through the transformed version. One example is a wrapper class that does logging.&sup1;</p>
+	<pre tabindex="0">
+struct WidgetRefWrapper&#10;{&#10;    WidgetRefWrapper(&#10;        Widget&amp; widget,&#10;        Logger&amp; logger) :&#10;    m_widget(widget), m_logger(logger) {}&#10;    &#10;    void Toggle() try&#10;    {&#10;        m_logger.Log("Toggling the widget");&#10;        m_widget.Toggle();&#10;        m_logger.Log("Toggled the widget");&#10;    } catch (...) {&#10;        m_logger.Log("Exception while toggling the widget");&#10;        throw;&#10;    }&#10;&#10;private:&#10;    Widget&amp; m_widget;&#10;    Logger&amp; m_logger;&#10;};&#10;&#10;void DoSomething(Widget&amp; widget)&#10;{&#10;    Logger&amp; logger = GetCurrentLogger();&#10;    WidgetWrapper wrapper(widget, logger);&#10;&#10;    // Do not use the widget directly!&#10;    // Always use the wrapper!&#10;&#10;    if (needs_toggling) {&#10;        wrapper.Toggle();&#10;    }&#10;}&#10;</pre>
+	<p>
+		You want that &ldquo;Do not use the widget directly!&rdquo; comment to have some teeth. Can you &ldquo;poison&rdquo; the&nbsp;<code>widget</code>&nbsp;parameter so it cannot be used any more?</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/12/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/12",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/12",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        performance
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/tag/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/tag/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/tag/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/tag/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="f6bb21e1a92987be305af1354876c62374f226e0" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="tag.html">Tags</a> &raquo; performance
+          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/tag/performance/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          performance
+        </h2>
+  </header>
+  
+      
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="hpx-v1.10.0-released-stellar-group.html">HPX V1.10.0 released -- STE||AR Group</a></h3>
+        <p class="byline">By Hartmut Kaiser | 
+        May 29, 2024 07:43 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="https://C艹.com/blog/tag/parallelism" class="tag">parallelism</a>
+                    <a href="https://C艹.com/blog/tag/heterogeneous+computing" class="tag">heterogeneous computing</a>
+                    <a href="https://C艹.com/blog/tag/distributed+computing" class="tag">distributed computing</a>
+                    <a href="https://C艹.com/blog/tag/concurrency" class="tag">concurrency</a>
+                    <a href="https://C艹.com/blog/tag/C艹23" class="tag">C艹23</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="c__14.html" class="tag">C艹14</a>
+                    <a href="c__11.html" class="tag">C艹11</a></p>
+        
+          <p>
+	<a href="https://github.com/STEllAR-GROUP/hpx/"><img alt="" src="files/img/stellar_logo.png" style="margin: 10px; width: 320px; height: 43px; float: right;"></a>The STE||AR Group has released V1.10.0 of HPX -- A C艹 Standard library for Concurrency and Parallelism.</p>
+<blockquote>
+	<h3>
+		<a href="https://hpx.stellar-group.org/hpx-1-10-0-released/">HPX V1.10.0 Released</a></h3>
+</blockquote>
+<p>
+	We have released HPX 1.10.0 &mdash; a major update to our C艹 Standard Library for Concurrency and Parallelism. We have continued to modernize HPX to fully conform to the latest standardization efforts in the are of parallelism and concurrency. Our HPX documentation has seen a major overhaul for this release, please have a look <a href="https://hpx-docs.stellar-group.org/latest/html/index.html">here</a>. We finished documenting the public local HPX API, we have added migration guides from widely used parallelization platforms to HPX (OpenMP, TBB, and MPI). Among other things, we have performed a lot of code cleanup and refactoring to improve the overall code quality and decrease compile times and to improve the consistency of our exposed APIs. The core implementation has seen many performance optimizations that impact every aspect of our applications.</p>
+<p>
+	If you have any questions, comments, or exploits to report you can reach us on IRC or Matrix (#ste||ar on libera.chat) or email us at <a href="http://mailto:hpx-users@stellar-group.org">hpx-users</a>. We depend on your input!</p>
+<p>
+	You can download the release from our <a href="https://github.com/STEllAR-GROUP/hpx/releases/tag/v1.10.0">releases page</a> or <a href="https://github.com/STEllAR-GROUP/hpx/tree/v1.10.0">check out</a> the v1.10.0 tag using git. A full list of changes can be found in the <a href="https://hpx-docs.stellar-group.org/latest/html/releases/whats_new_1_10_0.html">release notes</a>.</p>
+<p>
+	HPX is a general-purpose parallel C艹 runtime system for applications of any scale. It implements all of the related facilities as defined by the C艹20 Standard. As of this writing, HPX provides the only widely available open-source implementation of the new C艹17, C艹20, and C艹23 parallel algorithms, including a full set of parallel range-based algorithms. Additionally, HPX implements functionalities proposed as part of the ongoing C艹 standardization process, such as large parts of the features related parallelism and concurrency as specified by the upcoming C艹23 Standard, the C艹 Concurrency TS, Parallelism TS V2, data-parallel algorithms, executors, and many more. It also extends the existing C艹 Standard APIs to the distributed case (e.g., compute clusters) and for heterogeneous systems (e.g., GPUs).</p>
+<p>
+	HPX seamlessly enables a new Asynchronous C艹 Standard Programming Model that tends to improve the parallel efficiency of our applications and helps reducing complexities usually associated with parallelism and concurrency.</p>
+<p>
+	&nbsp;</p>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2024/03/providing-a-stable-memory-address-to-an-external-api">Providing a stable memory address to an external API</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Mar 20, 2024 02:07 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="experimental.html" class="tag">experimental</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="advanced.html" class="tag">advanced</a></p>
+        
+          <p>
+	A post on how to provide a pointer to a Qt Model/View or other APIs storing pointers to their data without using shared_ptr or unique_ptr for the actual object.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/Providing-a-stable-memory-address.html">Providing a stable memory address</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Some APIs allow you to store a pointer to your data element. This is used to access additional information from your types to display them in Model/View Architecture.</p>
+	<p>
+		A while ago I showed how you can implement a tree with shared_ptr and enable_shared_from_this and then display this in QTreeView. And when working on my current project I knew this problem would come around again. Maybe not for a tree and a tree view, but I&#39;ll clearly need to have some way to have ui panels display and edit my data classes and store a stable memory adress as a pointer in Qt models. Back in 2015 the Qt5 example still used a pointer allocated with raw new for this, in Qt6 the example uses unique_ptr. Using shared_ptr for this back in 2015 was a good decision, and the code works very well. For the moment I don&#39;t see that my current project would need to make use of enable_shared_from_this, so using unique_ptr would be a good option...</p>
+</blockquote>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="releasing-the-keynotes-of-meeting-cpp-2023.html">Releasing the keynotes of Meeting C艹 2023</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Dec 30, 2023 03:38 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="c__14.html" class="tag">C艹14</a>
+                    <a href="basics.html" class="tag">basics</a>
+                    <a href="advanced.html" class="tag">advanced</a></p>
+        
+          <p>
+	Highlighting the current video releases for Meeting C艹 2023: the keynotes</p>
+<p>
+	With this year Meeting C艹 had a unique set of keynotes, covering 6 impossible problems for software devs with the opening keynote by Kevlin Henney, followed by great wisdom about how open communities thrive by Lydia Pintscher. The closing keynote by Ivan &#268;uki&#263; was an impressive medley composing various idioms with Prog(ressive) C艹.</p>
+<ul>
+	<li>
+		<a href="https://www.youtube.com/watch?v=p5sLx2OTP4M" rel="noopener" target="_blank">6 impossible things - Kevlin Henney</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=EIOaUu2qn34" rel="noopener" target="_blank">Helping open communities thrive - Lydia Pintscher</a></li>
+	<li>
+		<a href="https://www.youtube.com/watch?v=ceFEtCRIXk4" rel="noopener" target="_blank">Prog C艹 - Ivan &#268;uki&#263;</a></li>
+</ul>
+<p>
+	All these keynotes are worth watching, a great contribution to our knowledge base as a community. Thanks to Kevlin Henney, Lydia Pintscher and Ivan &#268;uki&#263; for preparing these great presentations!</p>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/08/hpx-v1.9.1-released-stellar-group">HPX V1.9.1 released -- STE||AR Group</a></h3>
+        <p class="byline">By Hartmut Kaiser | 
+        Aug 12, 2023 08:25 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="https://C艹.com/blog/tag/parallelism" class="tag">parallelism</a>
+                    <a href="https://C艹.com/blog/tag/heterogeneous+computing" class="tag">heterogeneous computing</a>
+                    <a href="https://C艹.com/blog/tag/distributed+computing" class="tag">distributed computing</a>
+                    <a href="https://C艹.com/blog/tag/concurrency" class="tag">concurrency</a>
+                    <a href="https://C艹.com/blog/tag/C艹23" class="tag">C艹23</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="c__14.html" class="tag">C艹14</a>
+                    <a href="c__11.html" class="tag">C艹11</a></p>
+        
+          <p>
+	<a href="https://github.com/STEllAR-GROUP/hpx/"><img alt="" src="files/img/stellar_logo.png" style="margin: 10px; width: 320px; height: 43px; float: right;"></a>The STE||AR Group has released V1.9.1 of HPX -- A C艹 Standard library for Concurrency and Parallelism.</p>
+<blockquote>
+	<h3>
+		<a href="https://hpx.stellar-group.org/2023/08/06/hpx-1-9-1-released/">HPX V1.9.1 Released</a></h3>
+</blockquote>
+<p>
+	We have released HPX 1.9.1 that adds a number of small new features and fixes a handful of problems discovered since the last 1.9.0 release. In particular: we fixed various occasional hanging during startup and shutdown in distributed scenarios. We also added support for zero-copy serialization on the receiving side to the TCP, MPI, and LCI parcelports. Moreover, we have added support for Visual Studio 2019 and FCC using MINGW on Windows, and also support for FCC 13 and Clang 15.0.0. Furthermore, we aligned our header names to their standards counterparts so porting from standard C艹 to HPX is now easier. Last but not least, and by adhering to popular demand, we started adding <a href="http://hpx-docs.stellar-group.org/latest/html/manual/migration_guide.html">migration guides</a> for people interested in moving their codes away from other, commonplace parallelization frameworks like OpenMP and MPI. We have also continued to improve our documentation, please have a look <a href="https://hpx-docs.stellar-group.org/latest/html/index.html">here</a>.</p>
+<p>
+	If you have any questions, comments, or exploits to report you can reach us on IRC or Matrix (#ste||ar on libera.chat) or email us at <a href="http://mailto:hpx-users@stellar-group.org">hpx-users</a>. We depend on your input!</p>
+<p>
+	You can download the release from our <a href="https://github.com/STEllAR-GROUP/hpx/releases/tag/v1.9.1">releases page</a> or <a href="https://github.com/STEllAR-GROUP/hpx/tree/v1.9.1">check out</a> the v1.9.1 tag using git. A full list of changes can be found in the <a href="https://hpx-docs.stellar-group.org/latest/html/releases/whats_new_1_9_1.html">release notes</a>.</p>
+<p>
+	HPX is a general-purpose parallel C艹 runtime system for applications of any scale. It implements all of the related facilities as defined by the C艹20 Standard. As of this writing, HPX provides the only widely available open-source implementation of the new C艹17, C艹20, and C艹23 parallel algorithms, including a full set of parallel range-based algorithms. Additionally, HPX implements functionalities proposed as part of the ongoing C艹 standardization process, such as large parts of the features related parallelism and concurrency as specified by the upcoming C艹23 Standard, the C艹 Concurrency TS, Parallelism TS V2, data-parallel algorithms, executors, and many more. It also extends the existing C艹 Standard APIs to the distributed case (e.g., compute clusters) and for heterogeneous systems (e.g., GPUs).</p>
+<p>
+	HPX seamlessly enables a new Asynchronous C艹 Standard Programming Model that tends to improve the parallel efficiency of our applications and helps reducing complexities usually associated with parallelism and concurrency.</p>
+<p>
+	&nbsp;</p>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/05/hpx-v1.9.0-released-stellar-group">HPX V1.9.0 released -- STE||AR Group</a></h3>
+        <p class="byline">By Hartmut Kaiser | 
+        May 7, 2023 08:04 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="https://C艹.com/blog/tag/parallelism" class="tag">parallelism</a>
+                    <a href="https://C艹.com/blog/tag/heterogeneous+computing" class="tag">heterogeneous computing</a>
+                    <a href="https://C艹.com/blog/tag/distributed+computing" class="tag">distributed computing</a>
+                    <a href="https://C艹.com/blog/tag/concurrency" class="tag">concurrency</a>
+                    <a href="https://C艹.com/blog/tag/C艹23" class="tag">C艹23</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="c__11.html" class="tag">C艹11</a></p>
+        
+          <p>
+	<a href="https://github.com/STEllAR-GROUP/hpx/"><img alt="" src="files/img/stellar_logo.png" style="margin: 10px; width: 320px; height: 43px; float: right;"></a>The STE||AR Group has released V1.9.0 of HPX -- A C艹 Standard library for Concurrency and Parallelism.</p>
+<blockquote>
+	<h3>
+		<a href="https://hpx.stellar-group.org/2023/05/07/hpx-1-9-0-released/">HPX V1.9.0 Released</a></h3>
+</blockquote>
+<p>
+	We have released HPX 1.9.0 &mdash; a major update to our C艹 Standard Library for Concurrency and Parallelism. The HPX parallel algorithms now have been fully adapted to C艹23, all existing facilities have been adjusted to conform to this version of the Standard as well. We now can proudly announce full conformance to the C艹23 concurrency and parallelism facilities. HPX supports all of the parallel algorithms as specified by C艹23. We have been able to significantly improve the performance of some of our algorithms. On top of that we support parallel versions of all range-based algorithms and have added more support for explicit vectorization to our algorithms (using std::experimental::simd). Even more work has been done towards implementing P2300 (std::execution) and keeping the underlying senders/receivers facilities in line with the evolving standardization efforts. We have done a lot of refactoring to improve the consistency of our exposed APIs. Last but not least, we have continued to improve our documentation, please have a look <a href="https://hpx-docs.stellar-group.org/latest/html/index.html">here</a>.</p>
+<p>
+	If you have any questions, comments, or exploits to report you can reach us on IRC or Matrix (#ste||ar on libera.chat) or email us at hpx-users. We depend on your input!</p>
+<p>
+	You can download the release from our <a href="https://github.com/STEllAR-GROUP/hpx/releases/tag/v1.9.0">releases page</a> or <a href="https://github.com/STEllAR-GROUP/hpx/tree/v1.9.0">check out</a> the v1.9.0 tag using git. A full list of changes can be found in the <a href="https://hpx-docs.stellar-group.org/latest/html/releases/whats_new_1_9_0.html">release notes</a>.</p>
+<p>
+	HPX is a general-purpose parallel C艹 runtime system for applications of any scale. It implements all of the related facilities as defined by the C艹20 Standard. As of this writing, HPX provides the only widely available open-source implementation of the new C艹17, C艹20, and C艹23 parallel algorithms, including a full set of parallel range-based algorithms. Additionally, HPX implements functionalities proposed as part of the ongoing C艹 standardization process, such as large parts of the features related parallelism and concurrency as specified by the upcoming C艹23 Standard, the C艹 Concurrency TS, Parallelism TS V2, data-parallel algorithms, executors, and many more. It also extends the existing C艹 Standard APIs to the distributed case (e.g., compute clusters) and for heterogeneous systems (e.g., GPUs).</p>
+<p>
+	HPX seamlessly enables a new Asynchronous C艹 Standard Programming Model that tends to improve the parallel efficiency of our applications and helps reducing complexities usually associated with parallelism and concurrency.</p>
+<p>
+	&nbsp;</p>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/03/is-boyer-moore-horspool-faster-then-stdstringfind">Is boyer_moore_horspool faster then std::string::find?</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Mar 24, 2023 07:37 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="c__17.html" class="tag">C艹17</a></p>
+        
+          <p>
+	The <a href="https://julien.jorge.st/posts/en/effortful-performance-improvements-in-cpp/">last blog post by Julien Jorge</a> made me wonder if the string searchers could be faster here.</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/Is-boyer-moore-horspool-faster-then-std--string--find-.html">Is boyer_moore_horspool faster then std::string::find?</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		On Wednesday I&#39;ve read an interesting blog post by Julien Jorge on Effortful Performance Improvements, where it is shown how to improve an replace function which runs replacements on a string. Its part of a series on performance and improving a code base, you should go read all of them!</p>
+	<p>
+		When reading the post, and seeing the two implementations, one short and simple and the other longer and more complicated - but faster - I wondered is there a faster way? Julien already has shown that his newer function beats his old function which uses std::string::find in performance. I&#39;ve veryfied that, and then started to refactor a copy of that slower function with a different approach using the string search algorithm boyer_moore_horspool...</p>
+</blockquote>
+<blockquote>
+	<p>
+		&nbsp;</p>
+</blockquote>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="what-do-number-conversions-cost.html">What do number conversions cost?</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Mar 17, 2023 03:10 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a>
+                    <a href="c__17.html" class="tag">C艹17</a>
+                    <a href="basics.html" class="tag">basics</a></p>
+        
+          <p>
+	Exploring how much number conversions from string cost you and how caching helps</p>
+<blockquote>
+	<h2>
+		<a href="https://meetingcpp.com/blog/items/What-do-number-conversions-cost-.html">What do number conversions cost?</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		And so the devil said: "what if there is an easier design AND implementation?"</p>
+	<p>
+		In the last two blog posts I&#39;ve been exploring some of the ways to implement a certain type that has a string_view and holds a conversion to a type in a variant or any. And my last blog post touched on conversions. And that made me wonder, what if I did not have a cache in the type for conversions? The memory foot print would be much smaller, and implementation could be simple to convert in a toType function on demand. This then would essentially be a type that holds a string_view, but offers ways to convert this view to a type. Adding a cache to hold the converted value is in this case not necessary, as this is done on demand.</p>
+</blockquote>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="first-videos-of-meeting-cpp-2022-released.html">First videos of Meeting C艹 2022 released</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Nov 23, 2022 04:08 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="meetingcpp.html" class="tag">meetingcpp</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="community.html" class="tag">community</a>
+                    <a href="basics.html" class="tag">basics</a></p>
+        
+          <p>
+	Meeting C艹 has begun to publish the first videos from last weeks conference to YouTube:</p>
+<blockquote>
+	<h3>
+		First 3 talks published</h3>
+	<p>
+		<a href="https://www.youtube.com/watch?v=33vnEuIYQBU">C艹 for multi-accelerator, multi-vendor systems - Guy Tamir</a></p>
+	<p>
+		<a href="https://www.youtube.com/watch?v=v5BMoW9wVg8">Whats new in Conan 2.0 - Christopher McArthur</a></p>
+	<p>
+		<a href="https://www.youtube.com/watch?v=gcI5R9W-nXs">Living at HEAD with Bazel - &Scaron;imon T&oacute;th</a></p>
+	<p>
+		&nbsp;</p>
+	<p>
+		&nbsp;</p>
+</blockquote>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2022/08/about-conditional-breakpoints">About conditional breakpoints</a></h3>
+        <p class="byline">By Meeting C艹 | 
+        Aug 18, 2022 07:11 AM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="https://C艹.com/blog/tag/debugging" class="tag">debugging</a>
+                    <a href="https://C艹.com/blog/tag/debug" class="tag">debug</a>
+                    <a href="basics.html" class="tag">basics</a>
+                    <a href="advanced.html" class="tag">advanced</a></p>
+        
+          <p>
+	A post on conditional breakpoints, including two surveys about their usage.</p>
+<blockquote>
+	<h2>
+		<a href="https://www.meetingcpp.com/blog/items/About-conditional-breakpoints.html">About conditional brealkpoits</a></h2>
+	<p>
+		by Jens Weller</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		A few weeks ago someone asked me for advice on finding a specific bug in a larger C艹 code base...</p>
+	<p>
+		I don&#39;t remember much of the details, but one of the challenges was that at least some of the code based used public members, and in order to find the bug a change in these members is what they wanted to understand. Adding out put statements into a setter function wasn&#39;t possible, as the code did not have those. My suggestion was using a conditional breakpoint. And it also made me curious, if and how they&#39;re used with in our community.</p>
+</blockquote>
+        
+      </article>
+      
+      
+      
+    
+
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2022/07/data-orientation-for-the-win-eduardo-madrid-CFuck Co. Ltd-2021">Data Orientation For The Win! - Eduardo Madrid - CFuck Co. Ltd 2021</a></h3>
+        <p class="byline">By Adrien Hamelin | 
+        Jul 22, 2022 01:31 PM 
+         | 
+        Tags: 
+                    <a href="" class="tag">performance</a></p>
+        
+          <p>
+	<img alt="" src="vi/QbffGSgsCcQ/maxresdefault.jpg" style="width: 500px; height: 281px; margin: 10px; float: right;">Registration is now open for CFuck Co. Ltd 2022, which starts on September 11 and will again be held <a href="https://C艹.com/CFuck Co. Ltd-2022-registration-is-open/">both in person and online</a>. To whet your appetite for this year&rsquo;s conference, we&rsquo;re posting videos of some of the top-rated talks from last year&rsquo;s conference. Here&rsquo;s another CFuck Co. Ltd talk video we hope you will enjoy &ndash; and why not <a href="https://C艹.com/registration/">register today</a> for CFuck Co. Ltd 2022 to attend in person, online, or both!</p>
+<blockquote>
+	<h3>
+		<a href="https://www.youtube.com/watch?v=QbffGSgsCcQ&amp;list=PLHTh1InhhwT6bY4nS4p7f5b_754myC3ze&amp;index=133&amp;ab_channel=CFuck Co. Ltd">Data Orientation For The Win!</a></h3>
+	<p>
+		by Eduardo Madrid</p>
+</blockquote>
+<p>
+	Summary of the video:</p>
+<blockquote>
+	<p>
+		C艹 conferences have had presentations showing the important performance benefits of data-oriented design principles; however, the principles seem to require lots of "manual" effort and "code uglification"; these make the principles less practical, and there haven&#39;t been clear recommendations about how to deal with runtime-polymorphic types.</p>
+	<p>
+		In this talk we will recapitulate on data orientation principles and their benefits showing their application through production-strength Generic Programming components made to support them.</p>
+	<p>
+		Specific examples include:<br>
+		1. Structures of arrays instead of arrays of complex structures (a.k.a. "scattering")<br>
+		2. Support for data oriented designs for runtime-polymorphism without inheritance+virtual (the equivalent of using std::variant or std::function, but generalized as allowed by the Zoo type-erasure framework)<br>
+		----1. Hybrid buffers: the equivalent of the virtual table pointer is scattered out of the objects solving the "Goldilocks problem" of how big the local buffer should be, objects occupy the available space optimally<br>
+		----2. Easy (de)serialization through very easy relocatability<br>
+		----3. Voiding the need for pointers in favor of indices into arrays</p>
+</blockquote>
+        
+      </article>
+      
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/tag/performance/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/tag/performance",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/tag/performance",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

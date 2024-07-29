@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+              
+          A shared view of C艹 (or, Around the C艹 world in 180 pages) :
+        
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2013/12/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2013/12/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2013/12/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2013/12/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="b51069e056782f690050a48b06a65405e8298a45" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="11.html">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    
+
+    <header>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &raquo; 
+        <a href="blog.html">Blog</a> &raquo; 
+        <a href="/blog/2013">2013</a> &raquo; 
+        <a href="/blog/2013/12">December</a> &raquo; 
+        A shared view of C艹 (or, Around the C艹 world in 180 pages)
+      </div>
+      
+      <div class="pagination">
+        
+          <a href="/blog/2013/12/pointer">&laquo; Prev</a>
+        
+        
+        
+          <a href="/blog/2013/12/alignment">Next &raquo;</a>
+        
+      </div>
+      
+      <h2>A shared view of C艹 (or, Around the C艹 world in 180 pages)</h2>
+      <p class="byline">By Bjarne Stroustrup | 
+        Dec 27, 2013 03:40 AM 
+         | 
+        Tags: 
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__11.html" class="tag">C艹11</a>
+                    <a href="basics.html" class="tag">basics</a></p>
+      
+    </header>
+    
+    <article class="single prettify">
+      
+        <p style="text-align: center;">
+	<em>[Note: There has long been &ldquo;one short and reasonably complete book you can assume everyone has read&rdquo; for C -- K&amp;R 2nd Edition (274 pages). But what is the &ldquo;one short and reasonably complete book you can assume everyone has read&rdquo; for C艹? Does a single short one even exist, and is it possible for one to exist? This post by Bjarne Stroustrup addresses that important question, with what we feel is the year&#39;s most important book on C艹 -- more important than even the C艹11-updated </em>The C艹 Programming Language, 4th Ed.<em>, also by Stroustrup.</em></p>
+<p style="text-align: center;">
+	<em>The "(or, Around the C艹 world in 180 pages)" alternate title for this blog post is our editorial suggestion, with apologies to both Stroustrup and <a href="wikipedia/commons/8/86/Verne_Tour_du_Monde.jpg">Jules Verne</a>. We believe this is quite appropriate for Stroustrup&#39;s year-end gift to the C艹 community. Enjoy. --Ed.]</em></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://www.stroustrup.com/Tour.html"><img alt="" src="files/img/tour.PNG" style="width: 260px; height: 323px; margin: 10px; float: right;"></a> <span style="line-height: 1;">For a graduate course in software design, I needed a few introductory lectures to &ldquo;refresh&rdquo; my students&rsquo; understanding of C艹. For <em>The C艹 Programming Language (Fourth Edition)</em>, I wrote introductory chapters (about 80 pages) to give the reader an overview of C艹 before diving into the details. At the suggestion of Herb Sutter, I posted drafts of those four <em>Tour of C艹</em> chapters on <em>C艹.com</em>, and at the suggestion of my Addison Wesley editor, Peter Gordon, I expanded these chapters to provide a comprehensive overview of and introduction to C艹 (for people who are already programmers, not complete novices):</span></p>
+<blockquote>
+	<h2>
+		<a href="http://www.stroustrup.com/Tour.html">A Tour of C艹</a></h2>
+	<p>
+		by Bjarne Stroustrup</p>
+	<p>
+		Addison Wesley, ISBN 978-0321958310, 2013</p>
+</blockquote>
+<p>
+	In 180 pages, it covers the major C艹11 features and techniques plus most of the standard library. 180 pages is something most programmers can find the time to read. The tour (Tour++) benefited greatly from use and comments from many readers.</p>
+<p>
+	It gradually dawned on me that I just might have produced a solution to a decades-old problem for C艹:</p>
+<p style="text-align: center;">
+	<em><strong>What is the basic knowledge that we should be able to assume from a competent C艹 programmer?</strong></em></p>
+<p>
+	Competent C programmers can be assumed to know roughly what is covered by K&amp;R. Conversely, if they don&rsquo;t -- or haven&rsquo;t even heard of K&amp;R -- it is a good guess that they can&rsquo;t be relied on to contribute viable C code. I find that I cannot make an equivalent statement about C艹 programmers. Once upon a time, knowing TC艹PL (1st edition) served as a shared base, but that was a long time ago and C艹 has improved immensely since 1985. These days, there are functioning C艹 programmers who have learned all they know from the Qt documentation, from boost.org, from Scott Meyers&rsquo; many books, from some of my books and papers, from some of Herb Sutter&rsquo;s books, etc., but don&rsquo;t know more than one of these sources. Their ideas of what C艹 is are disjoint and incompatible. Many more programmers appear to base their understanding of C艹 on some ancient, outdated, and usually poor college textbook plus what they learn from on-line documentation and following some C艹 Q&amp;A site. But you don&rsquo;t become a good C艹 programmer just by knowing only the C艹 syntax and a multitude of library classes and functions. Similarly, being able to answer tricky &ldquo;interview-style&rdquo; questions about the ISO standard doesn&rsquo;t make you a good C艹 Programmer.</p>
+<p>
+	We -- the huge and diverse C艹 communities -- do not share a body of basic understanding. This is bad; very bad! We don&rsquo;t have a shared view of what good C艹 code is and we don&rsquo;t communicate effectively. I find -- from web posting, from academic papers, from my email, and more -- that huge chunks of the last 20 years of progress in design technique, programming technique, and language support remain unknown and unused by many &ldquo;C艹 programmers.&rdquo; What a waste! More specifically, what a waste of energy as programmers suffer from outdated parochial views in their current work today! Conversely, what an opportunity for improvement!</p>
+<p>
+	Many have tried to address parts of this problem. The sources I mentioned above are not bad, but they are not shared and few are comprehensive. I can and do recommend them often. Further, I recommend the many superb talks from the &ldquo;Going Native&rdquo; 2012 and 2013 conferences (freely available on the Web) as well as talks recorded at Google, ACCU, and others. It is not volume of material we lack. On the contrary, it is quite easy to drown in information about C艹. Few practicing programmers can keep up with all the quality information being produced. Worse, the quality information is often drowned by the constant deluge of poor, outdated, and often wrong information provided on the web (and elsewhere).</p>
+<p>
+	As the risk of being seen as a blatant self-promoter, I would like to recommend <a href="http://www.stroustrup.com/Tour.html"><em><strong>A Tour of C艹</strong></em></a>. <em>[We wholeheartedly support this recommendation. --Ed.]</em> For a technical book, it is a quick read, and it is not a waste of time: I have never met a programmer of any experience level who didn&rsquo;t learn something from reading it. If everyone read it, the C艹 community would again -- after something like 25 years -- have a common conceptual framework and vocabulary. Read it! You might even like it.</p>
+      
+      
+          </article>
+    
+    <div class="share-buttons">
+      <h4>Share this Article</h4>
+      <script type="text/javascript">
+        reddit_target='cpp';
+        reddit_title="A shared view of C艹 (or, Around the C艹 world in 180 pages)";
+      </script>
+      <script type="text/javascript" src="static/button/button3.js"></script>
+    </div>
+    
+    <div class="comment-add">
+      <h3>Add a Comment</h3>
+      Comments are closed.
+    </div>
+    
+    <div class="comments">
+      <h4>Comments (20)</h4>
+      
+  
+
+      
+        <div id="comment_508" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_508'>0</span>
+                <span id='dislikeeCount_c_508'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              eider
+            </strong> 
+            said on <strong>Dec 27, 2013 08:47 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                That sounds great!
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_509" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_509'>0</span>
+                <span id='dislikeeCount_c_509'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Dec 27, 2013 10:19 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Maybe I have better state the obvious: Tour++ is not a simple copy of K&R for C艹. C and C艹 differ and the presentations must reflect those differences. C艹 is a larger language than C, so Tour++ must cover more language features, programming techniques, and libraries. This implies less detail. Also, I don't have my friend Brian's gift with words.<br>
+<br>
+PS. K&R2 *is* a C艹 book; all the code is C艹, though in a very old style.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_510" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_510'>0</span>
+                <span id='dislikeeCount_c_510'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Dec 28, 2013 08:40 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                I am profesional junior C艹 dev and honestly I dont see this great problem. I learn stuff from SO, isocpp... I use boost, RAII, smart ptrs, avoid crappy C艹 books/sites and honestly I would be very surprised to learn that there is a big part of C艹 im not aware of(note:aware of != proficient in <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"> ).
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_511" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_511'>0</span>
+                <span id='dislikeeCount_c_511'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              stereomatchingkiss
+            </strong> 
+            said on <strong>Dec 29, 2013 07:52 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Thanks for the book and all of your efforts on making C艹 become a better tool.I already study ch1~ch3, although the contents of this book is clean, easy to read, pick out a lot of important features and introduce us some good habit of programming. This book is like a guideline to show the C艹 programmers what are the most useful, important features of C艹 and what kind of programming skills you could implement by C艹 easily.But I wonder is this book suitable for a newbie who don't have any programming experiences(I studied primer, effectvie C艹 series, exceptional C艹 and other's C艹 book before I study "a tour of C艹")?<br>
+<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_512" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_512'>0</span>
+                <span id='dislikeeCount_c_512'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Alf P. Steinbach
+            </strong> 
+            said on <strong>Dec 29, 2013 08:19 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                I like this book.<br>
+<br>
+Things to consider for a second edition:<br>
+<br>
+* "Smiley" derived from "Circle" gives slicing problem. Slicing should be discussed. And also the circle-versus-ellipse, that a mutable "Smiley" is not a mutable "Circle" (even if a "Smiley" value is a "Circle" value).<br>
+<br>
+* The dicussion of "future" and "promise" doesn't quite reveal how to get a connected pair of "future" and "promise", except by way of a "packaged_task". I do not know enough about the C艹11 threading to say if there is any such more basic way, but if there isn't, then IMHO that should be stated in the text.<br>
+<br>
+* I do not see any discussion of text and Unicode. That's understandable since even C艹11 is sadly lacking in this department (wstring etc. doesn't really cut it). But still, any international student will probably want to be able to output his or her name in a first or second program!<br>
+<br>
+Again, I like this book, the above points are the three I decided now, after skimming the book, to focus  --  so that the book's 2nd edition can be *EVEN BETTER* <img src="images/smileys/grin.gif" width="19" height="19" alt="grin" style="border:0;">.<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_513" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_513'>0</span>
+                <span id='dislikeeCount_c_513'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Dec 29, 2013 09:02 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Answers:<br>
+(1) anonymous poster #1: There is a massive problem with bad C艹 code "out there" even if you don't see it. Many programmers suffer from misconceptions writing seriously suboptimal code because of miscomprehension of C艹, such as "you have to write in C style to be efficient", "all code should be in member functions and all member functions should be virtual", "overloading must be avoided", "exceptions must not be used", and "for generality, every function should be a template." Sometimes, such miscomprehensions are enshrined in coding standards. The sad thing is that often such programmers think that they are using C艹 well.<br>
+<br>
+(2) anonymous poster #2: For novices, I recommend "Programming: Principles and Practice using C艹. http://www.stroustrup.com/programming.html . Tour++ is for people who are already programmers.<br>
+<br>
+(3) Alf: Thanks. It is hard to write about somewhat advanced topics without occasionally being obscure by referring to concepts that are not (yet) explained. I'll try to do better next time. Comments like yours with concrete examples are invaluable.<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_514" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_514'>0</span>
+                <span id='dislikeeCount_c_514'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              AndrewDover
+            </strong> 
+            said on <strong>Dec 29, 2013 08:22 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Some harmless typos from Chapter 1:<br>
+<br>
+Page 6,  yields, not yield<br>
+Page 13, read characters, not "rear characters"<br>
+<br>
+<br>
+I learnt that you can use the &#123; initializers &#125; in other than declarations:<br>
+<br>
+<pre> for (auto x : &#123;10,21,32,43,54,65&#125;) cout &lt;&lt; x &lt;&lt; '\n'; </pre><br>
+<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_515" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_515'>0</span>
+                <span id='dislikeeCount_c_515'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              stereomatchingkiss
+            </strong> 
+            said on <strong>Dec 29, 2013 10:39 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                a question of ch4<br>
+<br>
+ch4 : the derived class of container--Vector_container do not provide a constructor with initializer_list.<br>
+<br>
+class Vector_container : public Container &#123;   // Vector_container implements Container<br>
+     Vector v;<br>
+public:<br>
+     Vector_container(int s) : v(s) &#123; &#125; // Vector of s elements<br>
+     ~Vector_container() &#123;&#125;<br>
+<br>
+     double& operator[](int i) &#123; return v[i]; &#125;<br>
+     int size() const &#123; return v.size(); &#125;<br>
+&#125;;<br>
+<br>
+void g()<br>
+&#123;<br>
+     //Vector_container do not have a constructor which accept initializer_list     <br>
+     //how could it initialize like this?<br>
+     Vector_container vc &#123;10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0&#125;;<br>
+     use(vc);<br>
+&#125;
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_516" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_516'>0</span>
+                <span id='dislikeeCount_c_516'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Dec 30, 2013 01:01 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Bjarne <br>
+tnx for the A<br>
+I guess that was just my experience, but then again I never had problems with horrible bosses and people keep on telling horror stories <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;">, so I guess it was just a sampling error.<br>
+regarding not using exceptions - exceptions have good and bad sides, Alexandrescu mentioned this many times, and it is hard to call him a noobie <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"> <br>
+regarding C style code to be efficient - again gray area -ppl are often just ignorant and believe myths but I have met with ppl that work on crappy slow embeded HW and they cant afford heap allocations most of the time... <br>
+but great thing about C艹 is abstraction turbolift:<br>
+you can use in the same language tasks and inline asm(on certain compilers <img src="images/smileys/raspberry.gif" width="19" height="19" alt="raspberry" style="border:0;"> )/relaxed atomics/void* <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;">
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_517" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_517'>1</span>
+                <span id='dislikeeCount_c_517'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Dec 30, 2013 09:34 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Thanks. It is easy to do "sampling errors" in the huge C艹 community.There are many more people who think that "virtual functions are evil" and many more people who think that "all functions should be virtual" than people who have heard of relaxed atomics. <br>
+<br>
+It would be really nice, and really important, if we could get a shared base of understanding of C艹 - or even just a wide agreement that such a shared base would be useful.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_518" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_518'>0</span>
+                <span id='dislikeeCount_c_518'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Dec 30, 2013 09:57 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Bjarne<br>
+I think it is a matter of something not related to C艹 specifically. Secret ingredient is scientific method. <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"> <br>
+People should learn to measure(like Alexandrescu says : 5ms might be fast or slow, compared to what) or get measurements from reliable sources(your list vector slide)<br>
+and learn that there are rarely a black/white decisions for all use cases(not to mention facts change, iirc there is one technical talk where Alexandrescu mentions that now reverse reading from memory is also very fast where before he would say fwd pass is preferred one). <br>
+Virtual functions have +s and -s depending on your design and performance requirements...you might want to say x% performance is not worth bothering with workarounds/redesign, but at least please have a good guess what x is. Ofc here things also change, iirc STL from MS said that VS implemented "devirtualizer" that if it can prove that your var must be of type X it will remove virtual function call.<br>
+Another classical is register keyword, iirc Stepanov says when he was implementing STL it gave him 3x speedup, now it is a cute language relict. <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"> <br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_519" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_519'>0</span>
+                <span id='dislikeeCount_c_519'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              stereomatchingkiss
+            </strong> 
+            said on <strong>Dec 30, 2013 11:08 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                &gt;if we could get a shared base of understanding of C艹<br>
+  Hope you could make this become reality one day.C艹 is too complicated, OOP, generic programming, procedural programming, TMP, FP, it support so many paradigms and each paradigm have different philosophy, use cases, some of the philosophy even contradict with each other's(just look at the OO world vs GP world or those who only fond of procedural programming).I am still trying to grasp the pros and cons of different paradigms and I wonder I would be able to master all of them(not to mention there are still many things to learn other than those paradigms). <br>
+<br>
+  In my world, some leader hate RAII totally and ask me don't use them(if I do, I may get fired since I do not obey the order); some team member think that C艹 is a pure OOP language build on top of c;someone think C艹 == c. In short, the codes in reality(at least in my environment) are far from the suggestions of your books(those C艹 gurus), and they think those "modern" style are evil.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_520" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_520'>0</span>
+                <span id='dislikeeCount_c_520'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Dec 30, 2013 11:55 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                (1) stereomatchingkiss documents the problem nicely.<br>
+<br>
+(2) "iirc Stepanov says when he was implementing STL it gave him 3x speedup, now it is a cute <br>
+language relict." I doubt it "register" was a relict before Stepanov designed the STL. "register" was useful until about 1984 (10 years before the STL) when the optimal register allocation algorithm was discovered and was quickly universally adopted.<br>
+<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_521" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_521'>0</span>
+                <span id='dislikeeCount_c_521'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              stereomatchingkiss
+            </strong> 
+            said on <strong>Dec 30, 2013 04:44 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                on chapter 4.3--Abstract types<br>
+<br>
+The codes Vector_container do not provide a constructor with initializer_list<br>
+<br>
+class Vector_container : public Container &#123;   // Vector_container implements Container<br>
+     Vector v;<br>
+public:<br>
+     Vector_container(int s) : v(s) &#123; &#125; // Vector of s elements<br>
+     ~Vector_container() &#123;&#125;<br>
+<br>
+     double& operator[](int i) &#123; return v[i]; &#125;<br>
+     int size() const &#123; return v.size(); &#125;<br>
+&#125;;<br>
+<br>
+but the following codes call the constructor like the initalizer_list ever exist<br>
+<br>
+void g()<br>
+&#123;<br>
+     Vector_container vc &#123;10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0&#125;;<br>
+     use(vc);<br>
+&#125;<br>
+<br>
+The question is, how could the codes compile if it do not declare a constructor like this?<br>
+<br>
+Vector_container(std::initializer_list&lt;double&gt; s);
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_522" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_522'>0</span>
+                <span id='dislikeeCount_c_522'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Dec 30, 2013 04:54 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                stereomatchingkiss on chapter 4.3--Abstract types ...<br>
+<br>
+Yes, it's a bug. Fixed.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_524" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_524'>0</span>
+                <span id='dislikeeCount_c_524'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Jan 2, 2014 12:43 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Bjarne<br>
+you can ask Stepanov, it was in his A9 lectures but they dont have transcripts so I cant find exactly what he said. Anyway like i said it was iirc, but im pretty sure he did a short story about that.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_525" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_525'>0</span>
+                <span id='dislikeeCount_c_525'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Jan 4, 2014 08:06 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Alex Stepanov just told me that he used "register" to good effect in 1987 (three years later than I guessed), but not for the STL (for the reason I gave).
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_526" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_526'>0</span>
+                <span id='dislikeeCount_c_526'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Jan 6, 2014 05:33 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Bjarne <br>
+good to know, like I said it was iirc, at least I wasnt 100% off. <br>
+Hopefully one day compilers will be smart enough to make std::move a relict also. <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"><br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_527" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_527'>0</span>
+                <span id='dislikeeCount_c_527'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Bjarne Stroustrup
+            </strong> 
+            said on <strong>Jan 6, 2014 07:28 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                NoSenseEtAl: "Hopefully one day compilers will be smart enough to make std::move a relict also."<br>
+<br>
+It already is a relict in the most important case: returning a value (e.g. returning a vector)
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_528" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_528'>0</span>
+                <span id='dislikeeCount_c_528'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              NoSenseEtAl
+            </strong> 
+            said on <strong>Jan 6, 2014 08:22 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Bjarne <br>
+True, <br>
+but there is 2 cases I at least would like to as-if compiler optimization magic:<br>
+1) passing a vec by value to a function and not using it later(and all the elements have a noop dtor) transformed into a move.<br>
+2) http://cpptruths.blogspot.com/2012/03/rvalue-references-in-constructor-when.html though pass by value solution seems nice I would be happy that compiler figures out possible optimizations by itself without programmer bothering with all the '&' & '&&' <br>
+Though again this is not to underestimate value of move in C艹11. It is a great feature. <img src="images/smileys/smile.gif" width="19" height="19" alt="smile" style="border:0;"> <br>
+<br>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+
+  
+
+    </div>
+
+    <footer>
+      
+      <div class="pagination">
+        
+          <a href="/blog/2013/12/pointer">&laquo; Prev</a>
+        
+        
+        
+          <a href="/blog/2013/12/alignment">Next &raquo;</a>
+        
+      </div>
+      
+      <div class="back-to-top">
+        <a href="#">Back to Top</a>
+      </div>
+      
+    </footer>
+  
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2013/12/a-shared-view",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2013/12/a-shared-view",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

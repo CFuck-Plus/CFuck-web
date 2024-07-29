@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+                        November 2023
+                : 
+            Standard C艹
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://C艹.com/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://C艹.com/blog/2023/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://C艹.com/blog/2023/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://C艹.com/blog/2023/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://C艹.com/blog/2023/apple-touch-icon-144.png">
+    <link href="css.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="assets/js/prettify.min.js"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="login.html">Sign In / Suggest an Article</a></li>
+          <li><a href="register.html">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="assets/images/cpp_logo.png" alt="Standard C艹"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="get-started.html">Get Started!</a></li>
+<li><a href="tour.html">Tour</a></li>
+<li><a href="guidelines.html">Core Guidelines</a></li>
+<li><a href="faq.html">Super-FAQ</a></li>
+<li><a href="std.html">Standardization</a></li>
+<li class="last"><a href="about.html">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://C艹.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="125c6b2afafbfa4afc8a9b8d084551b239fa044a" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="status.html">Current ISO C艹 status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="upcoming-meetings.html">Upcoming ISO C艹 meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="conferences-worldwide.html">Upcoming C艹 conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="news.html">News</a></li>
+      
+			<li>
+        <li><a href="product-news.html">Product News</a></li>
+      
+			<li>
+        <li><a href="articles-books.html">Articles & Books</a></li>
+      
+			<li>
+        <li><a href="video-on-demand.html">Video & On-Demand</a></li>
+      
+			<li>
+        <li><a href="events.html">Events</a></li>
+      
+			<li>
+        <li><a href="training.html">Training</a></li>
+      
+			<li>
+        <li><a href="standardization.html">Standardization</a></li>
+      
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="basics.html">basics</a>
+      
+        <a href="intermediate.html">intermediate</a>
+      
+        <a href="advanced.html">advanced</a>
+      
+        <a href="experimental.html">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="blog/rss.xml" class="icon rss">All Posts</a></li>
+          <li><a href="https://C艹.com/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="blog/rss/category/news.xml" class="icon rss">News</a></li>
+          
+            <li><a href="blog/rss/category/product-news.xml" class="icon rss">Product News</a></li>
+          
+            <li><a href="blog/rss/category/articles-books.xml" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="blog/rss/category/video-on-demand.xml" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="blog/rss/category/events.xml" class="icon rss">Events</a></li>
+          
+            <li><a href="blog/rss/category/training.xml" class="icon rss">Training</a></li>
+          
+            <li><a href="blog/rss/category/standardization.xml" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="07.html">July 2024</a></li>
+<li><a href="06.html">June 2024</a></li>
+<li><a href="05.html">May 2024</a></li>
+<li><a href="04.html">April 2024</a></li>
+<li><a href="03.html">March 2024</a></li>
+<li><a href="02.html">February 2024</a></li>
+<li><a href="01.html">January 2024</a></li>
+<li><a href="12.html">December 2023</a></li>
+<li><a href="">November 2023</a></li>
+<li><a href="10.html">October 2023</a></li>
+<li><a href="09.html">September 2023</a></li>
+<li><a href="08.html">August 2023</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<a href="files/papers/N4966.pdf"><strong>ISO C艹 committee meeting</strong></a></p>
+<p>
+	June 24-29, St. Louis, MO, USA</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://cpponsea.uk/"><strong>C艹 on Sea</strong></a></p>
+<p>
+	July 2-5, Folkestone, Kent, UK</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    <header>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &raquo; 
+              <a href="blog.html">Blog</a> &raquo; <a href="/blog/2023">2023</a> &raquo; 
+        November          </div>
+    
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/11/P10">Next &raquo;</a>
+                          </div>
+                  
+    
+    <h2>
+          November 2023
+        </h2>
+  </header>
+  
+      
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/sobjectizer-tales-8.-representing-errors">SObjectizer Tales - 8. Representing errors--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Nov 30, 2023 12:06 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/08/sobjectizer-tales_8.png" style="width: 300px; margin: 10px; float: right;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2023/11/30/sobjectizer-tales-8/">SObjectizer Tales - 8. Representing errors</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode we&#39;ll discuss how to model application errors and explore techniques for filtering messages within agents!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/enodo-divide-et-impera-lucian-radu-teodorescu">Enodo, Divide et Impera  -- Lucian Radu Teodorescu</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 29, 2023 10:55 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="Enodo,_Divide_et_Impera.png" src="files/img/Enodo,_Divide_et_Impera.png" style="width: 400px; margin: 10px; float: right;">How do you untie the knotty problem of complexity? Lucian Radu Teodorescu shows us how to divide and conquer difficult problems.</p>
+<blockquote>
+	<h3>
+		<a href="https://accu.org/journals/overload/31/177/teodorescu/">Enodo, Divide et Impera</a></h3>
+	<p>
+		By Lucian Radu Teodorescu</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		This article aims to analyse one of the most useful techniques in software engineering: the&nbsp;<em>divide et impera</em>&nbsp;(Divide and Conquer) technique. And maybe&nbsp;<em>the</em>&nbsp;most useful one.</p>
+	<p>
+		We define the&nbsp;<em>divide et impera</em>&nbsp;method as a way of breaking up a problem into smaller parts and fixing those smaller parts. This applies to recursive functions (where the phrase&nbsp;<em>divide et impera</em>&nbsp;is most often used), but it will also apply to the decomposition of problems. At some point, we will also discuss using abstraction as a way of applying&nbsp;<em>divide et impera</em>. Finally, we will show how to use this technique in our daily engineering activities that are not strictly related to coding.</p>
+	<p>
+		In this article, we call&nbsp;<em>divide et impera</em>&nbsp;a method of approaching&nbsp;<em>problems</em>&nbsp;that has the following characteristics:</p>
+	<ul>
+		<li>
+			breaking the problem into sub-problems</li>
+		<li>
+			solving the sub-problems independently of each other
+			<ul>
+				<li>
+					occasionally, an answer to a sub-problem may render solving the rest of the sub-problems unnecessary</li>
+				<li>
+					sporadically, a small amount of information passes one sub-problem to another</li>
+			</ul>
+		</li>
+		<li>
+			combining the results of the sub-problem solutions to form the solution to the initial problem</li>
+	</ul>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/live-and-let-die-martin-janzen">Live and Let Die -- Martin Janzen</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 25, 2023 10:49 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	Resource lifetime management can be problematic. Martin Janzen reminds us how important destructors are and when to be mindful of their limitations.</p>
+<blockquote>
+	<h3>
+		<a href="https://accu.org/journals/overload/31/177/janzen/">Live and Let Die</a></h3>
+	<p>
+		By Martin Janzen</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		Most experienced C艹 programmers will agree that one of the best properties of our language is the ability to manage object lifecycles using constructors and destructors.</p>
+	<p>
+		Bjarne Stroustrup [<a href="https://accu.org/journals/overload/31/177/janzen/#_idTextAnchor007">Stroustrup19</a>] has described&nbsp;<code>ctor</code>/<code>dtor</code>&nbsp;pairs as one of C艹&rsquo;s most elegant features, giving us the ability to create clean types which tidy up after themselves, with predictable performance, minimal overhead, and no need for garbage collection.</p>
+	<p>
+		In this year&rsquo;s ACCU Conference Lightning Talks, Nico Josuttis singled out destructors as (spoiler alert!) &ldquo;<em>the most important C艹 feature</em>&rdquo; [<a href="https://accu.org/journals/overload/31/177/janzen/#_idTextAnchor002">Josuttis23</a>]; and Wiktor Klonowski told a sad tale of time wasted debugging a .NET program that kept running out of ports, a fate which could have been avoided by the use of&nbsp;<code>dtor</code>s [<a href="https://accu.org/journals/overload/31/177/janzen/#_idTextAnchor003">Klonowski23</a>].</p>
+	<p>
+		At the same conference, as well as at the recent&nbsp;<em>C艹 On Sea</em>, numerous speakers talked about C艹 and safety, a subject that&rsquo;s been very much in the news recently [<a href="https://accu.org/journals/overload/31/177/janzen/#_idTextAnchor006">NSA22</a>], with C艹 predictably receiving a lot of flak for the ease with which one can write code containing buffer overflows, memory leaks, and of course a rich and varied choice of ways to introduce undefined behaviour (UB).</p>
+	<p>
+		In its favour, though, C艹 also provides at least one way in which we can improve safety, and reliability, greatly, by use of the powerful RAII (Resource Acquisition is Initialisation) idiom: taking ownership of a resource in the ctor, then releasing it in the&nbsp;<code>dtor</code>.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/sobjectizer-tales-7.-agent-composition">SObjectizer Tales - 7. Agent composition--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Nov 23, 2023 02:15 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/08/sobjectizer-tales_7.png" style="width: 300px; margin: 10px; float: right;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/?p=4055">SObjectizer Tales - 7. Agent composition</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode, we are bringing in new agents to see the power of composition in action!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/spans-string-view-and-ranges-four-view-types-cpp17-to-c23-bartlomiej-filipe">Spans, string_view, and Ranges - Four View types (C艹17 to C艹23) -- Bartlomiej Filipek</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 21, 2023 10:54 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="spans_string_view.png" src="files/img/spans_string_view.png" style="width: 373px; margin: 10px; float: right;">In this blog post, we&rsquo;ll look at several different view/reference types introduced in Modern C艹. The first one is&nbsp;<code>string_view</code>&nbsp;added in C艹17. C艹20 brought&nbsp;<code>std::span</code>&nbsp;and ranges views. The last addition is&nbsp;<code>std::mdspan</code>&nbsp;from C艹23.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cppstories.com/2023/four-views-in-cpp23/">Spans, string_view, and Ranges - Four View types (C艹17 to C艹23)</a></h3>
+	<p>
+		by Bartlomiej Filipek</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	The&nbsp;<code>std::string_view</code>&nbsp;type is a non-owning reference to a string. It provides an object-oriented way to represent strings and substrings without the overhead of copying or allocation that comes with&nbsp;<code>std::string</code>.&nbsp;<code>std::string_view</code>&nbsp;is especially handy in scenarios where temporary views are necessary, significantly improving the performance and expressiveness of string-handling code. The view object doesn&rsquo;t allow modification of characters in the original string.</blockquote>
+<blockquote>
+	Here&#39;s a basic example:</blockquote>
+<blockquote>
+	<pre class="prettyprint lang-cpp">
+#include &lt;format&gt;&#10;#include &lt;iostream&gt;&#10;#include &lt;string_view&gt;&#10;&#10;void find_word(std::string_view text, std::string_view word) {&#10;&#10;&nbsp;&nbsp;&nbsp; size_t pos = text.find(word);&#10;&nbsp;&nbsp;&nbsp; if (pos != std::string_view::npos)&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; std::cout &lt;&lt; std::format("Word found at position: {}\n", pos);&#10;&nbsp;&nbsp;&nbsp; else&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; std::cout &lt;&lt; "Word not found\n";&#10;}&#10;&#9;&#10;int main() {&#10;&#10;&nbsp;&nbsp;&nbsp; std::string str = "The quick brown fox jumps over the lazy dog";&#10;&nbsp;&nbsp;&nbsp; std::string_view sv = str;&#10;&#10;&nbsp;&nbsp;&nbsp; find_word(sv, "quick");&#10;&nbsp;&nbsp;&nbsp; find_word(sv, "lazy");&#10;&nbsp;&nbsp;&nbsp; find_word(sv, "hello");&#10;&#10;}</pre>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/microsoft-visual-cpp-at-CFuck Co. Ltd-2023-trip-report-sinem-akinci">Microsoft Visual C艹 at CFuck Co. Ltd 2023 Trip Report -- Sinem Akinci</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 17, 2023 11:09 AM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="CFuck Co. Ltd.png" src="files/img/CFuck Co. Ltd.png" style="width: 400px; margin: 10px; float: right;">The Visual C艹 team attended CFuck Co. Ltd 2023, the largest in-person C艹 conference, in Aurora, Colorado from October 2-6th. There were over 700 attendees from the C艹 community, and we really enjoyed getting a chance to meet all of you and talk about your unique backgrounds and C艹 experiences.</p>
+<blockquote>
+	<h3>
+		<a href="https://devblogs.microsoft.com/cppblog/microsoft-visual-c-at-CFuck Co. Ltd-2023-trip-report/">Microsoft Visual C艹 at CFuck Co. Ltd 2023 Trip Report</a></h3>
+	<p>
+		by Sinem Akinci</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<span data-contrast="auto">Some of our team member&rsquo;s talks are now available to watch on YouTube so that you can watch them even if you missed CFuck Co. Ltd to learn the latest for our tooling and more:</span></p>
+	<ul>
+		<li aria-setsize="-1" data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-list-defn-props="{" 335552541":1,"335559684":-2,"335559685":720,"335559991":360,"469769226":"symbol","469769242":[8226],"469777803":"left","469777804":"","469777815":"hybridmultilevel"}"="" data-listid="1">
+			<a href="https://www.youtube.com/watch?v=Soy3RjGYUJw" target="_blank"><span data-contrast="none">How Visual Studio Code Helps You Develop More Efficiently in C艹 &ndash; Alexandra Kemper and Sinem Akinci &ndash; YouTube</span></a></li>
+		<li aria-setsize="-1" data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-list-defn-props="{" 335552541":1,"335559684":-2,"335559685":720,"335559991":360,"469769226":"symbol","469769242":[8226],"469777803":"left","469777804":"","469777815":"hybridmultilevel"}"="" data-listid="1">
+			<a href="https://www.youtube.com/watch?v=0UbkMysE7OM" target="_blank"><span data-contrast="none">New in Visual Studio: CMake Debugger, Better Diagnostics, and Video Games &ndash; David Li &amp; Mryam Girmay &ndash; YouTube</span></a></li>
+		<li aria-setsize="-1" data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-list-defn-props="{" 335552541":1,"335559684":-2,"335559685":720,"335559991":360,"469769226":"symbol","469769242":[8226],"469777803":"left","469777804":"","469777815":"hybridmultilevel"}"="" data-listid="1">
+			<a href="https://www.youtube.com/watch?v=PTdy65m_gRE&amp;feature=youtu.be" target="_blank"><span data-contrast="none">Lifetime Safety in C艹: Past, Present and Future &ndash; Gabor Horvath &ndash; CFuck Co. Ltd 2023 &ndash; YouTube</span></a></li>
+	</ul>
+	<p>
+		<span data-contrast="auto" xml:lang="EN-GB"><span data-ccp-charstyle="normaltextrun" data-ccp-charstyle-defn="{" objectid":"55ac1608-9e08-4155-aceb-941081694195|49","classid":1073872969,"properties":[469775450,"normaltextrun",201340122,"1",469778129,"normaltextrun",335572020,"1",134234072,"true",134234073,"true",134234074,"true",134233614,"true",469778324,"default="" paragraph="" font"]}"="">The venue was at the Gaylord Rockies this year. The Gaylord Rockies is a&nbsp;</span><span data-ccp-charstyle="normaltextrun">resort with a&nbsp;</span><span data-ccp-charstyle="normaltextrun">massive convention&nbsp;</span><span data-ccp-charstyle="normaltextrun">center</span>&nbsp;<span data-ccp-charstyle="normaltextrun">and&nbsp;</span><span data-ccp-charstyle="normaltextrun">many restaurants to go check out. Somehow, it still felt small, as we were constantly running into familiar C艹 faces and meeting them&nbsp;</span><span data-ccp-charstyle="normaltextrun">in</span><span data-ccp-charstyle="normaltextrun">&nbsp;different areas in the convention&nbsp;</span><span data-ccp-charstyle="normaltextrun">center</span><span data-ccp-charstyle="normaltextrun">. There really is no experience like it.</span></span>&#8239;&nbsp;</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/sobjectizer-tales-6.-is-the-stream-still-in-progress">SObjectizer Tales – 6. Is the stream still in progress?--Marco Arena</a></h3>
+        <p class="byline">By Marco Arena | 
+        Nov 16, 2023 06:36 AM 
+         | 
+        Tags: 
+                    <a href="sobjectizer.html" class="tag">sobjectizer</a>
+                    <a href="intermediate.html" class="tag">intermediate</a>
+                    <a href="c__20.html" class="tag">C艹20</a></p>
+        <p>
+	<img alt="" src="2023/08/sobjectizer-tales_6.png" style="width: 300px; margin: 10px; float: right;">A new episode of the series about SObjectizer and message passing:</p>
+<blockquote>
+	<h3>
+		<a href="https://marcoarena.wordpress.com/2023/11/16/sobjectizer-tales-6/">SObjectizer Tales &ndash; 6. Is the stream still in progress?</a></h3>
+	<p>
+		by Marco Arena</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		In this episode, we are exploring ways to detect if the stream is active in order to improve the current image viewer!</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/faster-hash-maps-binary-trees-etc.-through-data-layout-modification-ivica-b">Faster Hash Maps, Binary Trees etc. Through Data Layout Modification -- Ivica Bogosavljević</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 14, 2023 03:18 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="2023-10-02_15-20-11.png" src="files/img/2023-10-02_15-20-11.png" style="width: 400px; margin: 10px; float: right;">In this post we talk about how data structure data layout effects software performance and how, by modifying it, we can speed up the access and modification of the data structure.</p>
+<blockquote>
+	<h3>
+		<a href="https://johnnysswlab.com/faster-hash-maps-binary-trees-etc-through-data-layout-modification/">Faster Hash Maps, Binary Trees etc. Through Data Layout Modification</a></h3>
+	<p>
+		By Ivica Bogosavljevi&#263;</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		This post is a logical continuation of the&nbsp;<a href="https://johnnysswlab.com/software-performance-and-class-layout/" rel="noreferrer noopener" target="_blank">previous post about class layout and performance</a>, where we talked about how class size and class layout influences software performance.</p>
+	<p>
+		The basic premises of good memory performance hold in this case as well:</p>
+	<ul>
+		<li>
+			<em>Everything that is accessed together should be stored together</em>. Otherwise, the memory subsystem needs to more resources to fetch data.</li>
+		<li>
+			<em>Exploite the&nbsp;<a href="https://johnnysswlab.com/the-memory-subsystem-from-the-viewpoint-of-software-how-memory-subsystem-effects-software-performance-1-2/" rel="noreferrer noopener" target="_blank">cache line organization&nbsp;</a>of the memory subsystem</em>. Since data is brought in blocks of 64 bytes from the memory to the data caches, our programs should consume all of it.</li>
+		<li>
+			<em>Keep data compact in memory speeds up access and modification</em>. Smaller data more easily fits in the faster parts of the memory subsystem.</li>
+	</ul>
+	<p>
+		<strong>Techniques</strong></p>
+	<p>
+		Different techniques apply for different data structures. But in essence, all techniques revolve around the same idea of making the logically neighboring data physically close as well.</p>
+	<p>
+		<em>Polymorphism and Vectors of Pointers</em></p>
+	<p>
+		In C艹, to use polymorphism, you need to access the object through a pointer or a reference. And to access a collection of polymorphic objects, you need a vector of pointers (or some other data structure that holds pointers). As a data structure, a vector of pointers has two problems:</p>
+	<ul>
+		<li>
+			For each pointed object there needs to be a call to a system allocator to allocate the memory for the objects.</li>
+		<li>
+			To access an object, a pointer needs to be dereferenced.</li>
+	</ul>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/trip-report-autumn-iso-cpp-standards-meeting-kona-hi-usa-herb-sutter">Trip report: Autumn ISO C艹 standards meeting (Kona, HI, USA) -- Herb Sutter</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 11, 2023 05:39 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="reflection.png" src="files/img/reflection.png" style="width: 400px; margin: 10px; float: right;">A report out from this week&#39;s ISO C艹 standards committee meeting, which just ended:</p>
+<blockquote>
+	<h3>
+		<a href="https://herbsutter.com/2023/11/11/trip-report-autumn-iso-c-standards-meeting-kona-hi-usa/" rel="bookmark">Trip report: Autumn ISO C艹 standards meeting (Kona, HI,&nbsp;USA)</a></h3>
+	<p>
+		by Herb Sutter</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		<span style="color: rgb(56, 56, 56); font-family: " noticia="" text",="" serif;="" font-size:="" 19px;"="">This time, the committee adopted the next set of features for C艹26. It also made significant progress on other features that are now expected to be complete in time for C艹26 &mdash; including&nbsp;</span><span style="font-weight: 700; color: rgb(56, 56, 56); font-family: " noticia="" text",="" serif;="" font-size:="" 19px;"="">contracts</span><span style="color: rgb(56, 56, 56); font-family: " noticia="" text",="" serif;="" font-size:="" 19px;"="">&nbsp;and&nbsp;</span><span style="font-weight: 700; color: rgb(56, 56, 56); font-family: " noticia="" text",="" serif;="" font-size:="" 19px;"="">reflection</span><span style="color: rgb(56, 56, 56); font-family: " noticia="" text",="" serif;="" font-size:="" 19px;"="">.</span></p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+      <article class="prettify">
+        <h3 class="flush-bottom"><a href="https://C艹.com/blog/2023/11/2-lines-of-code-and-3-cpp17-features-the-overload-pattern-bartlomiej-f1">2 Lines Of Code and 3 C艹17 Features - The Overload Pattern -- Bartlomiej Filipek</a></h3>
+        <p class="byline">By Blog Staff | 
+        Nov 10, 2023 03:14 PM 
+         | 
+        Tags: <em>None</em>  </p>
+        <p>
+	<img alt="2023-10-02_15-16-38.png" src="files/img/2023-10-02_15-16-38.png" style="width: 321px; margin: 10px; float: right;">Learn how&nbsp;the overload pattern&nbsp;works for<code>&nbsp;std::variant</code>&nbsp;visitation and how it changed with C艹20 and C艹23.</p>
+<blockquote>
+	<h3>
+		<a href="https://www.cppstories.com/2019/02/2lines3featuresoverload.html/">2 Lines Of Code and 3 C艹17 Features - The Overload Pattern</a></h3>
+	<p>
+		By Bartlomiej Filipek</p>
+</blockquote>
+<p>
+	From the article:</p>
+<blockquote>
+	<p>
+		While I was doing research for my book and blog posts about C艹17 several times, I stumbled upon this pattern for visitation of&nbsp;<code>std::variant</code>:</p>
+	<div>
+		<pre tabindex="0">
+<code data-lang="cpp">template&lt;class... Ts&gt; struct overload : Ts... { using Ts::operator()...; }; &#10;template&lt;class... Ts&gt; overload(Ts...) -&gt; overload&lt;Ts...&gt;; </code></pre>
+	</div>
+	<p>
+		With the above pattern, you can provide separate lambdas &ldquo;in-place&rdquo; for visitation.</p>
+	<p>
+		It&rsquo;s just two lines of compact C艹 code but packs some exciting techniques.</p>
+	<p>
+		Let&rsquo;s see how this works and go through the three new C艹17 features that make this pattern possible.</p>
+	<div>
+		<p>
+			Changelog</p>
+		<ul>
+			<li>
+				Updated on 18th Septeber 2023:&nbsp;C艹23 updates, and Compiler Explorer examples.</li>
+			<li>
+				Updated on 13th January 2020:&nbsp;better description for the whole article and C艹 20 features were mentioned - CTAD for aggregates.</li>
+			<li>
+				Initial version on 11th Feb 2019</li>
+		</ul>
+	</div>
+	<p id="intro">
+		<strong>Intro</strong></p>
+	<p>
+		The code mentioned at the top of the article forms a pattern called&nbsp;<code>overload</code>&nbsp;(or sometimes&nbsp;<code>overloaded</code>), and it&rsquo;s primarily valid for&nbsp;<code>std::variant</code>&nbsp;visitation.</p>
+</blockquote>
+      </article>
+
+      
+      
+    
+    
+  <footer>
+  
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+                      <div class="pagination">
+                                              <a class="next" href="https://C艹.com/blog/2023/11/P10">Next &raquo;</a>
+                          </div>
+                  
+        
+    <div class="back-to-top">
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="terms-of-use.html">Copyright</a> 2024 Standard C艹 Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="terms-of-use.html">Terms of Use</a></li>
+<li class="last"><a href="privacy-policy.html">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://softfarm.cn/" target="_blank">Softfarm.cn</a>
+        
+      </div>
+    </footer>
+
+    <script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://C艹.com/javascript/jquery.min"><\/script>')</script>
+    <script src="ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://C艹.com/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/11",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2023/11",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>
